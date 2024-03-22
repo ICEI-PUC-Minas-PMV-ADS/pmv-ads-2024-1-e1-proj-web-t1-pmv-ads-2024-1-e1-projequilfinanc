@@ -1,9 +1,11 @@
 # Introdução
 
-[Aqui a equipe deve criar um texto descritivo com a visão geral do problema abordado, apresentando o ambiente e as situações envolvidas no problema.]
+A falta de planejamento financeiro é um problema que atinge uma ampla parcela da população, resultando em um cenário de endividamento. 
+De acordo com a (CNN, 2024), o Brasil enfrenta um cenário preocupante de inadimplência, com um total de 66,12 milhões de inadimplentes, representando cerca de quatro em cada dez brasileiros (40,35%). Além disso, em dezembro de 2023, cada consumidor negativado devia, em média, R$ 4.337,70 na soma de todas as dívidas. Esses números refletem a urgência de abordar questões relacionadas a juros e endividamento no país. Este cenário é ainda mais agravado pelo consumismo desenfreado e compras impulsivas, que são frequentemente motivadas pela necessidade de pertencimento social. 
+Essas ações, muitas vezes, levam a um ciclo vicioso de dívidas, onde a pessoa se vê constantemente acumulando mais débitos do que é capaz de pagar.
 
 ## Problema
-[Aqui a equipe deve fornecer uma descrição detalhada do problema a ser resolvido. Não é o momento adequado para abordar questões técnicas relacionadas ao desenvolvimento da aplicação. O objetivo é compreender e comunicar de maneira precisa qual é o desafio ou necessidade que motiva a criação da aplicação.]
+O problema em questão presente neste projeto é a falta de controle financeiro atestada por grande parte da população brasileira em relação ao consumo desenfreado. A falta de conhecimento sobre o assunto pode acarretar problemas não apenas financeiros, mas também relacionados à saúde mental e emocional.
 
 Este link pode ajudar a equipe a entender mais sobre definição do problema: [Objetivos, Problema de pesquisa e Justificativa.](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
 
