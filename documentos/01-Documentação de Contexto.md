@@ -11,10 +11,11 @@ O problema em questão presente neste projeto é a falta de controle financeiro 
 
 
 ## Objetivos
+O objetivo principal é desenvolver um software que possa auxiliar as pessoas a gerir melhor suas finanças. 
+O software buscará identificar os fatores que levam à desorganização financeira, fornecendo insights e ferramentas para que os usuários possam entender e controlar melhor seus gastos. 
+Sendo os objetivos específicos, o planejamento financeiro, controle de pagamentos e dividas, administrar despesas, economizar para casos de emergência e lazer, atingindo objetivos pessoais. 
+Além disso, a aplicação também explorará formas de reestruturar o equilíbrio financeiro, oferecendo dicas personalizadas para economizar dinheiro e pagar dívidas. 
 
-[Aqui a equipe deve realizar uma descrição detalhada dos objetivos do trabalho, ressaltando quais as questões principais do problema a serem resolvidas pelo projeto, não é a hora de apresentar requisitos detalhados.]
- 
-Este link pode ajudar a equipe a entender mais sobre definição dos objetivos: [Objetivos, Problema de pesquisa e Justificativa.](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
 
 ## Justificativa
 
