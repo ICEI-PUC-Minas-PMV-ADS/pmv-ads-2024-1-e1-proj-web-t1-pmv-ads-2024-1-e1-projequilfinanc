@@ -7,7 +7,7 @@ Essas ações, muitas vezes, levam a um ciclo vicioso de dívidas, onde a pessoa
 ## Problema
 O problema em questão presente neste projeto é a falta de controle financeiro atestada por grande parte da população brasileira em relação ao consumo desenfreado. A falta de conhecimento sobre o assunto pode acarretar problemas não apenas financeiros, mas também relacionados à saúde mental e emocional.
 
-Este link pode ajudar a equipe a entender mais sobre definição do problema: [Objetivos, Problema de pesquisa e Justificativa.](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
+
 
 
 ## Objetivos
