@@ -6,7 +6,7 @@
 
 `1º SEMESTRE/2024`
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto desenvolvido.
+Este projeto visa desenvolver um software para auxiliar na gestão financeira, oferecendo insights e ferramentas para planejamento, controle de gastos e economia, visando melhorar a saúde financeira dos usuários.
 
 ## Integrantes
 
