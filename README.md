@@ -1,25 +1,25 @@
 # Título do Projeto
 
-`CURSO`
+`ANÁLISE E DESENVOLVIMENTO DE SISTEMAS`
 
-`DISCIPLINA`
+`Desenvolvimento de Aplicação Web Front-End`
 
-`SEMESTRE`
+`1º SEMESTRE/2024`
 
 Descrever resumidamente, em um ou dois parágrafos, o projeto desenvolvido.
 
 ## Integrantes
 
-* Nome completo do aluno 1
-* Nome completo do aluno 2
-* Nome completo do aluno 3
-* Nome completo do aluno 4
-* Nome completo do aluno 5
-* Nome completo do aluno 6
+* Cleber de Oliveira Florêncio
+* Hugo Victor Magalhães Estevam
+* Marcella Pontes dos Anjos
+* Maria Luiza Estevam Soares
+* Vitor Hugo de Lima Cruz
+* Woton Henrique Silva Sampaio
 
 ## Orientador
 
-* Nome completo do professor
+* Joyce Christina de Paiva Carvalho
 
 # Documentação
 
