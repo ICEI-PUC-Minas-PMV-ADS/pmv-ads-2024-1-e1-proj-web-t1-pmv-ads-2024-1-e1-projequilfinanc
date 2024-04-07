@@ -19,20 +19,15 @@ Além disso, a aplicação também explorará formas de reestruturar o equilíbr
 
 ## Justificativa
 
-[Aqui a equipe deve descrever a importância ou a motivação para trabalhar com o problema definido. Indique as razões pelas quais a equipe escolheu o problema e definiu os objetivos.
-
-Devem ser apresentados dados de fontes relevantes e confiáveis sobre o problema, inserindo-o como alvo de estudo. Sugere-se que a equipe utilize questionários, entrevistas e dados estatísticos, que devem ser apresentados, com o objetivo de esclarecer detalhes do problema que será abordado pela equipe.]
-
-Este link pode ajudar a equipe a formular a justificativa: [Como montar a justificativa.](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
+A justificativa para resolver o problema da falta de controle financeiro está no impacto direto que ele tem na qualidade de vida das pessoas. 
+De acordo com o Diego Alejandro (Veja Brasil, 2022) a situação é preocupante, não somente pelo impacto financeiro, mas pelos estragos emocionais e abalos nas relações pessoais e familiares causados pelas dívidas. 
+O endividamento excessivo e a inadimplência não afetam apenas a saúde financeira, mas também a saúde mental dos indivíduos, podendo levar a condições como estresse e depressão. 
+Além disso, a falta de controle financeiro também pode resultar em problemas sociais mais amplos, como o aumento da pobreza e da desigualdade. Portanto, abordar esse problema é fundamental para promover o bem-estar individual e social. 
 
 ## Público-Alvo
 
-[Aqui é necessário descrever os atores envolvidos no problema, destacando os diferentes perfis de usuários. O propósito é apresentar as características, necessidades, conhecimentos prévios e experiência com a tecnologia do público-alvo.
+O público-alvo desta aplicação são indivíduos que estão enfrentando desafios financeiros, como endividamento e falta de controle sobre seus gastos. 
+Isso pode incluir pessoas de todas as idades, desde jovens adultos que estão apenas começando a gerir suas próprias finanças, até pessoas mais velhas que podem estar lidando com dívidas ou tentando economizar para a aposentadoria. 
+A aplicação também pode ser útil para famílias que precisam gerenciar um orçamento doméstico. Em resumo, qualquer pessoa que deseje melhorar sua saúde financeira pode se beneficiar do uso desta aplicação. 
 
-Sugere-se que a equipe utilize questionários e/ou entrevistas a fim de conhecer os atores que compõem o público alvo.]
-
-Os links abaixo podem ajudar a equipe a conhecer um pouco mais sobre o público-alvo. 
-
-> - [Público-alvo](https://blog.hotmart.com/pt-br/publico-alvo/)
-> - [Público-alvo: o que é, tipos, como definir seu público e exemplos](https://klickpages.com.br/blog/publico-alvo-o-que-e/)
 
