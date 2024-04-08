@@ -39,7 +39,8 @@ O grupo está utilizando o Trello para organização e distribuição para as ta
 </ul>
 
 <figure> 
-  <img src="https://user-images.githubusercontent.com/100447878/164068979-9eed46e1-9b44-461e-ab88-c2388e6767a1.png"
+  <img src="![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t1-pmv-ads-2024-1-e1-projequilfinanc/assets/149520202/e815f850-e15c-4770-b408-9bfb8c717160)
+"
     <figcaption>Figura 2 - Tela do esquema de cores e categorias</figcaption>
 </figure> 
   
