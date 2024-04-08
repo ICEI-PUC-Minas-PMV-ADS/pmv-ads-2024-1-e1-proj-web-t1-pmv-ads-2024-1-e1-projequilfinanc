@@ -39,6 +39,8 @@ O grupo está utilizando o Trello para organização e distribuição para as ta
 </ul>
 
 ![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t1-pmv-ads-2024-1-e1-projequilfinanc/assets/149520202/536206a8-1105-4766-a209-287187775964)
+
+
 Imagem 2 - Esquema de cores e etiquetas.
   
 ### Ferramentas
