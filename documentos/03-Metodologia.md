@@ -23,7 +23,7 @@ O grupo está utilizando o Trello para organização e distribuição para as ta
 - Done: nesta lista são colocadas as tarefas que passaram pelos testes e controle de qualidade e estão prontos para ser entregues ao usuário. Não há mais edições ou revisões necessárias, ele está agendado e pronto para a ação.
 - O quadro kanban do grupo no Trello está disponível no link https://trello.com/b/wvdIDDh4/icei-puc-minas-pmv-ads e é apresentado, no estado atual, na figura abaixo:
   ![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t1-pmv-ads-2024-1-e1-projequilfinanc/assets/149520202/ddc50786-14b4-472c-aaa4-d612d8a9159c)
-  Figura 1 - Tela do Kanban dentro do Trello.
+  Imagem 1 - Tela do Kanban dentro do Trello.
 
 
 ### Etiquetas
@@ -38,11 +38,8 @@ O grupo está utilizando o Trello para organização e distribuição para as ta
   <li>Testes (Tests)</li>
 </ul>
 
-<figure> 
-  <img src="!(https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t1-pmv-ads-2024-1-e1-projequilfinanc/assets/149520202/e815f850-e15c-4770-b408-9bfb8c717160)
-"
-    <figcaption>Figura 2 - Tela do esquema de cores e categorias</figcaption>
-</figure> 
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t1-pmv-ads-2024-1-e1-projequilfinanc/assets/149520202/536206a8-1105-4766-a209-287187775964)
+Imagem 2 - Esquema de cores e etiquetas.
   
 ### Ferramentas
 
