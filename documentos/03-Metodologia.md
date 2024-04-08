@@ -22,7 +22,8 @@ O grupo está utilizando o Trello para organização e distribuição para as ta
 - Doing: Quando uma tarefa tiver sido iniciada, ela é movida para cá. 
 - Done: nesta lista são colocadas as tarefas que passaram pelos testes e controle de qualidade e estão prontos para ser entregues ao usuário. Não há mais edições ou revisões necessárias, ele está agendado e pronto para a ação.
 - O quadro kanban do grupo no Trello está disponível no link https://trello.com/b/wvdIDDh4/icei-puc-minas-pmv-ads e é apresentado, no estado atual, na figura abaixo:
-  ![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t1-pmv-ads-2024-1-e1-projequilfinanc/assets/149520202/ddc50786-14b4-472c-aaa4-d612d8a9159c)
+ ![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t1-pmv-ads-2024-1-e1-projequilfinanc/assets/149520202/d589945b-2033-449d-b6c6-a42af27f343d)
+
   Imagem 1 - Tela do Kanban dentro do Trello.
 
 
