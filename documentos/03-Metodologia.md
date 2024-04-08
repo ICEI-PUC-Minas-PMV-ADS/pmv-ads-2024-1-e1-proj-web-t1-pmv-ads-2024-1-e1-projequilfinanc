@@ -45,7 +45,8 @@ Imagem 2 - Esquema de cores e etiquetas.
   
 ### Ferramentas
 
-[Descreva aqui as ferramentas empregadas no projeto e os ambiente de trabalho utilizados pela  equipe para desenvolvê-lo. Abrange a relação de ambientes utilizados, a estrutura para gestão do código fonte, além da definição do processo e ferramenta através dos quais a equipe se organiza (Gestão de Times).]
+A escolha do editor de código se deu com base nos recursos e funcionalidades, personalização, facilidade de uso e curva de aprendizado, desempenho, suporte à comunidade, combatibilidade e integração. Cada editor de código possui suas desvantagens e vantagens particulares, atendendo as necessidades específicas de cada projeto. 
+Utilizaremos como editor de código principal o VisualStudio.
 
 Os artefatos do projeto são desenvolvidos a partir de diversas plataformas e a relação dos ambientes com seu respectivo propósito é apresentada na tabela que se segue.
 
