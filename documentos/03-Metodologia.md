@@ -55,7 +55,7 @@ Os artefatos do projeto são desenvolvidos a partir de diversas plataformas e a 
 |-------------------------------------|------------------------------------|----------------------------------------|
 | Repositório de código fonte         | GitHub                             | http://....                            |
 | Documentos do projeto               | GitHub                             | https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t1-pmv-ads-2024-1-e1-projequilfinanc|
-| Projeto de Interface                | Figma                              | https://www.figma.com/file/pEXYCDByMcljEjEVjkpZmC/Untitled?type=design&node-id=0-1&mode=design&t=VPyXtoQbKuO1KJVU-0|
+| Projeto de Interface                | Figma                              | https://www.figma.com/file/SINfobJrKePD5K7uEn7QAI/Untitled?type=design&node-id=0-1&mode=design&t=B1STeBv3d2XSBFPY-0|
 | Gerenciamento do Projeto            | GitHub Projects                    | https://trello.com/b/wvdIDDh4/icei-puc-minas-pmv-ads|
 | Hospedagem                          | GitHub Pages                       | http://....                            |
 
