@@ -81,20 +81,20 @@
 ### Requisitos Funcionais
 
 <!-- [Utilize o modelo de tabela abaixo para apresentar os requisitos funcionais] -->
-| ID    | Descrição                | Prioridade |
-|-------|---------------------------------|----|
-| RF-01 | O sistema deve permitir que o usuário cadastre uma conta. | ALTA   | 
-| RF-02 | O sistema deve permitir que o usuário realize o login de sua conta. | ALTA   |
-| RF-03 | O sistema deve permitir o cadastro da renda mensal do indivíduo. | ALTA   |
-| RF-04 | O sistema deve permitir o cadastro da renda mensal de todos os componentes de uma família. | ALTA   |
-| RF-05 | O sistema deve permitir o registro das despesas mensais individuais ou em conjunto. | ALTA   |
-| RF-06 | O sistema deve permitir estabelecer metas de curto e longo prazo. | MÉDIA   |
-| RF-07 | O sistema deve permitir que os usuários organizem as suas contas de acordo com a data de validade. | ALTA   |
+| ID    | Descrição                                                                                                            | Prioridade |
+|-------|----------------------------------------------------------------------------------------------------------------------|----|
+| RF-01 | O sistema deve permitir que o usuário cadastre uma conta.                                                            | ALTA   | 
+| RF-02 | O sistema deve permitir que o usuário realize o login de sua conta.                                                  | ALTA   |
+| RF-03 | O sistema deve permitir o cadastro da renda mensal do indivíduo.                                                     | ALTA   |
+| RF-04 | O sistema deve permitir o cadastro da renda mensal de todos os componentes de uma família.                           | ALTA   |
+| RF-05 | O sistema deve permitir o registro das despesas mensais individuais ou em conjunto.                                  | ALTA   |
+| RF-06 | O sistema deve permitir estabelecer metas de curto e longo prazo.                                                    | MÉDIA   |
+| RF-07 | O sistema deve permitir que os usuários organizem as suas contas de acordo com a data de vencimento.                 | ALTA   |
 | RF-08 | O sistema deve calcular o valor para uma reserva emergencial, “baseado no método 50-30-20” referente à renda mensal. | ALTA   |
-| RF-09 | O sistema deve calcular os valores necessários para despesas fixas e variáveis de acordo com o capital. | ALTA   |
-| RF-10 | O sistema deve mostrar as movimentações financeiras. | MÉDIA   |
-| RF-11 | O sistema deve disponibilizar formas de economizar a sua renda. | MÉDIA   |
-| RF-12 | O sistema deve permitir que o usuário adicione uma renda extra. | BAIXA   |
+| RF-09 | O sistema deve calcular os valores necessários para despesas fixas e variáveis de acordo com o capital.              | ALTA   |
+| RF-10 | O sistema deve mostrar as movimentações financeiras.                                                                 | MÉDIA   |
+| RF-11 | O sistema deve ajudar os usuários a identificar e eliminar gastos desnecessários em sua renda familiar, fornecendo análises detalhadas e sugestões para redução de despesas.                                                      | MÉDIA   |
+| RF-12 | O sistema deve permitir que o usuário adicione uma renda extra.                                                      | BAIXA   |
 
 **Prioridade: Alta / Média / Baixa.
 
@@ -108,6 +108,5 @@
 | RNF-03 | O sistema deve apresentar um bom nível de contraste entre os elementos da tela. | MÉDIA   |
 | RNF-04 | O sistema deve estar de acordo com os principais navegadores do mercado: Google Chrome, Firefox e Microsoft Edge. | ALTA   |
 | RNF-05 | O sistema deve ser seguro e proteger as informações financeiras do usuário, com medidas de segurança robustas para prevenir o acesso não autorizado. | ALTA   |
-| RNF-06 | O sistema deve ter a capacidade de responder rápido e adequadamente (Responsividade). | BAIXA   |
 
 **Prioridade: Alta / Média / Baixa.
