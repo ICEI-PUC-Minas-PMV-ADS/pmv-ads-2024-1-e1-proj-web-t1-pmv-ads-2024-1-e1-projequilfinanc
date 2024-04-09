@@ -7,7 +7,7 @@
 <table>
 <tbody>
 <tr align=center>
-<th colspan="2">Perfil Nome </th>
+<th colspan="2">Perfil 01: Individual </th>
 </tr>
 <tr>
 <td width="150px"><b>Descrição</b></td>
@@ -22,7 +22,7 @@
 <table>
 <tbody>
 <tr align=center>
-<th colspan="2">Perfil Nome </th>
+<th colspan="2">Perfil 02: Familiar </th>
 </tr>
 <tr>
 <td width="150px"><b>Descrição</b></td>
