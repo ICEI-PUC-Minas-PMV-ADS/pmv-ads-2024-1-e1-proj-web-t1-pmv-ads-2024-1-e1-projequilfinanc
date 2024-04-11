@@ -15,7 +15,8 @@ As telas do sistema apresentam uma estrutura comum que é apresentada na figura 
  - Conteúdo - local que exibe o conteúdo da aplicação juntamente com um menu lateral.
  - Rodapé - local que exibe informações de direitos autorais.
    
-![Baxa fidelidade](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t1-pmv-ads-2024-1-e1-projequilfinanc/assets/161634139/cd54428a-0a0b-4db3-a861-259e36707e4a)
+![Baxa fidelidade](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t1-pmv-ads-2024-1-e1-projequilfinanc/assets/161634139/c1c3bc8a-b946-4bae-a415-7666bf65943f)
+
 
 Figura 2 - Estrutura padrão do site
 
