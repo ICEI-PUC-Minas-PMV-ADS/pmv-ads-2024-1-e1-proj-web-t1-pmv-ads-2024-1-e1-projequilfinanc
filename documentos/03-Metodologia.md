@@ -41,8 +41,7 @@ O grupo está utilizando o GitHub Projects para organização e distribuição p
   <li>Testes (Tests)</li>
 </ul>
 
-![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t1-pmv-ads-2024-1-e1-projequilfinanc/assets/149520202/0a6f0f0d-853f-4635-97cc-11389e03a387)
-
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t1-pmv-ads-2024-1-e1-projequilfinanc/assets/149520202/87788a0c-9b14-41ff-9e21-7c57843d14b6)
 
 
 Imagem 2 - Esquema de cores e etiquetas.
