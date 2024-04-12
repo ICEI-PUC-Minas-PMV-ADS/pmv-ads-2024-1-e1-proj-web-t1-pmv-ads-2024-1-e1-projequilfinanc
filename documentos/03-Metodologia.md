@@ -16,15 +16,16 @@ A equipe utiliza o Scrum como base para definição do processo de desenvolvimen
 
 ### Processo
 
-O grupo está utilizando o Trello para organização e distribuição para as tarefas do projeto:
+O grupo está utilizando o GitHub Projects para organização e distribuição para as tarefas do projeto:
 - Backlog: recebe as tarefas a serem trabalhadas e representa o Product Backlog. Todas as atividades identificadas no decorrer do projeto também devem ser incorporadas a esta lista. 
 - To Do: Esta lista representa o Sprint Backlog. Este é o Sprint atual que estamos trabalhando. 
 - Doing: Quando uma tarefa tiver sido iniciada, ela é movida para cá. 
 - Done: nesta lista são colocadas as tarefas que passaram pelos testes e controle de qualidade e estão prontos para ser entregues ao usuário. Não há mais edições ou revisões necessárias, ele está agendado e pronto para a ação.
-- O quadro kanban do grupo no Trello está disponível no link https://trello.com/b/wvdIDDh4/icei-puc-minas-pmv-ads e é apresentado, no estado atual, na figura abaixo:
- ![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t1-pmv-ads-2024-1-e1-projequilfinanc/assets/149520202/d589945b-2033-449d-b6c6-a42af27f343d)
+- O quadro kanban do grupo no GitHub Projects está disponível no link https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/1031/views/1 e é apresentado, no estado atual, na figura abaixo:
+ ![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t1-pmv-ads-2024-1-e1-projequilfinanc/assets/149520202/d2824ac5-2f5b-4e2e-9997-8d37a7991bf6)
 
-  Imagem 1 - Tela do Kanban dentro do Trello.
+
+  Imagem 1 - Tela do Kanban.
 
 
 ### Etiquetas
@@ -34,12 +35,14 @@ O grupo está utilizando o Trello para organização e distribuição para as ta
   <li>Bug (Erro no código)</li>
   <li>Desenvolvimento (Development)</li>
   <li>Documentação (Documentation)</li>
+  <li>Duplicata (Duplicate)</li>
   <li>Gerência de Projetos (Project Management)</li>
   <li>Infraestrutura (Infrastructure)</li>
   <li>Testes (Tests)</li>
 </ul>
 
-![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t1-pmv-ads-2024-1-e1-projequilfinanc/assets/149520202/536206a8-1105-4766-a209-287187775964)
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t1-pmv-ads-2024-1-e1-projequilfinanc/assets/149520202/0a6f0f0d-853f-4635-97cc-11389e03a387)
+
 
 
 Imagem 2 - Esquema de cores e etiquetas.
@@ -56,7 +59,7 @@ Os artefatos do projeto são desenvolvidos a partir de diversas plataformas e a 
 | Repositório de código fonte         | GitHub                             | https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t1-pmv-ads-2024-1-e1-projequilfinanc|
 | Documentos do projeto               | GitHub                             | https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t1-pmv-ads-2024-1-e1-projequilfinanc|
 | Projeto de Interface                | Figma                              | https://www.figma.com/file/SINfobJrKePD5K7uEn7QAI/Untitled?type=design&node-id=0-1&mode=design&t=B1STeBv3d2XSBFPY-0|
-| Gerenciamento do Projeto            | GitHub Projects                    | https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/1028/views/2|
+| Gerenciamento do Projeto            | GitHub Projects                    | https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/1031/views/1|
 | Hospedagem                          | GitHub Pages                       | http://....                            |
 
 
