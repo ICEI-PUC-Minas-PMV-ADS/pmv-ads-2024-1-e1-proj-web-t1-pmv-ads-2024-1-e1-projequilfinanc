@@ -2,6 +2,10 @@
 
 Layout padrão do site (HTML e CSS) que será utilizado em todas as páginas com a definição de identidade visual, aspectos de responsividade e iconografia.
 
+* Cores: #467C73, #000000,V #FFFFFF
+* Fonte:
+* Tamanho: 
+
 [Apresente a estrutura padrão da sua aplicação.]
 
 > **Links Úteis**:
