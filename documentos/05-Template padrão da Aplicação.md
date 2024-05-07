@@ -15,9 +15,13 @@ O código utilizado para a construção dos elementos citados, incluindo a respo
 # Tela de dicas
 # Tela de planejamento
 # Tela de visualização de metas
+
 # Tela de despesas
+Exibe a tela onde irá ser possível adicionar suas despesas.
 
+![despesas](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t1-pmv-ads-2024-1-e1-projequilfinanc/assets/164430057/63d4ea56-4108-4195-a5b4-687561d66dc6)
 
+Foto 8 - Tela de Depesas
 
 
 [Apresente a estrutura padrão da sua aplicação.]
