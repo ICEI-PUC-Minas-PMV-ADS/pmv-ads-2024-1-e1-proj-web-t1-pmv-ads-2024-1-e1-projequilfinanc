@@ -2,9 +2,23 @@
 
 Layout padrão do site (HTML e CSS) que será utilizado em todas as páginas com a definição de identidade visual, aspectos de responsividade e iconografia.
 
-* Cores: #467C73, #000000,V #FFFFFF
-* Fonte:
-* Tamanho: 
+* Cores: #cbd3d1, #F5F5F5, #E7E7E7, #D9D9D9,  #467C73, #25423d, #132220;
+* Fonte: Big Noodle Titling, Arial, Verdana, Helvetica, Sans-Serif, Open Sans, Noodle;
+* Tamanho: Normal;
+
+O código utilizado para a construção dos elementos citados, incluindo a responsividade, pode ser consultado aqui. As imagens e ícones utilizados no projeto estão disponíveis aqui.
+
+# Tela de login
+# Tela principal
+# Tela de perfil
+# Tela de receita
+# Tela de dicas
+# Tela de planejamento
+# Tela de visualização de metas
+# Tela de despesas
+
+
+
 
 [Apresente a estrutura padrão da sua aplicação.]
 
