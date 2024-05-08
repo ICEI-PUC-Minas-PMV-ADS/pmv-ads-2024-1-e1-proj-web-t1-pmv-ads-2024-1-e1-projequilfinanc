@@ -32,7 +32,7 @@ Foto 2 - Tela Principal
 # Tela de despesas
 Exibe a tela onde irá ser possível adicionar suas despesas.
 
-![despesas](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t1-pmv-ads-2024-1-e1-projequilfinanc/assets/164430057/63d4ea56-4108-4195-a5b4-687561d66dc6)
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t1-pmv-ads-2024-1-e1-projequilfinanc/assets/164430057/099db1e8-50e1-4253-b64a-9a7011a1ff25)
 
 Foto 8 - Tela de Depesas
 
