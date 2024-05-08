@@ -9,7 +9,7 @@ Nesse primeiro eixo do curso, para simplificar a utilização do Git e a organiz
 
 ## Instalação do Site
 
-O site em HTML/CSS/JS é um projeto estático. É necessário implantá-lo em um servidor web de sua preferência. Clique [aqui](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t1-pmv-ads-2024-1-e1-projequilfinanc/tree/main/codigo-fonte) para acessá-lo
+O site em HTML/CSS/JS é um projeto estático. É necessário implantá-lo em um servidor web de sua preferência. Clique aqui para acessá-lo
 
 ## Histórico de versões
 
