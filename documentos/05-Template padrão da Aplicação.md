@@ -11,7 +11,8 @@ O código utilizado para a construção dos elementos citados, incluindo a respo
 # Tela de login
 Exibe a tela onde será realizado o login do usuário.
 
-![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t1-pmv-ads-2024-1-e1-projequilfinanc/assets/149520202/695e6425-11fb-4556-85ee-94a8745a5ec8)
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t1-pmv-ads-2024-1-e1-projequilfinanc/assets/164430057/ef78992a-558a-4ee2-acef-ce854852cef7)
+
 
 Foto 1 - Tela de Login
 
