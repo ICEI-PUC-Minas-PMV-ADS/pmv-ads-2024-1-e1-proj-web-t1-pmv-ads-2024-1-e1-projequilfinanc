@@ -21,7 +21,12 @@ Exibe a tela principal, onde todas as informações cadastradas serão exibidas.
 ![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t1-pmv-ads-2024-1-e1-projequilfinanc/assets/149520202/ba9e99b5-32b9-41f3-92a9-a9b0d59cddc8)
 
 Foto 2 - Tela Principal
+# Tela de cadastro
+Exibe a tela onde o usuário conseguirá fazer o cadastro.
 
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t1-pmv-ads-2024-1-e1-projequilfinanc/assets/164430057/6085f908-57b4-4f88-a143-e489996951b7)
+
+Foto 3 - Tela de cadastro
 
 # Tela de perfil
 # Tela de receita
@@ -34,7 +39,7 @@ Exibe a tela onde irá ser possível adicionar suas despesas.
 
 ![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t1-pmv-ads-2024-1-e1-projequilfinanc/assets/164430057/099db1e8-50e1-4253-b64a-9a7011a1ff25)
 
-Foto 8 - Tela de Depesas
+Foto 8 - Tela de depesas
 
 
 [Apresente a estrutura padrão da sua aplicação.]
