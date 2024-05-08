@@ -33,6 +33,11 @@ Foto 3 - Tela de cadastro
 # Tela de receita
 # Tela de dicas
 # Tela de planejamento
+Exibe a tela onde o usuário insere sua renda e define o destino dela.
+
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t1-pmv-ads-2024-1-e1-projequilfinanc/assets/164430057/aaad61ba-5132-44f5-8b75-15aabfe171cc)
+
+Foto 7 - Tela de planejamento
 # Tela de visualização de metas
 
 # Tela de despesas
