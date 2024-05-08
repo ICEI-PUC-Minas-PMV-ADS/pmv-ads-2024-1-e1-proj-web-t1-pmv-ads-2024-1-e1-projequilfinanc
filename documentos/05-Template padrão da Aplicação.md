@@ -9,6 +9,12 @@ Layout padrão do site (HTML e CSS) que será utilizado em todas as páginas com
 O código utilizado para a construção dos elementos citados, incluindo a responsividade, pode ser consultado aqui. As imagens e ícones utilizados no projeto estão disponíveis aqui.
 
 # Tela de login
+Exibe a tela onde será realizado o login do usuário.
+
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t1-pmv-ads-2024-1-e1-projequilfinanc/assets/149520202/695e6425-11fb-4556-85ee-94a8745a5ec8)
+
+Foto 1 - Tela de Login
+
 # Tela principal
 # Tela de perfil
 # Tela de receita
