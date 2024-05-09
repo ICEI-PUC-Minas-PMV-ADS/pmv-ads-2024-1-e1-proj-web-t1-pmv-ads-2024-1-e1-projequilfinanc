@@ -32,6 +32,11 @@ Foto 3 - Tela de cadastro
 
 # Tela de perfil
 # Tela de receita
+Tela onde irá ser possível adicionar suas receitas.
+
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t1-pmv-ads-2024-1-e1-projequilfinanc/assets/164430057/4d0fe4e0-48bd-4a7e-87ed-a28dfcf09871)
+
+Foto 6 - Tela de receitas
 # Tela de dicas
 # Tela de planejamento
 Exibe a tela onde o usuário insere sua renda e define o destino dela.
