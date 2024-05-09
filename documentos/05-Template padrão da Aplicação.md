@@ -30,7 +30,13 @@ Exibe a tela onde o usuário conseguirá fazer o cadastro.
 
 Foto 3 - Tela de cadastro
 
-# Tela de perfil
+# Tela de perfil familiar
+Tela onde será possível cadastrar os dados familiares.
+
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t1-pmv-ads-2024-1-e1-projequilfinanc/assets/164430057/f602fa3a-a006-4144-8382-3504aaf663eb)
+
+Foto 4 - Tela de perfil familiar
+
 # Tela de receita
 Tela onde irá ser possível adicionar suas receitas.
 
