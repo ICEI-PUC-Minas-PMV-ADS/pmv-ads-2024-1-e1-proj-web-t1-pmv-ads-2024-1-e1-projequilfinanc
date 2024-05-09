@@ -15,10 +15,15 @@ O site em HTML/CSS/JS é um projeto estático. É necessário implantá-lo em um
 
 ### [0.1.0] - 08/05/2024
 #### Adicionado
-* Página Principal: arquivos HTML, CSS, JS, imagens;
-* Tela de Login: arquivos HTML, CSS, JS, imagens;
+
 * Tela de Cadastro: arquivos HTML, CSS, JS, imagens;
 * Tela de Despesas: arquivos HTML, CSS, JS, imagens;
+
+### [0.1.1] - 09/05/2024
+#### Adicionado
+
+* Página Principal: arquivos HTML, CSS, JS, imagens;
+* Tela de Login: arquivos HTML, CSS, JS, imagens;
 * Tela de Planejamento: arquivos HTML, CSS, JS, imagens;
 * Tela de Perfil Indidual: arquivos HTML, CSS, JS, imagens;
 * Tela de Perfil Familiar: arquivos HTML, CSS, JS, imagens;
