@@ -19,7 +19,8 @@ Foto 1 - Tela de Login
 # Tela principal
 Exibe a tela principal, onde todas as informações cadastradas serão exibidas.
 
-![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t1-pmv-ads-2024-1-e1-projequilfinanc/assets/149520202/ba9e99b5-32b9-41f3-92a9-a9b0d59cddc8)
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t1-pmv-ads-2024-1-e1-projequilfinanc/assets/149520202/6a09bb46-71e3-42fa-a129-a4bc02ed878d)
+
 
 Foto 2 - Tela Principal
 # Tela de cadastro
