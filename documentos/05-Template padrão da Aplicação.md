@@ -33,7 +33,7 @@ Foto 3 - Tela de cadastro
 # Tela de perfil familiar
 Tela onde será possível cadastrar os dados familiares.
 
-![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t1-pmv-ads-2024-1-e1-projequilfinanc/assets/164430057/f602fa3a-a006-4144-8382-3504aaf663eb)
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t1-pmv-ads-2024-1-e1-projequilfinanc/assets/164430057/b2c290d3-0e07-4691-b6f7-0cae321e3e9e)
 
 Foto 4 - Tela de perfil familiar
 
