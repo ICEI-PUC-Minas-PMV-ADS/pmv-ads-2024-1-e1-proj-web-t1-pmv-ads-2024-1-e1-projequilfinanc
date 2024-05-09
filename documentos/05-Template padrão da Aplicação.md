@@ -25,7 +25,8 @@ Foto 2 - Tela Principal
 # Tela de cadastro
 Exibe a tela onde o usuário conseguirá fazer o cadastro.
 
-![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t1-pmv-ads-2024-1-e1-projequilfinanc/assets/164430057/6085f908-57b4-4f88-a143-e489996951b7)
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t1-pmv-ads-2024-1-e1-projequilfinanc/assets/149520202/e2a164a6-e8f4-4eab-b066-9896c3d507bd)
+
 
 Foto 3 - Tela de cadastro
 
