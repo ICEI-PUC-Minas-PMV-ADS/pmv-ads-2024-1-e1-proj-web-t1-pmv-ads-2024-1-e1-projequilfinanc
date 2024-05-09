@@ -19,7 +19,7 @@ Foto 1 - Tela de Login
 # Tela principal
 Exibe a tela principal, onde todas as informações cadastradas serão exibidas.
 
-![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t1-pmv-ads-2024-1-e1-projequilfinanc/assets/149520202/6a09bb46-71e3-42fa-a129-a4bc02ed878d)
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t1-pmv-ads-2024-1-e1-projequilfinanc/assets/164430057/f57ecf81-1061-4234-b127-0f1ca7d87d9d)
 
 Foto 2 - Tela Principal
 
@@ -37,6 +37,7 @@ Tela onde irá ser possível adicionar suas receitas.
 ![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t1-pmv-ads-2024-1-e1-projequilfinanc/assets/164430057/4d0fe4e0-48bd-4a7e-87ed-a28dfcf09871)
 
 Foto 6 - Tela de receitas
+
 # Tela de dicas
 # Tela de planejamento
 Exibe a tela onde o usuário insere sua renda e define o destino dela.
@@ -54,8 +55,6 @@ Exibe a tela onde irá ser possível adicionar suas despesas.
 
 Foto 8 - Tela de depesas
 
-
-[Apresente a estrutura padrão da sua aplicação.]
 
 > **Links Úteis**:
 >
