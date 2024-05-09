@@ -37,29 +37,33 @@ Tela onde será possível cadastrar os dados familiares.
 
 Foto 4 - Tela de perfil familiar
 
+#Tela perfil individual
+Tela onde será possível cadastrar os dados do usuário individual.
+
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t1-pmv-ads-2024-1-e1-projequilfinanc/assets/164430057/a04c1238-861f-4450-b63c-dbc49281bc3b)
+
+Foto 4 - Tela de perfil individual
+
 # Tela de receita
 Tela onde irá ser possível adicionar suas receitas.
 
 ![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t1-pmv-ads-2024-1-e1-projequilfinanc/assets/164430057/4d0fe4e0-48bd-4a7e-87ed-a28dfcf09871)
 
-Foto 6 - Tela de receitas
+Foto 5 - Tela de receitas
 
-# Tela de dicas
 # Tela de planejamento
 Exibe a tela onde o usuário insere sua renda e define o destino dela.
 
 ![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t1-pmv-ads-2024-1-e1-projequilfinanc/assets/164430057/aaad61ba-5132-44f5-8b75-15aabfe171cc)
 
-Foto 7 - Tela de planejamento
-
-# Tela de visualização de metas
+Foto 6 - Tela de planejamento
 
 # Tela de despesas
 Exibe a tela onde irá ser possível adicionar suas despesas.
 
 ![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t1-pmv-ads-2024-1-e1-projequilfinanc/assets/164430057/099db1e8-50e1-4253-b64a-9a7011a1ff25)
 
-Foto 8 - Tela de depesas
+Foto 7 - Tela de depesas
 
 
 > **Links Úteis**:
