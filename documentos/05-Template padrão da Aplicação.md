@@ -21,13 +21,12 @@ Exibe a tela principal, onde todas as informações cadastradas serão exibidas.
 
 ![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t1-pmv-ads-2024-1-e1-projequilfinanc/assets/149520202/6a09bb46-71e3-42fa-a129-a4bc02ed878d)
 
-
 Foto 2 - Tela Principal
+
 # Tela de cadastro
 Exibe a tela onde o usuário conseguirá fazer o cadastro.
 
-![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t1-pmv-ads-2024-1-e1-projequilfinanc/assets/149520202/e2a164a6-e8f4-4eab-b066-9896c3d507bd)
-
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t1-pmv-ads-2024-1-e1-projequilfinanc/assets/164430057/b25a743d-9ff0-4baa-9a74-803777cbc650)
 
 Foto 3 - Tela de cadastro
 
@@ -40,6 +39,7 @@ Exibe a tela onde o usuário insere sua renda e define o destino dela.
 ![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t1-pmv-ads-2024-1-e1-projequilfinanc/assets/164430057/aaad61ba-5132-44f5-8b75-15aabfe171cc)
 
 Foto 7 - Tela de planejamento
+
 # Tela de visualização de metas
 
 # Tela de despesas
