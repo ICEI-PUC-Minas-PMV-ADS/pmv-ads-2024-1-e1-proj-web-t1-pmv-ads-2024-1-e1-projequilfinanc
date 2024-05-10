@@ -83,6 +83,7 @@ Exemplo da tela principal:
 #### Requisito atendido
 
 RF-10    O sistema deve mostrar as movimentações financeiras.
+
 RF-11    O sistema deve ajudar os usuários a identificar e eliminar gastos desnecessários em sua renda familiar, fornecendo análises detalhadas e sugestões para redução de despesas.
 
 #### Artefatos da funcionalidade
@@ -217,7 +218,7 @@ Em desenvolvimento...
 
 <hr>
 
-### Tela de Receitas (RF-03)
+### Tela de Receitas (RF-14)
 
 Responsável: Woton
 
@@ -230,7 +231,7 @@ Exemplo da tela Receitas:
 
 #### Requisito atendido
 
-RF-03    O sistema deve permitir o cadastro da renda mensal do indivíduo.
+RF-14 O sistema deve permitir o cadastro de rendas fixas e variavéis.
 
 #### Artefatos da funcionalidade
 
@@ -268,7 +269,8 @@ Exemplo da tela Depesas:
 #### Requisito atendido
 
 RF-07    O sistema deve permitir que os usuários organizem as suas contas de acordo com a data de vencimento.
-RF-09    O sistema deve calcular os valores do cadastro para despesas fixas e variáveis de acordo com o capital.
+
+RF-15    O sistema deve permitir o cadastro de desepesas fixas e variavéis.
 
 #### Artefatos da funcionalidade
 
@@ -306,6 +308,7 @@ Exemplo da tela Planejamento:
 #### Requisito atendido
 
 RF-03    O sistema deve permitir o cadastro da renda mensal do indivíduo.
+
 RF-08    O sistema deve calcular o valor para uma reserva emergencial, “baseado no método 50-30-20” referente à renda mensal.
 
 #### Artefatos da funcionalidade
