@@ -2,14 +2,18 @@
 
 ## Estratégia de Organização de Codificação 
 
-Nesse primeiro eixo do curso, para simplificar a utilização do Git e a organização das pastas e artefatos de implementação no sistema de arquivos, sugerimos que o projeto seja estruturado de modo que cada aluno trabalhe com seus arquivos nas suas respectivas pastas, identificadas por nomes das suas respectivas telas. Por exemplo:
-- Pasta src (root do projeto): index.html, index.css, index.js - Desenvolvedora responsável: Aluna X.
-- Pasta src\clientes: clientes.html, clientes.css, clientes.js - Desenvolvedor responsável: Aluno Y.
-- Pasta src\funcionarios: funcionarios.html, funcionarios.css, funcionarios.js  - Desenvolvedora responsável: Aluna Z.
+- Pasta login: login.html, login.css, settings.js - Desenvolvedor responsável: Hugo.
+- Pasta cadastro: cadastro.html, cadastro.css, settings.js - Desenvolvedora responsável: Marcella.
+- Pasta principal: principal.html, principal.css, settings.js  - Desenvolvedor responsável: Hugo.
+- Pasta cadastro de dados perfil familiar: familiar.html, familiar.css, settings.js - Desenvolvedor responsável: Vitor.
+- Pasta cadastro de dados perfil individual: individual.html, individual.css, settings.js - Desenvolvedor responsável: Vitor.
+- Pasta receitas: receitas.html, receitas.css, settings.js - Desenvolvedor responsável: Woton.
+- Pasta despesas: despesas.html, despesas.css, settings.js - Desenvolvedora responsável: Marcella.
+- Pasta planejamento: planejamento.html, planejamento.css, settings.js - Desenvolvedora responsável: Maria.
 
 ## Instalação do Site
 
-O site em HTML/CSS/JS é um projeto estático. É necessário implantá-lo em um servidor web de sua preferência. Clique aqui para acessá-lo.
+Em desenvolvimento.
 
 ## Histórico de versões
 
