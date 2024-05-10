@@ -97,6 +97,7 @@
 | RF-12 | O sistema deve permitir que o usuário adicione uma renda extra.                                                      | BAIXA   |
 | RF-13 | O sistema deve permitir o cadastro de dados individuais e  familiar.                                                 | ALTA   |
 | RF-14 | O sistema deve permitir o cadastro de rendas fixas e variavéis.                                                      | ALTA   |
+| RF-14 | O sistema deve permitir o cadastro de despesas fixas e variavéis.                    
 
 **Prioridade: Alta / Média / Baixa.
 
