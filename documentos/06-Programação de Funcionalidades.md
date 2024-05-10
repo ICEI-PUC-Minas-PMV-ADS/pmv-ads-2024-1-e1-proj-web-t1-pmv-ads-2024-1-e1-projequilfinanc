@@ -8,6 +8,7 @@ Responsável: Hugo
 O acesso a tela de login permite que o usuário realize o login de sua conta.
 
 Exemplo da tela de login
+
 ![login](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t1-pmv-ads-2024-1-e1-projequilfinanc/assets/164430057/cdd1624b-d81b-44d0-b23f-0c268a00c9ea)
 
 #### Requisito atendido
@@ -42,6 +43,7 @@ Responsável: Marcella
 O acesso a tela de cadastro permite que o usuário crie sua conta.
 
 Exemplo da tela de cadastro:
+
 ![cadastro](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t1-pmv-ads-2024-1-e1-projequilfinanc/assets/164430057/42ebbe6a-c9aa-412c-85ea-7afd1ff0ef54)
 
 #### Requisito atendido
