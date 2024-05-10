@@ -264,7 +264,7 @@ Responsável: Marcella
 
 O acesso a tela permite que o usuário cadastre suas despesas. 
 
-Exemplo da tela Depesas:
+Exemplo da tela depesas:
 
 ![despesas](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t1-pmv-ads-2024-1-e1-projequilfinanc/assets/164430057/f78f94b4-5266-446f-87f2-5e36aca77f8e)
 
@@ -303,7 +303,7 @@ Responsável: Maria
 
 O acesso a tela permite que o usuário cadastre a renda e coloque a porcentagem que deseja guardar de acordo com a regra 50, 30, 20.
 
-Exemplo da tela Planejamento:
+Exemplo da tela planejamento:
 
 ![planejamento](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t1-pmv-ads-2024-1-e1-projequilfinanc/assets/164430057/bc7a82bd-9586-4641-8d2a-a3c211263373)
 
