@@ -226,7 +226,7 @@ Responsável: Woton
 
 O acesso a tela permite que o usuário cadastre as rendas  
 
-Exemplo da tela Receitas:
+Exemplo da tela receitas:
 
 ![receitas](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t1-pmv-ads-2024-1-e1-projequilfinanc/assets/164430057/2918e655-5afe-4615-a099-5f32d5ad1ec3)
 
