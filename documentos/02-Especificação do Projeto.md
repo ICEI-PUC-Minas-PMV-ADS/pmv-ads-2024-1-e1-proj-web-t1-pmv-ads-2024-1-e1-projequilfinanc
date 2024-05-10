@@ -95,7 +95,7 @@
 | RF-10 | O sistema deve mostrar as movimentações financeiras.                                                                 | MÉDIA   |
 | RF-11 | O sistema deve ajudar os usuários a identificar e eliminar gastos desnecessários em sua renda familiar, fornecendo análises detalhadas e sugestões para redução de despesas.                                                      | MÉDIA   |
 | RF-12 | O sistema deve permitir que o usuário adicione uma renda extra.                                                      | BAIXA   |
-| RF-13 | O sistema deve permitir o cadastro de perfil individual e perfil familiar                                            | ALTA   |
+| RF-13 | O sistema deve permitir o cadastro de dados individuais e  familiar.                                                 | ALTA   |
 
 **Prioridade: Alta / Média / Baixa.
 
