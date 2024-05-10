@@ -145,7 +145,7 @@ O acesso a tela permite que o usuário cadastre os dados pessoais de cada membro
 
 Exemplo da tela Cadastro de Dados Perfil Familiar:
 
-![familiar](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t1-pmv-ads-2024-1-e1-projequilfinanc/assets/164430057/d757e4d6-6912-4fc6-9c7e-1996256da874)
+![familiar](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t1-pmv-ads-2024-1-e1-projequilfinanc/assets/164430057/bfdc1041-f317-4e95-afc7-1b2b7fe64b81)
 
 
 #### Requisito atendido
@@ -190,7 +190,7 @@ O acesso a tela permite que o usuário cadastre os dados pessoais.
 
 Exemplo da tela Cadastro de Dados Perfil Individual:
 
-![individual](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t1-pmv-ads-2024-1-e1-projequilfinanc/assets/164430057/64a986c5-24d2-404a-b1f3-424f251bc3d0)
+![individual](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t1-pmv-ads-2024-1-e1-projequilfinanc/assets/164430057/e849d522-67f9-403d-979a-a611a70c4911)
 
 #### Requisito atendido
 
