@@ -333,3 +333,40 @@ RF-08    O sistema deve calcular o valor para uma reserva emergencial, “basead
 Em desenvolvimento...
 
 <hr>
+
+### Tela de Metas (RF-06)
+
+Responsável: Marcella
+
+O acesso a tela permite que o usuário cadastre novos objetivos de metas para o futuro.
+
+Exemplo da tela planejamento:
+
+![metas](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t1-pmv-ads-2024-1-e1-projequilfinanc/assets/164430057/42e895bb-4e39-4dda-a47a-bab135b81945)
+
+#### Requisito atendido
+
+RF-06    O sistema deve permitir estabelecer metas de curto e longo prazo.
+
+#### Artefatos da funcionalidade
+
+* metas.html
+* metas.css
+* settings.js
+
+#### Estrutura de Dados
+
+```
+{
+  "goal": "abc...",
+  "date": "mm/dd/yyyy",
+  "member": 1,
+  "value": 0.00,
+  "desc": "abc..."
+}
+```
+#### Instruções de acesso
+
+Em desenvolvimento...
+
+<hr>
