@@ -32,10 +32,10 @@ Em desenvolvimento.
 * Tela de Perfil Indidual: arquivos HTML, CSS, JS, imagens;
 * Tela de Perfil Familiar: arquivos HTML, CSS, JS, imagens;
 
-### [0.1.2] - 23/05/05/2024
+### [0.1.2] - 23/05/2024
 #### Adicionado
 * Tela de Metas: arquivos HTML, CSS, JS, imagens;
 
-### [0.1.3] - 23/05/05/2024
+### [0.1.3] - 23/05/2024
 #### Adicionado
 * Tela Home Page: arquivos HTML, CSS, JS, imagens;
