@@ -340,7 +340,7 @@ Responsável: Marcella
 
 O acesso a tela permite que o usuário cadastre novos objetivos de metas para o futuro.
 
-Exemplo da tela planejamento:
+Exemplo da tela de metas:
 
 ![metas](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t1-pmv-ads-2024-1-e1-projequilfinanc/assets/164430057/42e895bb-4e39-4dda-a47a-bab135b81945)
 
