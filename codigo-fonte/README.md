@@ -34,4 +34,4 @@ Em desenvolvimento.
 
 ### [0.1.2] - 23/05/05/2024
 #### Adicionado
-* Página de Metas: arquivos HTML, CSS, JS, imagens;
+* Tela de Metas: arquivos HTML, CSS, JS, imagens;
