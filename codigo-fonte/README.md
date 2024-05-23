@@ -31,3 +31,7 @@ Em desenvolvimento.
 * Tela de Planejamento: arquivos HTML, CSS, JS, imagens;
 * Tela de Perfil Indidual: arquivos HTML, CSS, JS, imagens;
 * Tela de Perfil Familiar: arquivos HTML, CSS, JS, imagens;
+
+### [0.1.2] - 23/05/05/2024
+#### Adicionado
+* Página de Metas: arquivos HTML, CSS, JS, imagens;
