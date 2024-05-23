@@ -2,6 +2,26 @@
 
 Pré-requisitos:  [Especificação do Projeto](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t1-pmv-ads-2024-1-e1-projequilfinanc/blob/main/documentos/02-Especifica%C3%A7%C3%A3o%20do%20Projeto.md), [Metodologia](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t1-pmv-ads-2024-1-e1-projequilfinanc/blob/main/documentos/03-Metodologia.md), [Projeto de Interface](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t1-pmv-ads-2024-1-e1-projequilfinanc/blob/main/documentos/04-Projeto%20de%20Interface.md), Arquitetura da Solução
 
+### Tela Home Page
+Responsavél: Maria
+
+O acesso a tela Home Page permite que o usuário tenha a primeira vizualização do sistema.
+
+Exemplo tela Home Page
+
+![SavingCash - Google Chrome 23_05_2024 15_45_22](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t1-pmv-ads-2024-1-e1-projequilfinanc/assets/161634139/859f9283-81de-4e53-9613-d54c51f1dfa8)
+
+#### Artefatos da funcionalidade
+
+* login.html
+* login.css
+* settings.js
+#### Instruções de acesso
+
+Em desenvolvimento...
+
+<hr>
+
 ### Tela de Login (RF-02)
 Responsável: Hugo
 
