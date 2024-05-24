@@ -390,3 +390,28 @@ RF-06    O sistema deve permitir estabelecer metas de curto e longo prazo.
 Em desenvolvimento...
 
 <hr>
+
+Responsável: Vitor
+
+O acesso a tela permite que o usuário visualize suas metas definidas.
+
+Exemplo da tela de metas:
+
+![visualizar metas](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t1-pmv-ads-2024-1-e1-projequilfinanc/assets/164430057/89250a82-2a19-4d5b-a612-8824d62896f3)
+
+#### Requisito atendido
+
+RF-16  O sitema deve permitir que o usuário consiga analisar suas metas definidas.                        
+
+#### Artefatos da funcionalidade
+
+* visualizarmetas.html
+* visualizarmetas.css
+* settings.js
+
+#### Estrutura de Dados
+
+
+#### Instruções de acesso
+
+Em desenvolvimento...
