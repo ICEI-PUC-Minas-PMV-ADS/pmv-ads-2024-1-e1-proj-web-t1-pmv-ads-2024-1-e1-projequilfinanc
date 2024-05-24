@@ -4,7 +4,7 @@
 
 @font-face{
     font-family: 'Noodle';
-    src: url('/fontes/big_noodle_titling.ttf')format('opentype');
+    src: url('big_noodle_titling.ttf')format('opentype');
     font-weight: normal;
 }
 
@@ -168,28 +168,44 @@ main nav a{
     background-color: var(--cor3);
     color: var(--cor1);
     display: flex;
+    outline: none;
     border: none;
     border-radius: 5px;
     font-size: 1.2em;
-    margin-top:20px ;
+    margin-bottom:20px ;
     width: 90px;
     height: 30px;
     float: right;
-    margin-right: 43px;
+    margin-right: 50px;
     justify-content: center;
     
 
 }
-#save:hover{
+#save button{
+    
+    background-color: var(--cor3);
+    color: var(--cor1);
+    display: flex;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+    margin-bottom:20px ;
+    width: 90px;
+    height: 30px;
+    float: right;
+    justify-content: center;
+    
+}
+#save :hover{
     background-color: var(--cor4);
     color: var(--cor1);
     display: flex;
     font-size: 1.2em;
-    margin-top:20px ;
+    margin-bottom:20px ;
     width: 90px;
     height: 30px;
     float: right;
-    margin-right: 43px;
     justify-content: center;
     
 }
@@ -570,4 +586,6 @@ margin-top: 25px;
 box-shadow: 2px 2px 10px var(--cor01);
 }
 }
+
+
 
