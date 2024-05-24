@@ -74,6 +74,7 @@
 | Familiar               | Fazer um levantamento de todas as contas e obrigações até a data de vencimento. | Ter uma perspectiva acertada das contas que serão pagas no futuro, evitando atrasos. |
 | Familiar               | Registrar todas as entradas e saídas de dinheiro. | Para determinar se a renda familiar está acima ou abaixo dos gastos. |
 
+
 ## Requisitos do Projeto
 
 <!-- [Com base nas Histórias de Usuários, enumere os requisitos da solução. Lembre-se que cada requisito deve corresponder a uma, e somente uma, característica alvo da solução. Além disso, certifique-se de que todos os aspectos capturados nas Histórias de Usuário foram cobertos.] -->
@@ -93,11 +94,12 @@
 | RF-08 | O sistema deve calcular o valor para uma reserva emergencial, “baseado no método 50-30-20” referente à renda mensal. | ALTA   |
 | RF-09 | O sistema deve calcular os valores do cadastro para despesas fixas e variáveis de acordo com o capital.              | ALTA   |
 | RF-10 | O sistema deve mostrar as movimentações financeiras.                                                                 | MÉDIA   |
-| RF-11 | O sistema deve ajudar os usuários a identificar e eliminar gastos desnecessários em sua renda familiar, fornecendo análises detalhadas e sugestões para redução de despesas.                                                      | MÉDIA   |
+| RF-11 | O sistema deve ajudar os usuários a identificar e eliminar gastos desnecessários em sua renda familiar, fornecendo análises detalhadas e sugestões para redução de despesas. | MÉDIA   |
 | RF-12 | O sistema deve permitir que o usuário adicione uma renda extra.                                                      | BAIXA   |
 | RF-13 | O sistema deve permitir o cadastro de dados individuais e  familiar.                                                 | ALTA   |
 | RF-14 | O sistema deve permitir o cadastro de rendas fixas e variavéis.                                                      | ALTA   |
-| RF-15 | O sistema deve permitir o cadastro de despesas fixas e variavéis.                    
+| RF-15 | O sistema deve permitir o cadastro de despesas fixas e variavéis.                                                    | ALTA   |
+| RF-16 | O sitema deve permitir que o usuário consiga analisar suas metas definidas                                           | ALTA   |
 
 **Prioridade: Alta / Média / Baixa.
 
