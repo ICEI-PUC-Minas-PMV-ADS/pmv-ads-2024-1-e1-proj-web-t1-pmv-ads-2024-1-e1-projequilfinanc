@@ -23,7 +23,7 @@ Em desenvolvimento.
 * Tela de Cadastro: arquivos HTML, CSS, JS, imagens;
 * Tela de Despesas: arquivos HTML, CSS, JS, imagens;
 
-### [0.1.1] - 09/05/2024
+### [0.2.0] - 09/05/2024
 #### Adicionado
 
 * Página Principal: arquivos HTML, CSS, JS, imagens;
@@ -32,10 +32,16 @@ Em desenvolvimento.
 * Tela de Perfil Indidual: arquivos HTML, CSS, JS, imagens;
 * Tela de Perfil Familiar: arquivos HTML, CSS, JS, imagens;
 
-### [0.1.2] - 23/05/2024
+### [0.2.1] - 23/05/2024
 #### Adicionado
 * Tela de Metas: arquivos HTML, CSS, JS, imagens;
 
-### [0.1.3] - 23/05/2024
+### [0.2.2] - 23/05/2024
 #### Adicionado
 * Tela Home Page: arquivos HTML, CSS, JS, imagens;
+
+### [0.3.1] - 27/05/2024
+#### Modificado
+* Tela de Cadastro: arquivos HTML, CSS, JS, imagens;
+* Tela de Despesas: arquivos HTML, CSS, JS, imagens;
+* Tela de Metas: arquivos HTML, CSS, JS, imagens;
