@@ -10,7 +10,6 @@ Este projeto visa desenvolver um software para auxiliar na gestão financeira, o
 
 ## Integrantes
 
-* Cleber de Oliveira Florêncio
 * Hugo Victor Magalhães Estevam
 * Marcella Pontes dos Anjos
 * Maria Luiza Estevam Soares
