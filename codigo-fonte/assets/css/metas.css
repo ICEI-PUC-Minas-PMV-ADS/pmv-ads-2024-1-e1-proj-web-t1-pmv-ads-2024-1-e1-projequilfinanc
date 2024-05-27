@@ -267,13 +267,34 @@ main nav a:hover {
 }
 
 .enviar {
-    border: none;
+    border: none; /* Remove a borda */
     background-color: #E7E7E7;
     width: 150px;
     height: 40px;
     border-radius: 5px;
     font-size: x-large;
+    display: flex; /* Para alinhar conteúdo verticalmente */
+    justify-content: center; /* Para alinhar conteúdo horizontalmente */
+    align-items: center; /* Para alinhar conteúdo verticalmente */
+    margin: auto; /* Para centralizar horizontalmente */
+    outline: none; /* Remove a borda de foco */
+    cursor: pointer; /* Altera o cursor ao passar por cima */
 }
+
+.enviar button {
+    border: none;
+    outline: none; /* Remove a borda de foco */
+    cursor: pointer; /* Altera o cursor ao passar por cima */
+    font-family: 'Big Noodle Titling', Arial, sans-serif;
+    font-size: 23px; 
+    text-decoration: none; 
+    background-color: #E7E7E7;
+} 
+ #botao {
+    text-decoration: none; /* Remove o sublinhado */
+    background-color: var(--cor2);
+    
+ }
 
 p1 {
     font-size: medium;

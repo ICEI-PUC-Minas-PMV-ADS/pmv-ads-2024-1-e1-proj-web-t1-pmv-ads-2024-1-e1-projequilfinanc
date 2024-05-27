@@ -4,8 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Saving Cash</title>
-    <link rel="stylesheet" href="assets/css/despesas.css">
+    <title>Planejamento</title>
+    <link rel="stylesheet" href="/css/despesas.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 </head>
 
@@ -17,7 +17,7 @@
         <h1>Saving</h1>
         <h1 id="cash">Cash</h1>
         <div>
-            <img src="assets/images/simbolo.png" alt="">
+            <img src="imagens/simbolo.png" alt="">
         </div>
 
 
@@ -100,7 +100,7 @@
             <article id="quadro">
 
                 <div id="calculo_renda">
-
+                    <form id="formulario"></form>
 
 
 
@@ -111,10 +111,12 @@
                             <div class="linha">
                                 <div id="linha1">
                                     <p>Valor</p>
-                                    <input id="valor" type="number">
+                                    <input id="valor" type="number" class="input-padrao">
 
                                     <div class="categoria">
-                                        <label for="categoria"><p>Categoria</p></label>
+                                        <label for="categoria">
+                                            <p>Categoria</p>
+                                        </label>
                                         <select id="categoria">
                                             <option selected disabled value="">Selecione</option>
                                             <option>Fixa</option>
@@ -124,7 +126,9 @@
 
 
                                     <div class="usuario">
-                                        <label for="usuario"><p>Membro</p></label>
+                                        <label for="usuario">
+                                            <p>Membro</p>
+                                        </label>
                                         <select id="usuario">
                                             <option selected disabled value="">Selecione</option>
                                             <option value="usuário1">Membro 1</option>
@@ -140,16 +144,18 @@
                                     <div id="vencimento">
                                         <p>Vencimento</p>
                                         <div id="vencimento1">
-                                            <p2>DD/MM/AAAA</p2>
+                                            <label for="data"></label>
+                                            <input id="data" type="date">
                                         </div>
                                     </div>
                                     <div id="descricao">
                                         <p>Descrição</p>
                                         <div id="desc">
-                                            <p1>Digite aqui...</p1>
+                                            <textarea id="desc" class="input-padrao-textarea"></textarea>
                                         </div>
                                     </div>
-                                    <input type="submit" value="Enviar" class="enviar">
+                                    <a href="mimi.html" class="enviar" id="enviar"><button>Enviar</button></a>
+                                    </form>
                                 </div>
                             </div>
 
@@ -173,7 +179,7 @@
         </p>
     </footer>
 
-
+    <script src="javascript/Despesas.js"></script>
 
 </body>
 
