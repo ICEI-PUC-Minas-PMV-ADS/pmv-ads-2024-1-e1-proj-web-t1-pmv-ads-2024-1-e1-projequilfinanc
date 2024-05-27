@@ -1,0 +1,299 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Schibsted+Grotesk:ital,wght@0,400..900;1,400..900&display=swap');
+
+@font-face{
+    font-family: 'Noodle';
+    src: url('/fontes/big_noodle_titling.ttf') format('opentype');
+    font-weight: normal;
+}
+
+:root{
+    --cor01: #cbd3d1;
+    --cor0: #F5F5F5;
+    --cor1: #E7E7E7;
+    --cor2: #D9D9D9;
+    --cor3: #467C73;
+    --cor4: #25423d;
+    --cor5: #132220;
+
+    --font-padrao: Arial, Verdana, Helvetica, sans-serif;
+    --font-destaque:  "Open Sans", sans-serif;
+    --font-noodle: 'Noodle', sans-serif;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: var(--cor1);
+    font-family: var(--font-padrao);
+}
+
+header{
+    background-image: linear-gradient(to bottom, var(--cor3), var(--cor4));
+    height: 70px;
+    display: flex;
+}
+
+header h1{
+    margin-right: 70px;
+    margin-inline-start: 100px;
+    color: white;
+    padding: 15px 0px 20px 20px;
+    width: 10px;
+    
+}
+
+#cash{
+    color: var(--cor5);
+    margin-left: 5px;
+    margin-top: 1px;
+  
+}
+
+header div > img{
+    height: 50px;
+    width: 50px;
+    padding-top: 5px;
+}
+
+#cadastro_renda{
+    margin: auto;
+    margin-inline-end: 100px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold; 
+}
+
+main{
+    font-family: 'Noodle';
+    font-size: 1em;
+    height: 850px;
+    min-width: 300px;
+    max-width: 2600px;
+    margin: auto;
+    padding: 5px;
+    display: flex;
+    background-color: var(--cor01);
+}
+
+main h2{
+    margin: 50px 80px 50px;    
+    font-family: 'Noodle';
+    font-size: 3em;
+    font-weight: bold;
+}
+
+section {
+    position: relative;
+    max-width: 400px;
+    background-color: transparent;
+    border: 10px solid #E7E7E7;
+    border-radius: 40px;
+    backdrop-filter: blur (55px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 3rem;
+    margin: auto;
+}
+
+.inputbox input {
+    width: 100%;
+    height: 60px;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 1rem;
+    padding: 0 35px 0 5px;
+    color: #7a7979;
+}
+
+.inputbox ion-icon {
+    position: absolute;
+    right: 8px; 
+    color: #7a7979;
+    font-size: 1.2rem;
+    top: 20px;
+}
+
+.forget {
+    margin: 35px 0;
+    font-size: 0.85rem;
+    color: #000000;
+    display: flex;
+    justify-content: space-between;
+}
+
+h1 {
+    font-size: 2rem;
+    color: #000000;
+    text-align: center;
+}
+
+.inputbox {
+    position: relative;
+    margin: 30px 0;
+    max-width: 310px;
+    border-bottom: 2px solid #ffffff;
+}
+
+.inputbox label {
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    transform: translateY(-50%);
+    color: #fff;
+    font-size: 1rem;
+    pointer-events: none;
+    transition: all 0.5s ease-in-out
+}
+
+input:focus ~ label,
+input:valid ~ label {
+    top: -5px;
+}
+
+.forget label {
+    display: flex;
+    align-items: center;
+}
+
+.forget label input {
+    margin-right: 3px;
+}
+
+.forget a {
+    color: #000000;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.forget a:hover {
+    text-decoration: underline;
+}
+
+button {
+    width: 100%;
+    height: 40px;
+    border-radius: 40px;   
+    background-color: #467c73;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 600;
+    transition: all 0.4s ease;
+}
+
+button:hover {
+    background-color: #ffffff;
+}
+
+.register {
+    font-size: 0.9rem;
+    color: #ffffff;
+    text-align: center;
+    margin: 25px 0 10px;
+}
+
+.register p a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 600;
+}
+
+.register p a:hover {
+    text-decoration: underline;
+    color:#fff;
+}
+
+#cadastro_renda a{
+    
+    margin: auto;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;  
+}
+
+#cadastro_renda a:hover{
+    text-decoration: underline;
+    color: var(--cor4);
+}
+
+#cadastro{
+    padding: 30px;
+}
+
+#login{
+    padding: 30px;
+}
+
+footer{
+    background-color: var(--cor4);
+    color: white;
+    text-align: center;
+    font-family: var(--font-padrao);
+    font-size: .9em;
+    padding: 5px 20px 5px 20px;
+ }
+
+footer a{
+    padding: 5px;
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover{
+    text-decoration: underline;
+    color: var(--cor3);
+}
+
+@font-face {
+    font-family: 'Noodle';
+    src: url(/assets/fonts/big_noodle_titling.ttf);
+    font-weight: normal;
+}
+
+@media screen and (max-width:1100px ){
+
+    main{
+        height: 1300px;
+    }
+   
+
+}
+
+@media screen and (max-width:800px){
+
+    *{
+        margin: 0px;
+        padding: 0px;
+    }
+
+
+    header h1{
+        margin-inline-start: 10px;
+    }
+
+
+    #cadastro_renda{
+        margin-inline-end: 20px;
+    }
+
+    #cadastro{
+        padding: 10px;
+    }
+    
+    #login{
+        padding: 10px;
+    }
+
+
+    main{
+        height: 1200px;
+    }
+}

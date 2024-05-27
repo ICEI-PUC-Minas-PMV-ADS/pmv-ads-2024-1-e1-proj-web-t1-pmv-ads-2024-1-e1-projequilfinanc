@@ -4,7 +4,7 @@
 
 @font-face {
     font-family: 'Noodle';
-    src: url('/fonte/big_noodle_titling.ttf') format('opentype');
+    src: url('../fonts/big_noodle_titling.ttf') format('opentype');
     font-weight: normal;
 }
 
@@ -500,7 +500,7 @@ footer a:hover {
 
 @font-face {
     font-family: 'Big Noodle Titling';
-    src: url('/fonte/big_noodle_titling.ttf') format('opentype');
+    src: url('../fonts/big_noodle_titling.ttf') format('opentype');
 }
 
 

@@ -226,7 +226,7 @@ p3, p4, p5 {
 
 @font-face {
     font-family: 'Big Noodle Titling'; /* Nome que você deseja dar à sua fonte */
-    src: url('../fonte/big_noodle_titling.ttf') format('truetype'); /* Caminho para o arquivo da fonte TTF */
+    src: url('../fonts/big_noodle_titling.ttf') format('truetype'); /* Caminho para o arquivo da fonte TTF */
 }
 
 p3, p4, p5 {
