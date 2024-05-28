@@ -159,3 +159,103 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
  </tr>
 </table>
 
+<table>
+ <tr>
+  <th>Caso de teste</th>
+  <th>Requisitos associados</th>
+  <th>Objetivo do teste</th>
+  <th>Passos</th>
+  <th>Critérios de êxito</th>
+  <th>Responsável</th>
+ </tr>
+ <tr>
+  <td>CT-0X: Verificar se os calculos estão sendo feitos corretamente</td>
+  <td>
+   <ul>
+    <li>RF-08:	O sistema deve calcular o valor para uma reserva emergencial, “baseado no método 50-30-20” referente à renda mensal.</li>
+   </ul>
+  </td>
+  <td>Verificar se os resultados estão de acordo com os dados inseridos</td>
+  <td>
+   <ol>
+    <li>Acessar o navegador.</li>
+    <li>Informar o endereço do site.</li>
+    <li>Visualizar a página Home.</li>
+    <li>Realizar o seu login.</li>
+    <li>Ir para a tela de Planejamento.</li>
+    <li>Inserir uma renda.</li>
+    <li>Inserir uma porcentagem.</li>
+    <li>Clicar em calcular.</li>
+   </ol>
+   </td>
+  <td>Todos os calculos feitos devem corresponder corretamente aos dados associados.</td>
+  <td>Maria</td>
+ </tr>
+</table>
+
+<table>
+ <tr>
+  <th>Caso de teste</th>
+  <th>Requisitos associados</th>
+  <th>Objetivo do teste</th>
+  <th>Passos</th>
+  <th>Critérios de êxito</th>
+  <th>Responsável</th>
+ </tr>
+ <tr>
+  <td>CT-0X: Verificar os dados preenchidos</td>
+  <td>
+   <ul>
+    <li>RF-08:	O sistema deve calcular o valor para uma reserva emergencial, “baseado no método 50-30-20” referente à renda mensal.</li>
+   </ul>
+  </td>
+  <td>Verificar se os dados foram preenchidos corretamente</td>
+  <td>
+   <ol>
+    <li>Acessar o navegador.</li>
+    <li>Informar o endereço do site.</li>
+    <li>Visualizar a página Home.</li>
+    <li>Realizar o seu login.</li>
+    <li>Ir para a tela de Planejamento.</li>
+    <li>Inserir apenas uma renda ou apenas a porcentagem.</li>
+    <li>Clicar em calcular.</li>
+   </ol>
+   </td>
+  <td>Deve ocorrer uma validação de informações e ao clicar em calcular, deve aparecer a mensagem "Verifique se os dados estão preenchidos corretamente!".</td>
+  <td>Maria</td>
+ </tr>
+</table>
+
+<table>
+ <tr>
+  <th>Caso de teste</th>
+  <th>Requisitos associados</th>
+  <th>Objetivo do teste</th>
+  <th>Passos</th>
+  <th>Critérios de êxito</th>
+  <th>Responsável</th>
+ </tr>
+ <tr>
+  <td>CT-0X: Verificar os dados preenchidos</td>
+  <td>
+   <ul>
+    <li>RF-08:	O sistema deve calcular o valor para uma reserva emergencial, “baseado no método 50-30-20” referente à renda mensal.</li>
+   </ul>
+  </td>
+  <td>Verificar se os dados que foram preenchidos correspondem um valor positivo</td>
+  <td>
+   <ol>
+    <li>Acessar o navegador.</li>
+    <li>Informar o endereço do site.</li>
+    <li>Visualizar a página Home.</li>
+    <li>Realizar o seu login.</li>
+    <li>Ir para a tela de Planejamento.</li>
+    <li>Inserir uma renda com valor negativo.</li>
+    <li>Inserir uma porcentagem.</li>
+    <li>Clicar em calcular.</li>
+   </ol>
+   </td>
+  <td>Deve ocorrer uma validação de informações e ao clicar em calcular, deve aparecer a mensagem "Por favor, informe apenas números positivos!".</td>
+  <td>Maria</td>
+ </tr>
+</table>
