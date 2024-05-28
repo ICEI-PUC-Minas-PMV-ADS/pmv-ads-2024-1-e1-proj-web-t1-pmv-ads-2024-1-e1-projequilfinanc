@@ -395,7 +395,7 @@ Responsável: Vitor
 
 O acesso a tela permite que o usuário visualize suas metas definidas.
 
-Exemplo da tela de metas:
+Exemplo da tela de visualizar metas:
 
 ![visualizar metas](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t1-pmv-ads-2024-1-e1-projequilfinanc/assets/164430057/89250a82-2a19-4d5b-a612-8824d62896f3)
 
@@ -420,11 +420,13 @@ Em desenvolvimento...
 
 Responsável: Woton
 
-O acesso a tela permite que o usuário consiga fazer o cadastro de perfil individual e qual sua renda mensal.
+O acesso a tela permite que o usuário consiga fazer o cadastro de perfil individual ou familiar e qual sua renda mensal.
 
-Exemplo da tela de metas:
+Exemplo da tela de cadastro de perfil:
 
 ![cadastro de perfil individual](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t1-pmv-ads-2024-1-e1-projequilfinanc/assets/164430057/b977b525-d04c-4feb-adbe-083467e3c199)
+
+![cadastro de perfil familiar](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t1-pmv-ads-2024-1-e1-projequilfinanc/assets/164430057/7a4ffd59-3a8d-4ad1-bf79-1223b4887abb)
 
 
 #### Requisito atendido
@@ -439,6 +441,22 @@ RF-17  O sistema deve permitir que depois do login o usuário consiga cadastrar 
 
 #### Estrutura de Dados
 
+```
+{
+  "profile": 1,
+  "value": 0.0,
+  "members": [
+    {
+      "name":"",
+      "value": 0.0
+    },
+    {
+      "name":"",
+      "value": 0.0
+    }
+  ]
+}
+```
 
 #### Instruções de acesso
 
