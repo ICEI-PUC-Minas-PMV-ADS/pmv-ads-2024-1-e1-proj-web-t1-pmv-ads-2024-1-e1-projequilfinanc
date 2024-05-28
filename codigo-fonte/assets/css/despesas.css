@@ -305,11 +305,7 @@ main nav a:hover {
     text-decoration: none; 
     background-color: #E7E7E7;
 } 
- #botao {
-    text-decoration: none; /* Remove o sublinhado */
-    background-color: var(--cor2);
-    
- }
+
 
 p1 {
     font-size: medium;
