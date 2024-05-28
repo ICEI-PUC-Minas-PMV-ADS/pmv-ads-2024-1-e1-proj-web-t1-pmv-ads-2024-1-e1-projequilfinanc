@@ -18,7 +18,7 @@ Este projeto visa desenvolver um software para auxiliar na gestão financeira, o
 
 ## Orientador
 
-* Joyce Christina de Paiva Carvalho
+* Joyce Christina de  Paiva Carvalho
 
 # Documentação
 
