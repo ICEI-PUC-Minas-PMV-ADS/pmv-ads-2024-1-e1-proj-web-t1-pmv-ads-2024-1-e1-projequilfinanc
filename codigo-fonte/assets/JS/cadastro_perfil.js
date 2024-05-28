@@ -2,11 +2,13 @@ let members = [{name: "", renda: 0}]
 
 function showElements(){
     document.getElementById('div_familiar').classList.add('hidden');
+    document.getElementById('btn_member').classList.add('hidden');
     const select = document.getElementById('perfil');
     const value = select.value;
 
     if (value === "2") {
         document.getElementById('div_familiar').classList.remove('hidden');
+        document.getElementById('btn_member').classList.remove('hidden');
         loadMembers()
     }
 }
@@ -61,6 +63,10 @@ function createMemberInput(idx = 0, labelText, value, type = 'text', onChange){
     div.appendChild(input);
     form.appendChild(div)
     return form
+}
+
+function finish(){
+
 }
 
 function addMembers(){
