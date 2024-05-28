@@ -15,7 +15,7 @@ Exemplo tela Home Page
 
 * login.html
 * login.css
-* settings.js
+* login.js
 #### Instruções de acesso
 
 Em desenvolvimento...
@@ -40,7 +40,7 @@ RF-02    O sistema deve permitir que o usuário realize o login de sua conta.
 
 * login.html
 * login.css
-* settings.js
+* login.js
 
 #### Estrutura de Dados
 
@@ -74,7 +74,7 @@ RF-01    O sistema deve permitir que o usuário cadastre uma conta.
 
 * cadastro.html
 * cadastro.css
-* settings.js
+* cadastro.js
 
 #### Estrutura de Dados
 
@@ -112,7 +112,7 @@ RF-11    O sistema deve ajudar os usuários a identificar e eliminar gastos desn
 
 * principal.html
 * principal.css
-* settings.js
+* principal.js
 
 #### Estrutura de Dados
 
@@ -176,7 +176,7 @@ RF-13    O sistema deve permitir o cadastro de dados do perfil individual e do p
 
 * familiar.html
 * familiar.css
-* settings.js
+* familiar.js
 
 #### Estrutura de Dados
 
@@ -220,7 +220,7 @@ RF-13    O sistema deve permitir o cadastro de dados do perfil individual e do p
 
 * individual.html
 * individual.css
-* settings.js
+* individual.js
 
 #### Estrutura de Dados
 
@@ -259,7 +259,7 @@ RF-14 O sistema deve permitir o cadastro de rendas fixas e variavéis.
 
 * receitas.html
 * receitas.css
-* settings.js
+* receitas.js
 
 #### Estrutura de Dados
 
@@ -298,7 +298,7 @@ RF-15    O sistema deve permitir o cadastro de desepesas fixas e variavéis.
 
 * desepesas.html
 * despesas.css
-* settings.js
+* despesas.js
 
 #### Estrutura de Dados
 
@@ -337,7 +337,7 @@ RF-08    O sistema deve calcular o valor para uma reserva emergencial, “basead
 
 * planejamento.html
 * planejamento.css
-* settings.js
+* planejamento.js
 
 #### Estrutura de Dados
 
@@ -372,7 +372,7 @@ RF-06    O sistema deve permitir estabelecer metas de curto e longo prazo.
 
 * metas.html
 * metas.css
-* settings.js
+* metas.js
 
 #### Estrutura de Dados
 
@@ -407,7 +407,35 @@ RF-16  O sitema deve permitir que o usuário consiga analisar suas metas definid
 
 * visualizarmetas.html
 * visualizarmetas.css
-* settings.js
+* visualizarmetas.js
+
+#### Estrutura de Dados
+
+
+#### Instruções de acesso
+
+Em desenvolvimento...
+
+<hr>
+
+Responsável: Woton
+
+O acesso a tela permite que o usuário consiga fazer o cadastro de perfil individual e qual sua renda mensal.
+
+Exemplo da tela de metas:
+
+![cadastro de perfil individual](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t1-pmv-ads-2024-1-e1-projequilfinanc/assets/164430057/b977b525-d04c-4feb-adbe-083467e3c199)
+
+
+#### Requisito atendido
+
+RF-17  O sistema deve permitir que depois do login o usuário consiga cadastrar sua renda mensal e se o perfil e individual ou familiar.                   
+
+#### Artefatos da funcionalidade
+
+* cadastro_perfil.html
+* cadastro_perfil.css
+* cadastro_perfil.js
 
 #### Estrutura de Dados
 
