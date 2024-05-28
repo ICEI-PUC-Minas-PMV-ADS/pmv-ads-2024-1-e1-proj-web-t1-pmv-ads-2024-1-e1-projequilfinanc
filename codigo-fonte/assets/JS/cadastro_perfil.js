@@ -25,8 +25,11 @@ function loadMembers(){
         rowDiv.style.display = 'flex'
 
         const item = members[idx]
-        const name = createMemberInput(parseInt(idx), 'Nome', item.name)
-        const renda = createMemberInput(parseInt(idx), 'Renda', item.renda, 'number')
+        const name = createMemberInput(parseInt(idx), 'Nome', item.name, 'text',
+            (value) => members[idx].name = value)
+        const renda = createMemberInput(parseInt(idx), 'Renda', item.renda, 'number',
+            (value) => members[idx].renda = value)
+
         rowDiv.appendChild(name);
         rowDiv.appendChild(renda);
         columnDiv.appendChild(rowDiv)
@@ -35,7 +38,7 @@ function loadMembers(){
     div.appendChild(columnDiv);
 }
 
-function createMemberInput(idx = 0, labelText, value, type = 'text'){
+function createMemberInput(idx = 0, labelText, value, type = 'text', onChange){
     const form = document.createElement('form')
     const div = document.createElement('div')
     div.classList.add('form-group')
@@ -49,6 +52,10 @@ function createMemberInput(idx = 0, labelText, value, type = 'text'){
     input.setAttribute('type', type);
     input.setAttribute('value', value);
     input.classList.add('input')
+
+    input.addEventListener('input', function() {
+        onChange(input.value)
+    });
 
     div.appendChild(label);
     div.appendChild(input);
