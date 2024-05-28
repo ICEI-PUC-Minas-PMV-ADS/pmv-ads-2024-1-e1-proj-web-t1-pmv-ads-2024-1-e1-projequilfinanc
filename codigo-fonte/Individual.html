@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="assets/css/Individual.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link rel="shortcut icon" href="assets/images/favicon-32x32.png" type="image/x-icon">
-    <script src="assets/JS/individual.js"></script>
+    <script src="assets/JS/individual.js" defer></script>
 </head>
 <body>
 
@@ -83,8 +83,6 @@
         </div>
 
 
-
-
         <div id="conteudo">
             
             <article id="titulo">
@@ -98,24 +96,24 @@
                 <div id="fundo_dados">
                     <form id="dados_usuario">
                         <nav class="nome">     <!--usei nav para cada campo de digitação do usuario  -->
-                            <input class="nome_individual" id="nome" type="text" placeholder="Nome">     <!-- input(campo de digitação), type(tipo de informação a ser digitada), placeholder( mensagem que dara mais intuição ao usuario)  -->
+                            <input class="nome_individual" id="nome" type="text" placeholder="Nome" required>     <!-- input(campo de digitação), type(tipo de informação a ser digitada), placeholder( mensagem que dara mais intuição ao usuario)  -->
                         </nav>
                         <nav class="sobrenome">
-                            <input class="Sobrenome_individual" id="sobrenome" type="text" placeholder="Sobrenome">
+                            <input class="Sobrenome_individual" id="sobrenome" type="text" placeholder="Sobrenome" required>
                         </nav>
                         <nav class="NumCel">
-                            <input class="Num_individual" id="number" type="tel" placeholder="Telefone">
+                            <input class="Num_individual" id="number" type="tel" placeholder="Telefone" required>
                         </nav>
                         <nav class="Data_Nasc">
-                            <input class="DataNas_individual" id="DataNascimento" type="date" placeholder="data de nascimento">
+                            <input class="DataNas_individual" id="DataNascimento" type="date" placeholder="data de nascimento" required>
                         </nav>
                         <nav class="Email">
-                            <input class="email_individual" id="email" type="email" placeholder="E-mail">
+                            <input class="email_individual" id="email" type="email" placeholder="E-mail" required>
                         </nav>
                         <nav class="Senha">
-                            <input class="senha_individual" id="senha" type="password" placeholder="Senha">
+                            <input class="senha_individual" id="senha" type="password" placeholder="Senha" required>
                         </nav>
-                        <a id="save" href="#" ><button type="button">Salvar</button></a>
+                        <button id="save" type="submit">Salvar</button>
                     </form>
                
         </div>

@@ -4,7 +4,7 @@
 
 @font-face{
     font-family: 'Noodle';
-    src: url('../fonts/big_noodle_titling.ttf') format('opentype');
+    src: url('/codigo-fonte/assets/fonts/big_noodle_titling.ttf') format('opentype');
     font-weight: normal;
 }
 
@@ -186,16 +186,16 @@ main nav a{
 }
 #button_restante{
     width: 300px;
-    border: none;
-    height: 30px;    
+    padding: 3px;
+    background-color: var(--cor1);   
 }
 #presult{
     margin-top: 20px;
 }
 #button_resultado{
     width: 300px;
-    border: none;
-    height: 30px;
+    padding: 3px;
+    background-color: var(--cor1);  
 }
 #destino{
     color:#7b7b7b;
