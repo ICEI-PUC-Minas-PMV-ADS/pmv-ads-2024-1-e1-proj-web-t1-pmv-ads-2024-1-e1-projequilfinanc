@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', (event) => {
-    const cadastrarBtn = document.getElementById('cadastrar');
+    const cadastrarBtn   = document.getElementById('cadastrar');
     const entrarBtn = document.getElementById('entrar');
 
     cadastrarBtn.addEventListener('click', () => {
@@ -12,6 +12,9 @@ document.addEventListener('DOMContentLoaded', (event) => {
             console.log('Nome:', nome);
             console.log('Email:', email);
             console.log('Senha:', senha);
+            localStorage.setItem("name", `${nome}`)
+            localStorage.setItem("email", `${email}`)
+            localStorage.setItem("senha", `${senha}`)
             alert('Cadastro realizado com sucesso!');
         } else {
             alert('Por favor, preencha todos os campos.');
