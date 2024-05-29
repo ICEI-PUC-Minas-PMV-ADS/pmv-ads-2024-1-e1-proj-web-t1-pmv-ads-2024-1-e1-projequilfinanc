@@ -272,7 +272,7 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
   <td>CT-09: Verificar o funcionamento dos links da página de Despesas.</td>
   <td>
    <ul>
-    <li>RF-18	O sistema deve permitir que o usuário tenha acesso ao resto do site pela barra de menu.</li
+    <li>RF-18	O sistema deve permitir que o usuário tenha acesso as demais telas do sistema através do menu lateral.</li
    </ul>
   </td>
   <td>Verificar se os links da página de Despesas estão encaminhando para as respectivas páginas corretamente.</td>
