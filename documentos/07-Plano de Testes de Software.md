@@ -577,7 +577,7 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
   <th>Responsável</th>
  </tr>
  <tr>
-  <td>CT-14: Verificar a validação de dados do campo "data".</td>
+  <td>CT-19: Verificar a validação de dados do campo "data".</td>
   <td>
    <ul>
     <li>RF-.</li
@@ -608,7 +608,7 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
   <th>Responsável</th>
  </tr>
  <tr>
-  <td>CT-14: Verificar a validação de dados do campo "membro".</td>
+  <td>CT-20: Verificar a validação de dados do campo "membro".</td>
   <td>
    <ul>
     <li>RF-.</li
@@ -639,7 +639,7 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
   <th>Responsável</th>
  </tr>
  <tr>
-  <td>CT-11: Verificar a validação de dados do campo "valor".</td>
+  <td>CT-21: Verificar a validação de dados do campo "valor".</td>
   <td>
    <ul>
     <li>RF-.</li
@@ -670,7 +670,7 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
   <th>Responsável</th>
  </tr>
  <tr>
-  <td>CT-15: Verificar a validação de dados do campo "descrição".</td>
+  <td>CT-22: Verificar a validação de dados do campo "descrição".</td>
   <td>
    <ul>
     <li>RF-.</li
