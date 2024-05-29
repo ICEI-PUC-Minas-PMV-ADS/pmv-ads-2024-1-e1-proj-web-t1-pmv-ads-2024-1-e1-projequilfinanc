@@ -100,8 +100,9 @@
 | RF-14 | O sistema deve permitir o cadastro de rendas fixas e variavéis.                                                      | ALTA   |
 | RF-15 | O sistema deve permitir o cadastro de despesas fixas e variavéis.                                                    | ALTA   |
 | RF-16 | O sitema deve permitir que o usuário consiga analisar suas metas definidas                                           | ALTA   |
-| RF-17 | O sistema deve permitir que depois do login o usuário consiga cadastrar sua renda mensal e se o perfil e individual ou familiar | ALTA |
-| RF-18 | O sistema deve permitir que o usuário tenha acesso as demais telas do sistema através do menu lateral                | ALTA   |
+| RF-17 | O sistema deve permitir que depois do login o usuário consiga cadastrar sua renda mensal e se o perfil e individual ou familiar. | ALTA |
+| RF-18 | O sistema deve permitir que o usuário tenha acesso as demais telas do sistema através do menu lateral.               | ALTA   |
+| RF-19 | O sistema deve permitir que o usuário consiga cadastrar as metas que almeja alcançar.                                | ALTA   |
 **Prioridade: Alta / Média / Baixa.
 
 ### Requisitos não Funcionais
