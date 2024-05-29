@@ -1,10 +1,11 @@
 document.addEventListener('DOMContentLoaded', function() {
-    console.log('DOM completamente carregado e analisado');
+    console.log('DOM completamente carregado e analisado'); // Verificação adicional
     const formulario = document.getElementById('formulario');
 
     formulario.addEventListener('submit', function(event) {
-        event.preventDefault();
-        console.log('Formulário submetido');
+        event.preventDefault();  // Evita o envio padrão do formulário
+
+        console.log('Formulário submetido'); // Verificação adicional
 
         const valor = document.getElementById('valor').value;
         const categoria = document.getElementById('categoria').value;
@@ -13,16 +14,10 @@ document.addEventListener('DOMContentLoaded', function() {
         const descricao = document.getElementById('desc').value;
 
         if (valor && categoria && usuario && data && descricao) {
-            console.log('Valor:', valor);
-            console.log('Categoria:', categoria);
-            console.log('Usuário:', usuario);
-            console.log('Data:', data);
-            console.log('Descrição:', descricao);
-            alert('Formulário enviado com sucesso!');
+            alert('Cadastro de despesas enviado com sucesso!');  // Alerta de sucesso
+            formulario.reset();  // Limpa os campos do formulário
         } else {
             alert('Por favor, preencha todos os campos.');
         }
     });
 });
-
-

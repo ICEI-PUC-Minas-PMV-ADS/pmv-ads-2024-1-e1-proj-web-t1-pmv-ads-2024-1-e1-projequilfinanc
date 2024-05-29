@@ -228,6 +228,25 @@ main nav a:hover {
     font-size: 1.5em;
 }
 
+.btn {
+    font-size: normal;
+    padding: 10px;
+    width: 200px;
+    margin: 30px;
+    border: none;
+    border-radius: 10px;
+    background-color: #467C73;
+    font-weight: bolder;
+    font-size: medium;
+    color: #ffffff;
+}
+
+.align-right{
+    bottom: 0;
+    display: flex;
+    justify-content: flex-end;
+}
+
 .input-padrao {
     width: 290px;
     height: 30px;
