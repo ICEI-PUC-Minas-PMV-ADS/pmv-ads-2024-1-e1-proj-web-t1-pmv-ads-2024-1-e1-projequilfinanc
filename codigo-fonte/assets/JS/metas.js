@@ -1,33 +1,23 @@
-document.addEventListener('DOMContentLoaded', (event) => {
-    const cadastrarBtn = document.getElementById('cadastrar');
-    const entrarBtn = document.getElementById('entrar');
+document.addEventListener('DOMContentLoaded', function() {
+    console.log('DOM completamente carregado e analisado'); // Verificação adicional
+    const formulario = document.getElementById('formulario_metas');
 
-    cadastrarBtn.addEventListener('click', () => {
-        const nome = document.getElementById('nome').value;
-        const email = document.getElementById('email').value;
-        const senha = document.getElementById('senha').value;
+    formulario.addEventListener('submit', function(event) {
+        event.preventDefault();  // Evita o envio padrão do formulário
 
-        if (nome && email && senha) {
-            // Armazenar os dados no local storage
-            const usuario = {
-                nome: nome,
-                email: email,
-                senha: senha
-            };
-            localStorage.setItem('usuario', JSON.stringify(usuario));
+        console.log('Formulário submetido'); // Verificação adicional
 
-            // Exibir os valores no console
-            console.log('Nome:', nome);
-            console.log('Email:', email);
-            console.log('Senha:', senha);
-            alert('Cadastro realizado com sucesso!');
+        const objetivo = document.getElementById('objetivo').value;
+        const data = document.getElementById('data').value;
+        const usuario = document.getElementById('usuario').value;
+        const valor = document.getElementById('valor').value;
+        const descricao = document.getElementById('descricao1').value; // Changed ID to 'descricao1'
+
+        if (objetivo && data && usuario && valor && descricao) {
+            alert('Cadastro de metas enviado com sucesso!');  // Alerta de sucesso
+            formulario.reset();  // Limpa os campos do formulário
         } else {
             alert('Por favor, preencha todos os campos.');
         }
-    });
-
-    entrarBtn.addEventListener('click', () => {
-        // Redirecionar para a página de login
-        window.location.href = 'login.html'; // Altere o caminho conforme necessário
     });
 });
