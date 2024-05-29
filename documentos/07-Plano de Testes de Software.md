@@ -45,8 +45,8 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
   <td>CT-02: Verificar o funcionamento dos links da página Cadastro</td>
   <td>
    <ul>
-    <li>RF.</li>
-   <li>RF.</li>
+    <li>RF-02:	O site deve permitir ao usuário fazer o login da sua conta.</li>
+   <li>RF-03 O sistema deve permitir o cadastro da renda mensal do indivíduo.</li>
    </ul>
   </td>
   <td>Verificar se os links da página Cadastro estão encaminhando para as respectivas páginas corretamente</td>
@@ -76,8 +76,7 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
   <td>CT-03: Verificar o funcionamento do Cadastro de conta.</td>
   <td>
    <ul>
-    <li>RF.</li>
-   <li>RF.</li>
+    <li>RF-01 O sistema deve permitir que o usuário cadastre uma conta.</li>
    </ul>
   </td>
   <td>Verificar se preenchendo os dados o usuário será possível criar uma nova conta.</td>
@@ -169,7 +168,7 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
   <th>Responsável</th>
  </tr>
  <tr>
-  <td>CT-0X: Verificar se os calculos estão sendo feitos corretamente</td>
+  <td>CT-06: Verificar se os calculos estão sendo feitos corretamente</td>
   <td>
    <ul>
     <li>RF-08:	O sistema deve calcular o valor para uma reserva emergencial, “baseado no método 50-30-20” referente à renda mensal.</li>
@@ -203,7 +202,7 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
   <th>Responsável</th>
  </tr>
  <tr>
-  <td>CT-0X: Verificar os dados preenchidos</td>
+  <td>CT-07: Verificar os dados preenchidos</td>
   <td>
    <ul>
     <li>RF-08:	O sistema deve calcular o valor para uma reserva emergencial, “baseado no método 50-30-20” referente à renda mensal.</li>
@@ -236,7 +235,7 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
   <th>Responsável</th>
  </tr>
  <tr>
-  <td>CT-0X: Verificar os dados preenchidos</td>
+  <td>CT-08: Verificar os dados preenchidos</td>
   <td>
    <ul>
     <li>RF-08:	O sistema deve calcular o valor para uma reserva emergencial, “baseado no método 50-30-20” referente à renda mensal.</li>
@@ -257,5 +256,221 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
    </td>
   <td>Deve ocorrer uma validação de informações e ao clicar em calcular, deve aparecer a mensagem "Por favor, informe apenas números positivos!".</td>
   <td>Maria</td>
+ </tr>
+</table>
+
+<table>
+ <tr>
+  <th>Caso de teste</th>
+  <th>Requisitos associados</th>
+  <th>Objetivo do teste</th>
+  <th>Passos</th>
+  <th>Critérios de êxito</th>
+  <th>Responsável</th>
+ </tr>
+ <tr>
+  <td>CT-09: Verificar o funcionamento dos links da página de Despesas.</td>
+  <td>
+   <ul>
+    <li>RF-18	O sistema deve permitir que o usuário tenha acesso ao resto do site pela barra de menu.</li
+   </ul>
+  </td>
+  <td>Verificar se os links da página de Despesas estão encaminhando para as respectivas páginas corretamente.</td>
+  <td>
+   <ol>
+    <li>Acessar o navegador.</li>
+    <li>Informar o endereço do site.</li>
+    <li>Visualizar a página de Despesas.</li>
+    <li>Clicar nos links da página de Depesas.</li>
+   </ol>
+   </td>
+  <td>Todos os links da página de Despesas devem encaminhar os usuários para as páginas descritas.</td>
+  <td>Marcella</td>
+ </tr>
+</table>
+
+<table>
+ <tr>
+  <th>Caso de teste</th>
+  <th>Requisitos associados</th>
+  <th>Objetivo do teste</th>
+  <th>Passos</th>
+  <th>Critérios de êxito</th>
+  <th>Responsável</th>
+ </tr>
+ <tr>
+  <td>CT-10: Verificar o funcionamento do cadastro de Despesas.</td>
+  <td>
+   <ul>
+    <li>RF-15	O sistema deve permitir o cadastro de despesas fixas e variavéis.</li
+   </ul>
+  </td>
+  <td>Verificar se ao colocar todos os dados o usuário consegue cadastrar corretamente suas despesas.</td>
+  <td>
+   <ol>
+    <li>Acessar o navegador.</li>
+    <li>Informar o endereço do site.</li>
+    <li>Visualizar a página de Despesas.</li>
+    <li>Preencher todos os dados necessários.</li>
+    <li>Clicar em enviar</li>
+   </ol>
+   </td>
+  <td>Preenchendo todos os dados o usuário verá na tela uma mensagem "Cadastro de despesas enviado com sucesso!" indicando que está tudo correto e que foi enviado o formulário.</td>
+  <td>Marcella</td>
+ </tr>
+</table>
+
+<table>
+ <tr>
+  <th>Caso de teste</th>
+  <th>Requisitos associados</th>
+  <th>Objetivo do teste</th>
+  <th>Passos</th>
+  <th>Critérios de êxito</th>
+  <th>Responsável</th>
+ </tr>
+ <tr>
+  <td>CT-11: Verificar a validação de dados do campo "valor".</td>
+  <td>
+   <ul>
+    <li>RF-.</li
+   </ul>
+  </td>
+  <td>Verificar a validação dos dados, se não preencher o campo "valor" não será possível enviar o fomulário.</td>
+  <td>
+   <ol>
+    <li>Acessar o navegador.</li>
+    <li>Informar o endereço do site.</li>
+    <li>Visualizar a página de Despesas.</li>
+    <li>Não preencher campo "valor".</li>
+    <li>Clicar em enviar</li>
+   </ol>
+   </td>
+  <td>Não preenchendo o campo "valor" o usuário verá na tela uma mensagem "Preencha este campo!".</td>
+  <td>Marcella</td>
+ </tr>
+</table>
+
+<table>
+ <tr>
+  <th>Caso de teste</th>
+  <th>Requisitos associados</th>
+  <th>Objetivo do teste</th>
+  <th>Passos</th>
+  <th>Critérios de êxito</th>
+  <th>Responsável</th>
+ </tr>
+ <tr>
+  <td>CT-12: Verificar a validação de dados do campo "categoria".</td>
+  <td>
+   <ul>
+    <li>RF-.</li
+   </ul>
+  </td>
+  <td>Verificar a validação dos dados, se não preencher o campo "categoria" não será possível enviar o fomulário.</td>
+  <td>
+   <ol>
+    <li>Acessar o navegador.</li>
+    <li>Informar o endereço do site.</li>
+    <li>Visualizar a página de Despesas.</li>
+    <li>Não preencher campo "categoria".</li>
+    <li>Clicar em enviar</li>
+   </ol>
+   </td>
+  <td>Não preenchendo o campo "categoria" o usuário verá na tela uma mensagem "Selecione um campo da lista.".</td>
+  <td>Marcella</td>
+ </tr>
+</table>
+
+<table>
+ <tr>
+  <th>Caso de teste</th>
+  <th>Requisitos associados</th>
+  <th>Objetivo do teste</th>
+  <th>Passos</th>
+  <th>Critérios de êxito</th>
+  <th>Responsável</th>
+ </tr>
+ <tr>
+  <td>CT-13: Verificar a validação de dados do campo "membro".</td>
+  <td>
+   <ul>
+    <li>RF-.</li
+   </ul>
+  </td>
+  <td>Verificar a validação dos dados, se não preencher o campo "membro" não será possível enviar o fomulário.</td>
+  <td>
+   <ol>
+    <li>Acessar o navegador.</li>
+    <li>Informar o endereço do site.</li>
+    <li>Visualizar a página de Despesas.</li>
+    <li>Não preencher campo "membro".</li>
+    <li>Clicar em enviar</li>
+   </ol>
+   </td>
+  <td>Não preenchendo o campo "membro" o usuário verá na tela uma mensagem "Selecione um campo da lista.".</td>
+  <td>Marcella</td>
+ </tr>
+</table>
+
+<table>
+ <tr>
+  <th>Caso de teste</th>
+  <th>Requisitos associados</th>
+  <th>Objetivo do teste</th>
+  <th>Passos</th>
+  <th>Critérios de êxito</th>
+  <th>Responsável</th>
+ </tr>
+ <tr>
+  <td>CT-14: Verificar a validação de dados do campo "vencimento".</td>
+  <td>
+   <ul>
+    <li>RF-.</li
+   </ul>
+  </td>
+  <td>Verificar a validação dos dados, se não preencher o campo "vencimento" não será possível enviar o fomulário.</td>
+  <td>
+   <ol>
+    <li>Acessar o navegador.</li>
+    <li>Informar o endereço do site.</li>
+    <li>Visualizar a página de Despesas.</li>
+    <li>Não preencher campo "vencimento".</li>
+    <li>Clicar em enviar</li>
+   </ol>
+   </td>
+  <td>Não preenchendo o campo "vencimento" o usuário verá na tela uma mensagem "Preencha este campo!".</td>
+  <td>Marcella</td>
+ </tr>
+</table>
+
+<table>
+ <tr>
+  <th>Caso de teste</th>
+  <th>Requisitos associados</th>
+  <th>Objetivo do teste</th>
+  <th>Passos</th>
+  <th>Critérios de êxito</th>
+  <th>Responsável</th>
+ </tr>
+ <tr>
+  <td>CT-15: Verificar a validação de dados do campo "descrição".</td>
+  <td>
+   <ul>
+    <li>RF-.</li
+   </ul>
+  </td>
+  <td>Verificar a validação dos dados, se não preencher o campo "descrição" não será possível enviar o fomulário.</td>
+  <td>
+   <ol>
+    <li>Acessar o navegador.</li>
+    <li>Informar o endereço do site.</li>
+    <li>Visualizar a página de Despesas.</li>
+    <li>Não preencher campo "descrição".</li>
+    <li>Clicar em enviar</li>
+   </ol>
+   </td>
+  <td>Não preenchendo o campo "descrição" o usuário verá na tela uma mensagem "Preencha este campo!".</td>
+  <td>Marcella</td>
  </tr>
 </table>

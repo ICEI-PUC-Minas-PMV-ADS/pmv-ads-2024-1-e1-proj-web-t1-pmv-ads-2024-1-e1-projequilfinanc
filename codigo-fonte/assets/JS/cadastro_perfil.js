@@ -10,6 +10,7 @@ function showElements(){
         document.getElementById('div_familiar').classList.remove('hidden');
         document.getElementById('btn_member').classList.remove('hidden');
         loadMembers()
+        // TESTE
     }
 }
 
