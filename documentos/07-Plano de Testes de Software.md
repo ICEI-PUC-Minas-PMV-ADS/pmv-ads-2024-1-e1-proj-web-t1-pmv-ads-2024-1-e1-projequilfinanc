@@ -272,7 +272,7 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
   <td>CT-09: Verificar o funcionamento dos links da página de Despesas.</td>
   <td>
    <ul>
-    <li>RF-18	O sistema deve permitir que o usuário tenha acesso ao resto do site pela barra de menu.</li
+    <li>RF-18	O sistema deve permitir que o usuário tenha acesso as demais telas do sistema através do menu lateral.</li
    </ul>
   </td>
   <td>Verificar se os links da página de Despesas estão encaminhando para as respectivas páginas corretamente.</td>
@@ -474,3 +474,220 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
   <td>Marcella</td>
  </tr>
 </table>
+
+<table>
+ <tr>
+  <th>Caso de teste</th>
+  <th>Requisitos associados</th>
+  <th>Objetivo do teste</th>
+  <th>Passos</th>
+  <th>Critérios de êxito</th>
+  <th>Responsável</th>
+ </tr>
+ <tr>
+  <td>CT-16: Verificar o funcionamento dos links da página de Metas.</td>
+  <td>
+   <ul>
+    <li>RF-18	O sistema deve permitir que o usuário tenha acesso as demais telas do sistema através do menu lateral.</li
+   </ul>
+  </td>
+  <td>Verificar se os links da página de Metas estão encaminhando para as respectivas páginas corretamente.</td>
+  <td>
+   <ol>
+    <li>Acessar o navegador.</li>
+    <li>Informar o endereço do site.</li>
+    <li>Visualizar a página de Metas.</li>
+    <li>Clicar nos links da página de Metas.</li>
+   </ol>
+   </td>
+  <td>Todos os links da página de Metas devem encaminhar os usuários para as páginas descritas.</td>
+  <td>Marcella</td>
+ </tr>
+</table>
+
+<table>
+ <tr>
+  <th>Caso de teste</th>
+  <th>Requisitos associados</th>
+  <th>Objetivo do teste</th>
+  <th>Passos</th>
+  <th>Critérios de êxito</th>
+  <th>Responsável</th>
+ </tr>
+ <tr>
+  <td>CT-17: Verificar o funcionamento do cadastro de Metas.</td>
+  <td>
+   <ul>
+    <li>RF-19	O sistema deve permitir que o usuário consiga cadastrar as metas que almeja alcançar.</li
+   </ul>
+  </td>
+  <td>Verificar se ao colocar todos os dados o usuário consegue cadastrar corretamente suas metas.</td>
+  <td>
+   <ol>
+    <li>Acessar o navegador.</li>
+    <li>Informar o endereço do site.</li>
+    <li>Visualizar a página de metas.</li>
+    <li>Preencher todos os dados necessários.</li>
+    <li>Clicar em enviar</li>
+   </ol>
+   </td>
+  <td>Preenchendo todos os dados o usuário verá na tela uma mensagem "Cadastro de metas enviado com sucesso!" indicando que está tudo correto e que foi enviado o formulário.</td>
+  <td>Marcella</td>
+ </tr>
+</table>
+
+<table>
+ <tr>
+  <th>Caso de teste</th>
+  <th>Requisitos associados</th>
+  <th>Objetivo do teste</th>
+  <th>Passos</th>
+  <th>Critérios de êxito</th>
+  <th>Responsável</th>
+ </tr>
+ <tr>
+  <td>CT-18: Verificar a validação de dados do campo "novo objetivo".</td>
+  <td>
+   <ul>
+    <li>RF-.</li
+   </ul>
+  </td>
+  <td>Verificar a validação dos dados, se não preencher o campo "novo objetivo" não será possível enviar o fomulário.</td>
+  <td>
+   <ol>
+    <li>Acessar o navegador.</li>
+    <li>Informar o endereço do site.</li>
+    <li>Visualizar a página de Metas.</li>
+    <li>Não preencher campo "novo objetivo".</li>
+    <li>Clicar em enviar</li>
+   </ol>
+   </td>
+  <td>Não preenchendo o campo "novo objetivo" o usuário verá na tela uma mensagem "Preencha este campo!".</td>
+  <td>Marcella</td>
+ </tr>
+</table>
+
+<table>
+ <tr>
+  <th>Caso de teste</th>
+  <th>Requisitos associados</th>
+  <th>Objetivo do teste</th>
+  <th>Passos</th>
+  <th>Critérios de êxito</th>
+  <th>Responsável</th>
+ </tr>
+ <tr>
+  <td>CT-19: Verificar a validação de dados do campo "data".</td>
+  <td>
+   <ul>
+    <li>RF-.</li
+   </ul>
+  </td>
+  <td>Verificar a validação dos dados, se não preencher o campo "data" não será possível enviar o fomulário.</td>
+  <td>
+   <ol>
+    <li>Acessar o navegador.</li>
+    <li>Informar o endereço do site.</li>
+    <li>Visualizar a página de Metas.</li>
+    <li>Não preencher campo "data".</li>
+    <li>Clicar em enviar</li>
+   </ol>
+   </td>
+  <td>Não preenchendo o campo "data" o usuário verá na tela uma mensagem "Preencha este campo!".</td>
+  <td>Marcella</td>
+ </tr>
+</table>
+
+<table>
+ <tr>
+  <th>Caso de teste</th>
+  <th>Requisitos associados</th>
+  <th>Objetivo do teste</th>
+  <th>Passos</th>
+  <th>Critérios de êxito</th>
+  <th>Responsável</th>
+ </tr>
+ <tr>
+  <td>CT-20: Verificar a validação de dados do campo "membro".</td>
+  <td>
+   <ul>
+    <li>RF-.</li
+   </ul>
+  </td>
+  <td>Verificar a validação dos dados, se não preencher o campo "membro" não será possível enviar o fomulário.</td>
+  <td>
+   <ol>
+    <li>Acessar o navegador.</li>
+    <li>Informar o endereço do site.</li>
+    <li>Visualizar a página de Metas.</li>
+    <li>Não preencher campo "membro".</li>
+    <li>Clicar em enviar</li>
+   </ol>
+   </td>
+  <td>Não preenchendo o campo "membro" o usuário verá na tela uma mensagem "Selecione um item da lista.".</td>
+  <td>Marcella</td>
+ </tr>
+</table>
+
+<table>
+ <tr>
+  <th>Caso de teste</th>
+  <th>Requisitos associados</th>
+  <th>Objetivo do teste</th>
+  <th>Passos</th>
+  <th>Critérios de êxito</th>
+  <th>Responsável</th>
+ </tr>
+ <tr>
+  <td>CT-21: Verificar a validação de dados do campo "valor".</td>
+  <td>
+   <ul>
+    <li>RF-.</li
+   </ul>
+  </td>
+  <td>Verificar a validação dos dados, se não preencher o campo "valor" não será possível enviar o fomulário.</td>
+  <td>
+   <ol>
+    <li>Acessar o navegador.</li>
+    <li>Informar o endereço do site.</li>
+    <li>Visualizar a página de Metas.</li>
+    <li>Não preencher campo "valor".</li>
+    <li>Clicar em enviar</li>
+   </ol>
+   </td>
+  <td>Não preenchendo o campo "valor" o usuário verá na tela uma mensagem "Preencha este campo!".</td>
+  <td>Marcella</td>
+ </tr>
+</table>
+
+<table>
+ <tr>
+  <th>Caso de teste</th>
+  <th>Requisitos associados</th>
+  <th>Objetivo do teste</th>
+  <th>Passos</th>
+  <th>Critérios de êxito</th>
+  <th>Responsável</th>
+ </tr>
+ <tr>
+  <td>CT-22: Verificar a validação de dados do campo "descrição".</td>
+  <td>
+   <ul>
+    <li>RF-.</li
+   </ul>
+  </td>
+  <td>Verificar a validação dos dados, se não preencher o campo "descrição" não será possível enviar o fomulário.</td>
+  <td>
+   <ol>
+    <li>Acessar o navegador.</li>
+    <li>Informar o endereço do site.</li>
+    <li>Visualizar a página de Metas.</li>
+    <li>Não preencher campo "descrição".</li>
+    <li>Clicar em enviar</li>
+   </ol>
+   </td>
+  <td>Não preenchendo o campo "descrição" o usuário verá na tela uma mensagem "Preencha este campo!".</td>
+  <td>Marcella</td>
+ </tr>
+</table>
+
