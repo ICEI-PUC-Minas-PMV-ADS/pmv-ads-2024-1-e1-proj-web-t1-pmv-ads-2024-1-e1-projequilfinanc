@@ -14,6 +14,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
     DadosFamiliares.addEventListener("submit", (event) => {
     event.preventDefault()
+    // validando o form
     if (FamiliarNome.value === "" || Membro1.value === "" || Membro2.value === "") {
         alert("Por favor, preencha os campos de nome.");
         return;
@@ -37,7 +38,7 @@ document.addEventListener("DOMContentLoaded", function() {
         alert("Por favor, preencha com um email válido.");
         return;
     }
-
+// armazenando dados em uma constante
     const familiardados={
         familiarNome:FamiliarNome.value,
         sobrenomefamiliar:sobrenomeFamiliar.value,
@@ -50,6 +51,7 @@ document.addEventListener("DOMContentLoaded", function() {
         membro2:Membro2.value,
         numCelMembro2:NumCelMembro2.value
     }
+    // aqui eu as armazeno na local storage
     localStorage.setItem('familiardados', JSON.stringify(familiardados));
         
     // Enviar o formulário
@@ -68,10 +70,11 @@ document.addEventListener("DOMContentLoaded", function() {
 
         return true;
     }
+    // função que valida a senha
     function ValidateSenhaFamiliar(SenhaFamiliar, minimoDigitos) {
         return SenhaFamiliar.length >= minimoDigitos;
     }
-
+// função que valida o Email 
     function EmailfamiliarValidado(EmailFamiliar) {
         const emailRegex = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
         return emailRegex.test(EmailFamiliar);
