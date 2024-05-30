@@ -272,7 +272,7 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
   <td>CT-09: Verificar o funcionamento dos links da página de Despesas.</td>
   <td>
    <ul>
-    <li>RF-18	O sistema deve permitir que o usuário tenha acesso as demais telas do sistema através do menu lateral.</li
+    <li>RF-18	O sistema deve permitir que o usuário tenha acesso as demais telas do sistema através do menu lateral.</li>
    </ul>
   </td>
   <td>Verificar se os links da página de Despesas estão encaminhando para as respectivas páginas corretamente.</td>
@@ -302,7 +302,7 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
   <td>CT-10: Verificar o funcionamento do cadastro de Despesas.</td>
   <td>
    <ul>
-    <li>RF-15	O sistema deve permitir o cadastro de despesas fixas e variavéis.</li
+    <li>RF-15	O sistema deve permitir o cadastro de despesas fixas e variavéis.</li>
    </ul>
   </td>
   <td>Verificar se ao colocar todos os dados o usuário consegue cadastrar corretamente suas despesas.</td>
@@ -333,7 +333,7 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
   <td>CT-11: Verificar a validação de dados do campo "valor".</td>
   <td>
    <ul>
-    <li>RF-.</li
+    <li>RF-.</li>
    </ul>
   </td>
   <td>Verificar a validação dos dados, se não preencher o campo "valor" não será possível enviar o fomulário.</td>
@@ -364,7 +364,7 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
   <td>CT-12: Verificar a validação de dados do campo "categoria".</td>
   <td>
    <ul>
-    <li>RF-.</li
+    <li>RF-.</li>
    </ul>
   </td>
   <td>Verificar a validação dos dados, se não preencher o campo "categoria" não será possível enviar o fomulário.</td>
@@ -395,7 +395,7 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
   <td>CT-13: Verificar a validação de dados do campo "membro".</td>
   <td>
    <ul>
-    <li>RF-.</li
+    <li>RF-.</li>
    </ul>
   </td>
   <td>Verificar a validação dos dados, se não preencher o campo "membro" não será possível enviar o fomulário.</td>
@@ -426,7 +426,7 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
   <td>CT-14: Verificar a validação de dados do campo "vencimento".</td>
   <td>
    <ul>
-    <li>RF-.</li
+    <li>RF-.</li>
    </ul>
   </td>
   <td>Verificar a validação dos dados, se não preencher o campo "vencimento" não será possível enviar o fomulário.</td>
@@ -457,7 +457,7 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
   <td>CT-15: Verificar a validação de dados do campo "descrição".</td>
   <td>
    <ul>
-    <li>RF-.</li
+    <li>RF-.</li>
    </ul>
   </td>
   <td>Verificar a validação dos dados, se não preencher o campo "descrição" não será possível enviar o fomulário.</td>
@@ -488,7 +488,7 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
   <td>CT-16: Verificar o funcionamento dos links da página de Metas.</td>
   <td>
    <ul>
-    <li>RF-18	O sistema deve permitir que o usuário tenha acesso as demais telas do sistema através do menu lateral.</li
+    <li>RF-18	O sistema deve permitir que o usuário tenha acesso as demais telas do sistema através do menu lateral.</li>
    </ul>
   </td>
   <td>Verificar se os links da página de Metas estão encaminhando para as respectivas páginas corretamente.</td>
@@ -518,7 +518,7 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
   <td>CT-17: Verificar o funcionamento do cadastro de Metas.</td>
   <td>
    <ul>
-    <li>RF-19	O sistema deve permitir que o usuário consiga cadastrar as metas que almeja alcançar.</li
+    <li>RF-19	O sistema deve permitir que o usuário consiga cadastrar as metas que almeja alcançar.</li>
    </ul>
   </td>
   <td>Verificar se ao colocar todos os dados o usuário consegue cadastrar corretamente suas metas.</td>
@@ -549,7 +549,7 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
   <td>CT-18: Verificar a validação de dados do campo "novo objetivo".</td>
   <td>
    <ul>
-    <li>RF-.</li
+    <li>RF-.</li>
    </ul>
   </td>
   <td>Verificar a validação dos dados, se não preencher o campo "novo objetivo" não será possível enviar o fomulário.</td>
@@ -580,7 +580,7 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
   <td>CT-19: Verificar a validação de dados do campo "data".</td>
   <td>
    <ul>
-    <li>RF-.</li
+    <li>RF-.</li>
    </ul>
   </td>
   <td>Verificar a validação dos dados, se não preencher o campo "data" não será possível enviar o fomulário.</td>
@@ -611,7 +611,7 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
   <td>CT-20: Verificar a validação de dados do campo "membro".</td>
   <td>
    <ul>
-    <li>RF-.</li
+    <li>RF-.</li>
    </ul>
   </td>
   <td>Verificar a validação dos dados, se não preencher o campo "membro" não será possível enviar o fomulário.</td>
@@ -642,7 +642,7 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
   <td>CT-21: Verificar a validação de dados do campo "valor".</td>
   <td>
    <ul>
-    <li>RF-.</li
+    <li>RF-.</li>
    </ul>
   </td>
   <td>Verificar a validação dos dados, se não preencher o campo "valor" não será possível enviar o fomulário.</td>
@@ -673,7 +673,7 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
   <td>CT-22: Verificar a validação de dados do campo "descrição".</td>
   <td>
    <ul>
-    <li>RF-.</li
+    <li>RF-.</li>
    </ul>
   </td>
   <td>Verificar a validação dos dados, se não preencher o campo "descrição" não será possível enviar o fomulário.</td>
