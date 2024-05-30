@@ -516,3 +516,68 @@ footer a:hover {
 .enviar{ 
     font-family: 'Big Noodle Titling', Arial, sans-serif;
 }
+
+/* Style Responsive - Desktop/Notbooks  */
+@media screen and (max-width:1100px ){
+
+    main{
+        height: auto;
+    }
+
+    #conteudo {
+        padding-bottom: 2rem;
+    }
+
+    #menu_lateral{
+        height: auto;
+    }
+
+}
+
+ /* Style Responsive - Mobile  */
+@media screen and (max-width:800px){
+    *{
+        margin: 0px;
+        padding: 0px;
+    }
+
+    main{
+        height: auto;
+    }
+
+    #conteudo {
+        padding-bottom: 2rem;
+    }
+
+    #menu_lateral{
+        height: auto;
+    }
+
+    #titulo{
+        margin-top: 1rem;
+        font-size: .8em;
+    }
+    .line {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+    .col {
+        height: 6rem;
+        width: 100%;
+    }
+    .c-one {
+        height: 20rem;
+    }
+    .c-two {
+        height: 20rem;
+    }
+    #linha2 {
+        padding-top: 15rem;
+        
+    }
+    #quadrado {
+        margin: 0px;         
+        padding: 0px;
+    }
+}
