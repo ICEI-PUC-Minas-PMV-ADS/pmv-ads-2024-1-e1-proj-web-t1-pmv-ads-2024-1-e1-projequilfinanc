@@ -30,28 +30,31 @@ dadosIndividual.addEventListener("submit", (event) => {
         return;
     }
 
-    if (!ValidateSenha(senha.value, 8)) {
-        alert("A senha precisa ter no mínimo 8 caracteres.");
+    if (!ValidateSenha(senha.value, 6)) {
+        alert("A senha precisa ter no mínimo 6 caracteres.");
         return;
     }
 
         // Armazenar os dados validados na localStorage
-        const dados = {
+        const Dados_Tela_Individual = {
             nome: nome.value,
             sobrenome: sobrenome.value,
             telefone: tel.value,
-            email: email.value
-            // Adicione mais campos, se necessário
+            dataNascimento: dataNascimento.value,
+            email: email.value,
+            senha:senha.value
+        // Adicione mais campos, se necessário
         };
-        localStorage.setItem('dadosUsuario', JSON.stringify(dados));
+        
+        localStorage.setItem('dadosIndividuais', JSON.stringify(Dados_Tela_Individual));
     
         // Enviar o formulário
         dadosIndividual.submit();
         alert("dados enviados com sucesso")
-         
+;})
 
-});
 
+// funçoes para validar os dados 
 function TelValidado(tel) {
     const telRegex = /^\(?\+?(\d{1,3})?\)?[-.\s]?(\d{2,4})[-.\s]?(\d{4,5})[-.\s]?(\d{4})$/;
     return telRegex.test(tel);
@@ -65,5 +68,6 @@ function EmailValidado(email) {
 function ValidateSenha(senha, minimoDigitos) {
     return senha.length >= minimoDigitos;
 }
+
 
 

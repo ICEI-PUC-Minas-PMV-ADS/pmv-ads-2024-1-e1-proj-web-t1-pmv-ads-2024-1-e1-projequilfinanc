@@ -70,12 +70,6 @@
                             <span class="txt">Planejamento</span>
                         </a>
                     </li>
-                    <li>
-                        <a href="#">
-                            <span class="icon"><i class="bi bi-lightbulb"></i></span>
-                            <span class="txt">Dicas</span>
-                        </a>
-                    </li>
                </ul>
         
             </nav>
@@ -96,40 +90,41 @@
                 </div>
                 <div id="fundo_dados">
                     
-                        <div class="dados_familiares">     <!--  aqui ja começo a fazer os campos de digitação do perfil familiar -->
+                        <form id="dados_familiares">     <!--  aqui ja começo a fazer os campos de digitação do perfil familiar -->
                             <nav class="nome_Familiar">
-                                <input class="familiarInfo" type="text" placeholder="Nome">
+                                <input id="nome_Familiar" class="familiarInfo" type="text" placeholder="Nome" required>
                             </nav>
                             <nav class="sobrenome_Familiar">
-                                <input  class="familiarInfo" type="text" placeholder="Sobrenome">
+                                <input id="sobrenome_Familiar" class="familiarInfo" type="text" placeholder="Sobrenome" required>
                             </nav>
                             <nav class="NumCel_Familiar">
-                                <input class="familiarInfo" type="tel" placeholder="Telefone">
+                                <input id="NumCel_Familiar" class="familiarInfo" type="tel" placeholder="Telefone" required>
                             </nav>
                             <nav class="Data_Nasc_Familiar">
-                                <input class="familiarInfo" type="date" placeholder="Data de Nascimento">
+                                <input id="Data_Nasc_Familiar" class="familiarInfo" type="date" required>
                             </nav>
                             <nav class="Email_Familiar">
-                                <input class="familiarInfo" type="email" placeholder="E-mail">
+                                <input id="Email_Familiar" class="familiarInfo" type="email" placeholder="E-mail" required>
                             </nav>
                             <nav class="Senha_Familiar">
-                                <input class="familiarInfo" type="password" placeholder="Senha">
+                                <input id="Senha_Familiar" class="familiarInfo" type="password" placeholder="Senha" required>
                             </nav>
                             <nav class="Mem_1">
-                                <input class="familiarInfo" type="text" placeholder="Membro 1">
+                                <input id="Mem_1" class="familiarInfo" type="text" placeholder="Membro 1" required>
                             </nav>
                             <nav class="Tel_mem1">
-                                <input class="familiarInfo" type="tel" placeholder="Telefone">
+                                <input id="Tel_mem1" class="familiarInfo" type="tel" placeholder="Telefone" required>
                             </nav>
                             <nav class="mem_2">
-                                <input class="familiarInfo" type="text" placeholder="Membro 2">
+                                <input id="Mem2"  class="familiarInfo" type="text" placeholder="Membro 2" required>
                             </nav>
                             <nav class="Tel_Mem2">
-                                <input class="familiarInfo" type="tel" placeholder="Telefone">
+                                <input id="Tel_mem2" class="familiarInfo" type="tel" placeholder="Telefone" required>
                              </nav>
-                             <a id="save" href="#"><button type="button">Salvar</button></a>
-                        </div>
-                </div>
+                             <button id="save" type="submit">Salvar</button>
+
+                        </form>
+              </div>
                 
         </div>
         
