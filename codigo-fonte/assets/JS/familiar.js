@@ -70,7 +70,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
         return true;
     }
-    // função que valida a senha
+    // função que valida a senha da tela familiar
     function ValidateSenhaFamiliar(SenhaFamiliar, minimoDigitos) {
         return SenhaFamiliar.length >= minimoDigitos;
     }
