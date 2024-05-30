@@ -100,7 +100,8 @@ O acesso a tela permite que o usuário tenha visualização completa de todas as
 
 Exemplo da tela principal:
 
-![principal](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t1-pmv-ads-2024-1-e1-projequilfinanc/assets/164430057/aa18acd4-0343-4427-a321-561941e92a66)
+![principal](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t1-pmv-ads-2024-1-e1-projequilfinanc/assets/164430057/de241da0-b40d-4af0-8211-c558c1af2106)
+
 
 #### Requisito atendido
 
