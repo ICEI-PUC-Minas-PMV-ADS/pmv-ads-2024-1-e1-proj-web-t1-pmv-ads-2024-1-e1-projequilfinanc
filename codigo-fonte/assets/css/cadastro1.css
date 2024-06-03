@@ -331,9 +331,47 @@ footer a:hover {
     main {
         height: 1200px;
     }
-
-
-
-
-
 }
+@media screen and (max-width: 800px) {
+    /* Aqui vão as regras CSS para telas com largura máxima de 800 pixels */
+
+    body {
+        font-size: 0.9rem; /* Reduzir o tamanho da fonte para telas menores */
+    }
+
+    header h1 {
+        margin-inline-start: 10px; /* Ajustar a margem do título principal */
+    }
+
+    #cadastro_renda {
+        margin-inline-end: 20px; /* Ajustar a margem do bloco de cadastro/login */
+    }
+
+    #cadastro,
+    #login {
+        padding: 10px; /* Reduzir o preenchimento dos botões de cadastro/login */
+    }
+
+    main {
+        height: 1200px; /* Ajustar a altura do elemento principal para telas menores */
+    }
+
+    #quadro2{
+        padding-top: 1rem;
+        vertical-align: auto;
+        position: relative;
+        top: 440px;
+        left: -155px;
+        margin-left: 30px;
+        width: 300px;
+    }
+    #quadro1    {
+        padding-top: 0;
+        position: relative;
+        top: 0px;
+        left: 200px;
+        vertical-align: auto;
+
+    }
+}
+

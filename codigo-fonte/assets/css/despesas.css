@@ -249,7 +249,6 @@ main nav a:hover {
 }
 
 #data::after {
-    content: '\25BC';
     position: absolute;
     top: 50%;
     right: 10px;
@@ -518,13 +517,10 @@ footer a:hover {
 }
 
 @media screen and (max-width:800px){
-    *{
-        margin: 0px;
-        padding: 0px;
-    }
-
     main{
         height: auto;
+        display: flex;
+        flex-direction: column;
     }
 
     #conteudo {
@@ -566,6 +562,7 @@ footer a:hover {
         position: relative;
         top: 20px;
         left:-300px;
+        margin-left: 30px;
     }
 
 
@@ -577,13 +574,15 @@ footer a:hover {
         margin: 0px;
         padding: 0px;
         width: 100%;
+        height: auto;
     }
     
     #quadro {
         margin: 1rem auto; 
-        width: 90%;
+        width: 350px;
         padding: 1rem;
         box-sizing: border-box;
+        height: auto;
+        margin-left: 75px;
     }
-
 }
