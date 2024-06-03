@@ -573,12 +573,24 @@ footer a:hover {
         width: 260px;
         margin-left: 20px;
     }
-    #calculo_renda {
-        flex-direction: column;
-    }
+
+
     .linha2 {
         padding-top: 15rem;
         border: none;
-        padding left: 10rem;
+        padding-left: 10rem;
+        padding: 0;
     }
+
+    .linha1, .linha2 {
+        width: 45%;
+    }
+    .linha {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        
+    }
+
 }

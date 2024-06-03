@@ -281,25 +281,25 @@ main nav a:hover {
 }
 
 .enviar {
-    border: none; /* Remove a borda */
+    border: none; 
     background-color: #E7E7E7;
     width: 150px;
     height: 40px;
     border-radius: 5px;
     font-size: x-large;
-    display: flex; /* Para alinhar conteúdo verticalmente */
-    justify-content: center; /* Para alinhar conteúdo horizontalmente */
-    align-items: center; /* Para alinhar conteúdo verticalmente */
-    margin: auto; /* Para centralizar horizontalmente */
-    outline: none; /* Remove a borda de foco */
-    cursor: pointer; /* Altera o cursor ao passar por cima */
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    margin: auto; 
+    outline: none; 
+    cursor: pointer;
     text-decoration: none;
 }
 
 .enviar button {
     border: none;
-    outline: none; /* Remove a borda de foco */
-    cursor: pointer; /* Altera o cursor ao passar por cima */
+    outline: none; 
+    cursor: pointer; 
     font-family: 'Big Noodle Titling', Arial, sans-serif;
     font-size: 23px; 
     text-decoration: none; 
@@ -517,24 +517,6 @@ footer a:hover {
     font-family: 'Big Noodle Titling', Arial, sans-serif;
 }
 
-/* Style Responsive - Desktop/Notbooks  */
-@media screen and (max-width:1100px ){
-
-    main{
-        height: auto;
-    }
-
-    #conteudo {
-        padding-bottom: 2rem;
-    }
-
-    #menu_lateral{
-        height: auto;
-    }
-
-}
-
- /* Style Responsive - Mobile  */
 @media screen and (max-width:800px){
     *{
         margin: 0px;
@@ -580,12 +562,10 @@ footer a:hover {
 
     #linha2 {
         padding-top: 15rem;
-        display: flex;
-        margin-right: 2rem;
-        flex-direction: column;
-        margin-top: 1rem; /* Ajuste de margem para alinhamento */
-        margin-left: auto; /* Ajuste de margem para alinhamento com linha1 */
-        align-items: center;
+        vertical-align: left;
+        position: relative;
+        top: 20px;
+        left:-300px;
     }
 
 
@@ -600,7 +580,7 @@ footer a:hover {
     }
     
     #quadro {
-        margin: 1rem auto; /* Centraliza o quadro horizontalmente */
+        margin: 1rem auto; 
         width: 90%;
         padding: 1rem;
         box-sizing: border-box;
