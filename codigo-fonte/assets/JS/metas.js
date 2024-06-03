@@ -14,6 +14,16 @@ document.addEventListener('DOMContentLoaded', function() {
         const descricao = document.getElementById('descricao1').value; // Changed ID to 'descricao1'
 
         if (objetivo && data && usuario && valor && descricao) {
+            // Salva os dados no localStorage
+            const meta = {
+                objetivo: objetivo,
+                data: data,
+                usuario: usuario,
+                valor: valor,
+                descricao: descricao
+            };
+            localStorage.setItem('meta', JSON.stringify(meta));
+
             alert('Cadastro de metas enviado com sucesso!');  // Alerta de sucesso
             formulario.reset();  // Limpa os campos do formulário
         } else {

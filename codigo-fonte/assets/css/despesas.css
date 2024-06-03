@@ -572,12 +572,38 @@ footer a:hover {
     .c-two {
         height: 20rem;
     }
+    #linha1, #linha2 {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
     #linha2 {
         padding-top: 15rem;
-        
+        display: flex;
+        margin-right: 2rem;
+        flex-direction: column;
+        margin-top: 1rem; /* Ajuste de margem para alinhamento */
+        margin-left: auto; /* Ajuste de margem para alinhamento com linha1 */
+        align-items: center;
+    }
+
+
+    #regra532 {
+        margin: 60px 0px;
+        width: 90%;
     }
     #quadrado {
-        margin: 0px;         
+        margin: 0px;
         padding: 0px;
+        width: 100%;
     }
+    
+    #quadro {
+        margin: 1rem auto; /* Centraliza o quadro horizontalmente */
+        width: 90%;
+        padding: 1rem;
+        box-sizing: border-box;
+    }
+
 }
