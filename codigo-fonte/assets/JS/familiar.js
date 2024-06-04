@@ -15,7 +15,7 @@ document.addEventListener("DOMContentLoaded", function() {
     DadosFamiliares.addEventListener("submit", (event) => {
     event.preventDefault()
     // validando o form
-    if (FamiliarNome.value === "" || Membro1.value === "" || Membro2.value === "") {
+    if (FamiliarNome.value === "" || Membro1.value === "") {
         alert("Por favor, preencha os campos de nome.");
         return;
     }
@@ -23,7 +23,7 @@ document.addEventListener("DOMContentLoaded", function() {
         alert("preencha seu sobrenome")
     }
 
-    const numCelulares = [NumCel.value, NumCelMembro1.value, NumCelMembro2.value];
+    const numCelulares = [NumCel.value, NumCelMembro1.value];
         
     if (!TelefonesValidados(numCelulares)) {
         alert("Por favor, preencha todos os números de telefone corretamente.");
@@ -80,4 +80,5 @@ document.addEventListener("DOMContentLoaded", function() {
         return emailRegex.test(EmailFamiliar);
     }
 });
-
+ 
+console.log(familiardados)
