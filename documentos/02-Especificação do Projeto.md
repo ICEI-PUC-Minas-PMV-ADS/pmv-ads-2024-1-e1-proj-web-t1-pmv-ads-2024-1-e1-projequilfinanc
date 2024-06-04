@@ -103,6 +103,7 @@
 | RF-17 | O sistema deve permitir que depois do login o usuário consiga cadastrar sua renda mensal e se o perfil e individual ou familiar. | ALTA |
 | RF-18 | O sistema deve permitir que o usuário tenha acesso as demais telas do sistema através do menu lateral.               | ALTA   |
 | RF-19 | O sistema deve permitir que o usuário consiga cadastrar as metas que almeja alcançar.                                | ALTA   |
+| RF-20 | O Sistema deve permitir que o usuário consiga sair de sua conta.                                                     | ALTA   |
 **Prioridade: Alta / Média / Baixa.
 
 ### Requisitos não Funcionais
