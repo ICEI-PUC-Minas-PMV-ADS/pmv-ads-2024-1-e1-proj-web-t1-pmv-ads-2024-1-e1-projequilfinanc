@@ -75,6 +75,13 @@ function addMembers(){
     loadMembers()
 }
 
-document.addEventListener('DOMContentLoaded', function() {
-    showElements()
+    document.addEventListener('DOMContentLoaded', function () {
+        showElements();
+        
+        const nome = localStorage.getItem('name');
+        if (nome) {
+            const usuarioElement = document.getElementById('usuario');
+            usuarioElement.textContent = `Olá, ${nome}!`;
+        }
+
 });
