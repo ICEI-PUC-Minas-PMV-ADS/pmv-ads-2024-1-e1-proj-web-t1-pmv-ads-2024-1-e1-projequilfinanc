@@ -933,3 +933,190 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
   <td>Vitor hugo</td>
  </tr>
 </table>
+
+<table>
+ <tr>
+  <th>Caso de teste</th>
+  <th>Requisitos associados</th>
+  <th>Objetivo do teste</th>
+  <th>Passos</th>
+  <th>Critérios de êxito</th>
+  <th>Responsável</th>
+ </tr>
+ <tr>
+  <td>CT-XX: Verificar descrição de valores do gráfico.</td>
+  <td>
+   <ul>
+   <li>RF-10	O sistema deve mostrar as movimentações financeiras.</li>
+   <li>RF-16	O sitema deve permitir que o usuário consiga analisar suas metas definidas</li>
+   <li>RF-XX:	O site deve mostrar ao passar o cursor por cima os valores presentes no gráfico. </li>
+   <li>RF-XX:	O site deve em sua versão mobile ao toque, os valores presentes no gráfico.</li>
+   </ul>
+  </td>
+  <td>Verificar descrição de valores do gráfico.</td>
+  <td>
+   <ol>
+    <li>Realizar login.</li>
+    <li>Acessar a dashboard.</li>
+    <li>No campo de gráficos, verificar a existência de valores no gráfico.</li>
+   </ol>
+   </td>
+  <td>Valores apresentados corretamente ao usuário.</td>
+  <td>Hugo</td>
+ </tr>
+</table>
+
+<table>
+ <tr>
+  <th>Caso de teste</th>
+  <th>Requisitos associados</th>
+  <th>Objetivo do teste</th>
+  <th>Passos</th>
+  <th>Critérios de êxito</th>
+  <th>Responsável</th>
+ </tr>
+ <tr>
+  <td>CT-XX: Apresentar valores de renda, salvo e reserva emergencial.</td>
+  <td>
+   <ul>
+   <li>RF-10	O sistema deve mostrar as movimentações financeiras.</li>
+   <li>RF-16	O sitema deve permitir que o usuário consiga analisar suas metas definidas</li>
+   </ul>
+  </td>
+  <td>Verificar valores inseridos.</td>
+  <td>
+   <ol>
+    <li>Realizar login.</li>
+    <li>Acessar a dashboard.</li>
+    <li>No campo de renda verificar se valores estão sendo apresentados corretamente.</li>
+    <li>No campo de saldo verificar se valores estão sendo apresentados corretamente.</li>
+    <li>No campo de reserva emergencial verificar se valores estão sendo apresentados corretamente.</li>
+   </ol>
+   </td>
+  <td>Valores apresentados corretamente ao usuário.</td>
+  <td>Hugo</td>
+ </tr>
+</table>
+
+<table>
+ <tr>
+  <th>Caso de teste</th>
+  <th>Requisitos associados</th>
+  <th>Objetivo do teste</th>
+  <th>Passos</th>
+  <th>Critérios de êxito</th>
+  <th>Responsável</th>
+ </tr>
+ <tr>
+  <td>CT-XX: Verificar últimas movimentações.</td>
+  <td>
+   <ul>
+   <li>RF-10	O sistema deve mostrar as movimentações financeiras.</li>
+   <li>RF-16	O sitema deve permitir que o usuário consiga analisar suas metas definidas</li>
+   </ul>
+  </td>
+  <td>Verificar campo de últimas movimentações.</td>
+  <td>
+   <ol>
+    <li>Realizar login.</li>
+    <li>Acessar a dashboard.</li>
+    <li>No campo "últimas movimentações", verificar a existência de valores no gráfico.</li>
+   </ol>
+   </td>
+  <td>Valores apresentados corretamente ao usuário.</td>
+  <td>Hugo</td>
+ </tr>
+</table>
+
+<table>
+ <tr>
+  <th>Caso de teste</th>
+  <th>Requisitos associados</th>
+  <th>Objetivo do teste</th>
+  <th>Passos</th>
+  <th>Critérios de êxito</th>
+  <th>Responsável</th>
+ </tr>
+ <tr>
+  <td>CT-XX: Verificar receitas.</td>
+  <td>
+   <ul>
+   <li>RF-10	O sistema deve mostrar as movimentações financeiras.</li>
+   <li>RF-16	O sitema deve permitir que o usuário consiga analisar suas metas definidas</li>
+   <li>RF-14	O sistema deve permitir o cadastro de rendas fixas e variavéis.</li>
+   </ul>
+  </td>
+  <td>Verificar campo de receitas.</td>
+  <td>
+   <ol>
+    <li>Realizar login.</li>
+    <li>Acessar a dashboard.</li>
+    <li>No campo "receitas", verificar a existência de valores no gráfico.</li>
+   </ol>
+   </td>
+  <td>Valores apresentados corretamente ao usuário.</td>
+  <td>Hugo</td>
+ </tr>
+</table>
+
+<table>
+ <tr>
+  <th>Caso de teste</th>
+  <th>Requisitos associados</th>
+  <th>Objetivo do teste</th>
+  <th>Passos</th>
+  <th>Critérios de êxito</th>
+  <th>Responsável</th>
+ </tr>
+ <tr>
+  <td>CT-XX: Verificar despesas.</td>
+  <td>
+   <ul>
+   <li>RF-10	O sistema deve mostrar as movimentações financeiras.</li>
+   <li>RF-16	O sitema deve permitir que o usuário consiga analisar suas metas definidas</li>
+   <li>RF-15	O sistema deve permitir o cadastro de despesas fixas e variavéis.</li>
+   </ul>
+  </td>
+  <td>Verificar campo de despesas.</td>
+  <td>
+   <ol>
+    <li>Realizar login.</li>
+    <li>Acessar a dashboard.</li>
+    <li>No campo "despesas", verificar a existência de valores no gráfico.</li>
+   </ol>
+   </td>
+  <td>Valores apresentados corretamente ao usuário.</td>
+  <td>Hugo</td>
+ </tr>
+</table>
+
+<table>
+ <tr>
+  <th>Caso de teste</th>
+  <th>Requisitos associados</th>
+  <th>Objetivo do teste</th>
+  <th>Passos</th>
+  <th>Critérios de êxito</th>
+  <th>Responsável</th>
+ </tr>
+ <tr>
+  <td>CT-XX: Verificar se os links de redirecionamento estão encaminhando para as respectivas páginas corretamente</td>
+  <td>
+   <ul>
+    <li>RF-01: O site deve permitir ao usuário cadastrar uma conta.</li>
+    <li>RF-02: O sistema deve permitir que o usuário realize o login de sua conta.</li>
+    <li>RF-18	O sistema deve permitir que o usuário tenha acesso as demais telas do sistema através do menu lateral.</li>
+   </ul>
+  </td>
+  <td>Verificar se os links da página estão realizando o redirecionamento corretamente.</td>
+  <td>
+   <ol>
+    <li>Acessar o navegador.</li>
+    <li>Informar o endereço do site.</li>
+    <li>Clicar nos hiperlinks presentes na página.</li>
+   </ol>
+   </td>
+  <td>Verificar se os links da página estão realizando o redirecionamento corretamente.</td>
+  <td>Hugo</td>
+ </tr>
+</table>
