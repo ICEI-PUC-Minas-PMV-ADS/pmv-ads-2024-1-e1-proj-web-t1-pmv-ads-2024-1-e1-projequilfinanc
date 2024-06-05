@@ -818,7 +818,7 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
    </ul>
   </td>
   <td>Verificar a validação dos dados, se não preencher o campo "telefone" não será possível enviar o fomulário.</td>
-  <td>Verificar a validação dos dados, se o campo telefone estiver com menos de 11 digitos, nãi sera possivel enviar o formulário.</td>
+  <td>Verificar a validação dos dados, se o campo telefone estiver com menos de 11 digitos, não sera possivel enviar o formulário.</td>
   <td>
    <ol>
     <li>Acessar o navegador.</li>
@@ -933,6 +933,155 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
   <td>Vitor hugo</td>
  </tr>
 </table>
+
+<table>
+ <tr>
+  <th>Caso de teste</th>
+  <th>Requisitos associados</th>
+  <th>Objetivo do teste</th>
+  <th>Passos</th>
+  <th>Critérios de êxito</th>
+  <th>Responsável</th>
+ </tr>
+ <tr>
+  
+  <td>CT-30: Verificar a validação de dados do campo "membro 1".</td>
+  <td>
+   <ul>
+    <li>RF-.</li>
+   </ul>
+  </td>
+  <td>Verificar a validação dos dados, se não preencher o campo "membro 1" não será possível enviar o fomulário.</td>
+  <td>
+  <td>
+   <ol>
+    <li>Acessar o navegador.</li>
+    <li>Informar o endereço do site.</li>
+    <li>Visualizar a página perfil familiar.</li>
+    <li>Não preencher campo "membro1".</li>
+    <li>Clicar em enviar</li>
+   </ol>
+   </td>
+  <td>Não preenchendo o campo "membro 1" o usuário verá na tela uma mensagem "Preencha este campo!".</td>
+  <td>Vitor hugo</td>
+ </tr>
+</table>
+
+<table>
+ <tr>
+  <th>Caso de teste</th>
+  <th>Requisitos associados</th>
+  <th>Objetivo do teste</th>
+  <th>Passos</th>
+  <th>Critérios de êxito</th>
+  <th>Responsável</th>
+ </tr>
+ <tr>
+  
+  <td>CT-31: Verificar a validação de dados do campo "Telefone membro 1".</td>
+  <td>
+   <ul>
+    <li>RF-.</li>
+   </ul>
+  </td>
+  <td>Verificar a validação dos dados, se não preencher o campo "Telefone membro 1" não será possível enviar o fomulário.</td>
+    <td>Verificar a validação dos dados, se o campo telefone estiver com menos de 11 digitos, não sera possivel enviar o formulário.</td>
+  <td>
+  <td>
+   <ol>
+    <li>Acessar o navegador.</li>
+    <li>Informar o endereço do site.</li>
+    <li>Visualizar a página perfil familiar.</li>
+    <li>Não preencher campo "Telefone membro 1".</li>
+    <li>Clicar em enviar</li>
+   </ol>
+   </td>
+  <td>Não preenchendo o campo "Telefone membro 1" o usuário verá na tela uma mensagem "Preencha este campo!".</td>
+    <td>prenchendo o telefone com menos ou mais de 11 digitos, o usuario verá na tela uma mensagem "Por favor, preencha todos os números de telefone corretamente.".</td>
+    
+  <td>Vitor hugo</td>
+ </tr>
+</table>
+
+<table>
+ <tr>
+  <th>Caso de teste</th>
+  <th>Requisitos associados</th>
+  <th>Objetivo do teste</th>
+  <th>Passos</th>
+  <th>Critérios de êxito</th>
+  <th>Responsável</th>
+ </tr>
+ <tr>
+  
+  <td>CT-32: Verificar a validação de dados do campo "membro 2".</td>
+  <td>
+   <ul>
+    <li>RF-.</li>
+   </ul>
+  </td>
+  <td>Verificar a validação dos dados, se não preencher o campo "membro 2" não será possível enviar o fomulário.</td>
+  <td>
+  <td>
+   <ol>
+    <li>Acessar o navegador.</li>
+    <li>Informar o endereço do site.</li>
+    <li>Visualizar a página perfil familiar.</li>
+    <li>Não preencher campo "membro 2".</li>
+    <li>Clicar em enviar</li>
+   </ol>
+   </td>
+  <td>Não preenchendo o campo "membro 2" o usuário verá na tela uma mensagem "Preencha este campo!".</td>
+  <td>Vitor hugo</td>
+ </tr>
+</table>
+
+<table>
+ <tr>
+  <th>Caso de teste</th>
+  <th>Requisitos associados</th>
+  <th>Objetivo do teste</th>
+  <th>Passos</th>
+  <th>Critérios de êxito</th>
+  <th>Responsável</th>
+ </tr>
+ <tr>
+  
+  <td>CT-33: Verificar a validação de dados do campo "Telefone membro 2".</td>
+  <td>
+   <ul>
+    <li>RF-.</li>
+   </ul>
+  </td>
+  <td>Verificar a validação dos dados, se não preencher o campo "Telefone membro 2" não será possível enviar o fomulário.</td>
+    <td>Verificar a validação dos dados, se o campo telefone estiver com menos de 11 digitos, não sera possivel enviar o formulário.</td>
+  <td>
+  <td>
+   <ol>
+    <li>Acessar o navegador.</li>
+    <li>Informar o endereço do site.</li>
+    <li>Visualizar a página perfil familiar.</li>
+    <li>Não preencher campo "Telefone membro 2".</li>
+    <li>Clicar em enviar</li>
+   </ol>
+   </td>
+  <td>Não preenchendo o campo "Telefone membro2" o usuário verá na tela uma mensagem "Preencha este campo!".</td>
+    <td>prenchendo o telefone com menos ou mais de 11 digitos, o usuario verá na tela uma mensagem "Por favor, preencha todos os números de telefone corretamente.".</td>
+    
+  <td>Vitor hugo</td>
+ </tr>
+</table>
+
+
+
+
+
+
+
+
+
+
+
 
 <table>
  <tr>
