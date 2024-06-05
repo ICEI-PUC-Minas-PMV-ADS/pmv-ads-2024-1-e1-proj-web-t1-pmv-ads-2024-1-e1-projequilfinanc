@@ -14,15 +14,22 @@ document.addEventListener('DOMContentLoaded', function() {
         const descricao = document.getElementById('descricao1').value; // Changed ID to 'descricao1'
 
         if (objetivo && data && usuario && valor && descricao) {
+            let metas = JSON.parse(localStorage.getItem('metas')) || [];
+            if(metas.length >20){
+                alert("você ultrapassou o numero maximo de metas")
+                return;
+            }
             // Salva os dados no localStorage
-            const meta = {
+            const meta  = {
+                id: Date.now(),
                 objetivo: objetivo,
                 data: data,
                 usuario: usuario,
                 valor: valor,
                 descricao: descricao
             };
-            localStorage.setItem('meta', JSON.stringify(meta));
+            metas.push(meta);
+            localStorage.setItem('metas', JSON.stringify(metas));
 
             alert('Cadastro de metas enviado com sucesso!');  // Alerta de sucesso
             formulario.reset();  // Limpa os campos do formulário

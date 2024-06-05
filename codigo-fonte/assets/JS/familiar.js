@@ -80,5 +80,4 @@ document.addEventListener("DOMContentLoaded", function() {
         return emailRegex.test(EmailFamiliar);
     }
 });
- 
-console.log(familiardados)
+
