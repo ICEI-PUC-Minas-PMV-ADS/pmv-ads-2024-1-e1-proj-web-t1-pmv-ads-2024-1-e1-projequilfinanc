@@ -30,6 +30,7 @@
 body{
     background-color: var(--cor1);
     font-family: var(--font-padrao);
+    width: 100%;
 }
 
 header{
@@ -90,7 +91,8 @@ header div > img{
 }
 
 #imagem{
-    height: 550px;
+    margin: auto;
+    height: 750px;
     background-image: url('../images/banner.png');
     background-repeat: no-repeat;
     background-size: contain;
