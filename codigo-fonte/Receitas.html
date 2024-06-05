@@ -36,52 +36,38 @@
                 <div class="expandir">
                     <span><i class="bi bi-list"></i></span>
                 </div>
-
                 <ul>
                     <li>
-                        <a href="#">
+                        <a href="Principal.html">
                             <span class="icon"><i class="bi bi-eye-fill"></i></span>
-                            <span class="txt">Visao_Geral</span>
+                            <span class="txt" style="white-space:nowrap;">Visão Geral</span>
                         </a>
                     </li>
                     <li>
-                        <a href="#">
+                        <a href="Individual.html">
                             <span class="icon"><i class="bi bi-person-circle"></i></span>
                             <span class="txt">Perfil</span>
                         </a>
                     </li>
-                    <li>
-                        <a href="#">
-                            <span class="icon"><i class="bi bi-file-earmark-plus"></i></span>
-                            <span class="txt"> Receita</span>
-                        </a>
-                    </li>
                     <li class="item">
-                        <a href="#">
+                        <a href="Despesas.html">
                             <span class="icon"><i class="bi bi-file-earmark-minus"></i></span>
                             <span class="txt">Despesas</span>
                         </a>
                     </li>
                     <li class="item">
-                        <a href="#">
+                        <a href="vizualizarmetas.html">
                             <span class="icon"><i class="bi bi-star-fill"></i></span>
                             <span class="txt">Metas</span>
                         </a>
                     </li>
                     <li>
-                        <a href="#">
+                        <a href="planejamento.html">
                             <span class="icon"><i class="bi bi-pencil-square"></i></span>
                             <span class="txt">Planejamento</span>
                         </a>
                     </li>
-                    <li>
-                        <a href="#">
-                            <span class="icon"><i class="bi bi-lightbulb"></i></span>
-                            <span class="txt">Dicas</span>
-                        </a>
-                    </li>
                 </ul>
-
             </nav>
         </div>
 
@@ -99,66 +85,57 @@
 
 
             <article id="quadro">
-
                 <div id="calculo_renda">
+                    <form id="formulario">
+                        <div id="renda">
+                            <div class="quadrado">
+                                <div class="linha">
+                                    <div id="linha1">
+                                        <p>Valor</p>
+                                        <input id="valor" type="number">
 
-
-
-
-                    <div id="renda">
-
-
-                        <div class="quadrado">
-                            <div class="linha">
-                                <div id="linha1">
-                                    <p>Valor</p>
-                                    <input id="valor" type="number">
-
-                                    <div class="categoria">
-                                        <label for="categoria"><p>Categoria</p></label>
-                                        <select id="categoria">
-                                            <option selected disabled value="">Selecione</option>
-                                            <option>Fixa</option>
-                                            <option>Variável</option>
-                                        </select>
-                                    </div>
-
-
-                                    <div class="usuario">
-                                        <label for="usuario"><p>Membro</p></label>
-                                        <select id="usuario">
-                                            <option selected disabled value="">Selecione</option>
-                                            <option value="usuário1">Membro 1</option>
-                                            <option value="usuário1">Membro 2</option>
-                                            <option value="usuário3">Membro 3</option>
-                                            <option value="todos">Todos</option>
-                                        </select>
-                                    </div>
-
-
-                                </div>
-                                <div id="linha2">
-                                    <div class="tipo">
-                                        <label for="tipo"><p>Tipo</p></label>
-                                        <select id="tipo">
-                                            <option selected disabled value="">Selecione</option>
-                                            <option>Salário</option>
-                                            <option>Extra</option>
-                                        </select>
-                                    </div>
-
-                                    <div id="descricao">
-                                        <p>Descrição</p>
-                                        <div id="desc">
-                                            <p1>Digite aqui...</p1>
+                                        <div class="categoria">
+                                            <label for="categoria"><p>Categoria</p></label>
+                                            <select id="categoria">
+                                                <option selected disabled value="">Selecione</option>
+                                                <option>Fixa</option>
+                                                <option>Variável</option>
+                                            </select>
                                         </div>
-                                    </div>
-                                    <input type="submit" value="Enviar" class="enviar">
-                                </div>
-                            </div>
 
+
+                                        <div class="usuario">
+                                            <label for="usuario"><p>Membro</p></label>
+                                            <select id="usuario">
+                                                <option value="todos">Todos</option>
+                                            </select>
+                                        </div>
+
+
+                                    </div>
+                                    <div id="linha2">
+                                        <div class="tipo">
+                                            <label for="tipo"><p>Tipo</p></label>
+                                            <select id="tipo">
+                                                <option>Salário</option>
+                                                <option>Extra</option>
+                                            </select>
+                                        </div>
+
+                                        <div id="descricao">
+                                            <p>Descrição</p>
+                                            <div id="descricao-textarea">
+                                                <textarea id="desc" class="input-padrao-textarea" required></textarea>
+                                            </div>
+                                        </div>
+                                        <button type="submit" id="enviar" class="enviar">Enviar</button>
+                                    </div>
+                                </div>
+
+                            </div>
                         </div>
-                    </div>
+                    </form>
+                </div>
             </article>
         </div>
     </main>
@@ -173,8 +150,7 @@
         </p>
     </footer>
 
-
-
+    <script src="assets/JS/receitas.js"></script>
 </body>
 
 </html>

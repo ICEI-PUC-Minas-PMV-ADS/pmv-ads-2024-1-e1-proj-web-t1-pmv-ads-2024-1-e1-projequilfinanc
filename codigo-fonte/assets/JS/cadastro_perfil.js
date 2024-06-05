@@ -1,4 +1,4 @@
-let members = [{name: "", renda: 0}]
+let members = []
 
 function showElements(){
     document.getElementById('div_familiar').classList.add('hidden');
@@ -10,11 +10,16 @@ function showElements(){
         document.getElementById('div_familiar').classList.remove('hidden');
         document.getElementById('btn_member').classList.remove('hidden');
         loadMembers()
-        // TESTE
+
     }
 }
 
 function loadMembers(){
+    if(members.length === 0){
+        members.push({name: "", value: 0})
+
+    }
+
     const div = document.getElementById('member_list')
     while (div.firstChild){
         div.removeChild(div.firstChild);
@@ -30,8 +35,8 @@ function loadMembers(){
         const item = members[idx]
         const name = createMemberInput(parseInt(idx), 'Nome', item.name, 'text',
             (value) => members[idx].name = value)
-        const renda = createMemberInput(parseInt(idx), 'Renda', item.renda, 'number',
-            (value) => members[idx].renda = value)
+        const renda = createMemberInput(parseInt(idx), 'Renda', item.value, 'number',
+            (value) => members[idx].value = value)
 
         rowDiv.appendChild(name);
         rowDiv.appendChild(renda);
@@ -67,15 +72,25 @@ function createMemberInput(idx = 0, labelText, value, type = 'text', onChange){
 }
 
 function finish(){
+    const profileType = document.getElementById('perfil')
+    const value = document.getElementById('valor')
 
+    localStorage.setItem('user_profile', JSON.stringify({
+        "members": parseInt(profileType.value) === 2 ? members : [],
+        "profile": profileType.value,
+        "value": value.value,
+    }))
+
+    document.location.href = 'Principal.html'
 }
 
 function addMembers(){
-    members.push({name: '', renda: 0})
+    members.push({name: '', value: 0})
     loadMembers()
 }
 
-    document.addEventListener('DOMContentLoaded', function () {
+document.addEventListener('DOMContentLoaded', function () {
+        // checkUserState()
         showElements();
         
         const nome = localStorage.getItem('name');
@@ -85,3 +100,15 @@ function addMembers(){
         }
 
 });
+
+function checkUserState(){
+    const userName = localStorage.getItem('name');
+    const userEmail = localStorage.getItem('email')
+    const userPass = localStorage.getItem('senha')
+
+    if(!userName || !userEmail || !userPass){
+        alert('Usuário inválido, se cadastre primeiro para continuar')
+        document.location.href = 'Login.html'
+
+    }
+}
