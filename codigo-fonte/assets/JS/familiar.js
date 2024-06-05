@@ -11,6 +11,7 @@ document.addEventListener("DOMContentLoaded", function() {
     const NumCelMembro1=document.querySelector('#Tel_mem1');
     const Membro2= document.querySelector('#Mem2');
     const NumCelMembro2=document.querySelector('#Tel_mem2');
+    var mensagem=document.getElementById('# mesnagem')
 
     DadosFamiliares.addEventListener("submit", (event) => {
     event.preventDefault()
@@ -56,7 +57,7 @@ document.addEventListener("DOMContentLoaded", function() {
         
     // Enviar o formulário
         // DadosFamiliares.submit();
-        alert("dados enviados com sucesso")
+        alert("cadastro realizado com sucesso")
     });
     // Função para validar números de telefone
     function TelefonesValidados(telefones) {
@@ -80,4 +81,5 @@ document.addEventListener("DOMContentLoaded", function() {
         return emailRegex.test(EmailFamiliar);
     }
 });
+
 

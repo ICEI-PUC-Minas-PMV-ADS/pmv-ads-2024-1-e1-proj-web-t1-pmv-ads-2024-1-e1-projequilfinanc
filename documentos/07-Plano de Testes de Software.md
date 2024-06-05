@@ -1020,7 +1020,7 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
     <li>RF-.</li>
    </ul>
   </td>
-  <td>Verificar a validação dos dados, se não preencher o campo "membro 2" não será possível enviar o fomulário.</td>
+  <td>Verificar a validação dos dados, se não preencher o campo "membro 2" será possível enviar o formulario.</td>
   <td>
   <td>
    <ol>
@@ -1031,10 +1031,12 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
     <li>Clicar em enviar</li>
    </ol>
    </td>
-  <td>Não preenchendo o campo "membro 2" o usuário verá na tela uma mensagem "Preencha este campo!".</td>
+  <td> Mesmo não preenchendo o campo "membro 2" o usuário verá na tela uma mensagem "cadastro realizado com sucesso"</td>
   <td>Vitor hugo</td>
  </tr>
 </table>
+
+
 
 <table>
  <tr>
@@ -1047,14 +1049,13 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
  </tr>
  <tr>
   
-  <td>CT-33: Verificar a validação de dados do campo "Telefone membro 2".</td>
+  <td>CT-33: Verificar a validação de dados do campo "membro 2".</td>
   <td>
    <ul>
     <li>RF-.</li>
    </ul>
   </td>
-  <td>Verificar a validação dos dados, se não preencher o campo "Telefone membro 2" não será possível enviar o fomulário.</td>
-    <td>Verificar a validação dos dados, se o campo telefone estiver com menos de 11 digitos, não sera possivel enviar o formulário.</td>
+  <td>Verificar a validação dos dados, se não preencher o campo "Telefone membro 2" será possível enviar o formulario.</td>
   <td>
   <td>
    <ol>
@@ -1065,9 +1066,7 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
     <li>Clicar em enviar</li>
    </ol>
    </td>
-  <td>Não preenchendo o campo "Telefone membro2" o usuário verá na tela uma mensagem "Preencha este campo!".</td>
-    <td>prenchendo o telefone com menos ou mais de 11 digitos, o usuario verá na tela uma mensagem "Por favor, preencha todos os números de telefone corretamente.".</td>
-    
+  <td> Mesmo não preenchendo o campo "Telefone membro 2" o usuário verá na tela uma mensagem "cadastro realizado com sucesso"</td>
   <td>Vitor hugo</td>
  </tr>
 </table>
