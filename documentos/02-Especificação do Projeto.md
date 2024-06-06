@@ -106,6 +106,7 @@
 | RF-20 | O sistema deve permitir que o usuário consiga sair de sua conta.                                                     | ALTA   |
 | RF-21 | O sistema deve verificar se há obrigatoriedade de preenchimento do campo.                                            | ALTA   |
 | RF-22 | O sistema deve permitir que o usuário consiga excluir as metas erradas ou indesejadas.                               | ALTA   |
+| RF-23 | O sistema deve permitir que o usuário consiga finlizar suas metas alcançadas.                                        | ALTA   |
 **Prioridade: Alta / Média / Baixa.
 
 ### Requisitos não Funcionais
