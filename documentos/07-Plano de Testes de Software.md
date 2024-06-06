@@ -1482,3 +1482,56 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
   <td>Hugo</td>
  </tr>
 </table>
+
+<table>
+ <tr>
+  <th>Caso de teste</th>
+  <th>Requisitos associados</th>
+  <th>Objetivo do teste</th>
+  <th>Passos</th>
+  <th>Critérios de êxito</th>
+  <th>Responsável</th>
+ </tr>
+
+ <tr>
+  <td>CT-46: Verificar se durante o cadastro, todos os campos foram preenchidos de forma correta.</td>
+  <td>
+   <ul>
+    <li>RF-01: O site deve permitir ao usuário cadastrar uma conta.</li>
+    <li>RF-21: O sistema deve verificar se há obrigatoriedade de preenchimento do campo.</li>
+<li>RF-13: O sistema deve permitir o cadastro de dados individuais e familiar.</li>
+   </ul>
+  </td>
+  <td>Verificar se durante o cadastro, todos os campos foram preenchidos de forma correta.</td>
+  <td>
+   <ol>
+    <li>Acessar o navegador.</li>
+    <li>Iniciar um cadastro de um usuário.</li>
+    <li>Preencher nome, email, senha e seguir para próxima página.</li>
+    <li>Informar renda e membros da família caso haja.</li>
+   </ol>
+   </td>
+  <td>Todos os campos obrigatórios foram preenchidos</td>
+  <td>Woton Sampaio</td>
+ </tr>
+
+ <tr>
+  <td>CT-47: Verificar a adição de receitas</td>
+  <td>
+   <ul>
+    <li>RF-14:	O sistema deve permitir o cadastro de receitas fixas e variavéis.</li>
+   </ul>
+  </td>
+  <td>Verificar a adição de receitas</td>
+  <td>
+   <ol>
+    <li>Logar numa conta existente.</li>
+    <li>Entrar na aba de adição de receitas.</li>
+    <li>Informar os dados requisitados e clicar em adicionar.</li>
+   </ol>
+   </td>
+  <td>Dados da informados foram salvos corretamente no localStorage</td>
+  <td>Woton Sampaio</td>
+ </tr>
+
+</table>
