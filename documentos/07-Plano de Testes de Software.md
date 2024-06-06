@@ -752,7 +752,10 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
   <td>CT-24: Verificar a validação de dados do campo "Nome".</td>
   <td>
    <ul>
-    <li>RF-.</li>
+    <li>RF-18	O sistema deve permitir que o usuário tenha acesso às demais telas do sistema através do menu lateral..</li>
+    <li>RF-13	O sistema deve permitir o cadastro de dados individuais e familiares.<li>
+     <li>RF-20	O sistema deve permitir que o usuário consiga sair de sua conta.<li>
+     <li>RF-21	O sistema deve verificar se há obrigatoriedade de preenchimento do campo.<li>
    </ul>
   </td>
   <td>Verificar a validação dos dados, se não preencher o campo "Nome" não será possível enviar o fomulário.</td>
@@ -783,7 +786,10 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
   <td>CT-25: Verificar a validação de dados do campo "sobrenome".</td>
   <td>
    <ul>
-    <li>RF-.</li>
+     <li>RF-18	O sistema deve permitir que o usuário tenha acesso às demais telas do sistema através do menu lateral..</li>
+    <li>RF-13	O sistema deve permitir o cadastro de dados individuais e familiares.<li>
+     <li>RF-20	O sistema deve permitir que o usuário consiga sair de sua conta.<li>
+     <li>RF-21	O sistema deve verificar se há obrigatoriedade de preenchimento do campo.<li>
    </ul>
   </td>
   <td>Verificar a validação dos dados, se não preencher o campo "Sobrenome" não será possível enviar o fomulário.</td>
@@ -801,6 +807,7 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
  </tr>
 </table>
 
+
 <table>
  <tr>
   <th>Caso de teste</th>
@@ -814,11 +821,13 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
   <td>CT-26: Verificar a validação de dados do campo "telefone".</td>
   <td>
    <ul>
-    <li>RF-.</li>
+     <li>RF-18	O sistema deve permitir que o usuário tenha acesso às demais telas do sistema através do menu lateral..</li>
+    <li>RF-13	O sistema deve permitir o cadastro de dados individuais e familiares.<li>
+     <li>RF-20	O sistema deve permitir que o usuário consiga sair de sua conta.<li>
+     <li>RF-21	O sistema deve verificar se há obrigatoriedade de preenchimento do campo.<li>
    </ul>
   </td>
   <td>Verificar a validação dos dados, se não preencher o campo "telefone" não será possível enviar o fomulário.</td>
-  <td>Verificar a validação dos dados, se o campo telefone estiver com menos de 11 digitos, não sera possivel enviar o formulário.</td>
   <td>
    <ol>
     <li>Acessar o navegador.</li>
@@ -828,11 +837,12 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
     <li>Clicar em enviar</li>
    </ol>
    </td>
-  <td>Não preenchendo o campo "telefone" o usuário verá na tela uma mensagem "Preencha este campo!".</td>
-  <td>prenchendo o telefone com menos ou mais de 11 digitos, o usuario verá na tela uma mensagem "Por favor, preencha todos os números de telefone corretamente.".</td>
+  <td>Não preenchendo o campo "telefone" o usuário verá na tela uma mensagem "Preencha este campo!". Não preenchendo o campo "telefone" no padrão correto de 11 numeros o usuário verá na tela uma mensagem "Por favor, preencha todos os números de telefone corretamente."</td>
   <td>Vitor hugo</td>
  </tr>
 </table>
+
+
 
 <table>
  <tr>
@@ -847,11 +857,13 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
   <td>CT-27: Verificar a validação de dados do campo "dd/mm/aaaa".</td>
   <td>
    <ul>
-    <li>RF-.</li>
+         <li>RF-18	O sistema deve permitir que o usuário tenha acesso às demais telas do sistema através do menu lateral..</li>
+    <li>RF-13	O sistema deve permitir o cadastro de dados individuais e familiares.<li>
+     <li>RF-20	O sistema deve permitir que o usuário consiga sair de sua conta.<li>
+     <li>RF-21	O sistema deve verificar se há obrigatoriedade de preenchimento do campo.<li>
    </ul>
   </td>
-  <td>Verificar a validação dos dados, se não preencher o campo "dd/mm/aaaa" não será possível enviar o fomulário.</td>
-  <td>
+  <td>Verificar a validação dos dados, se não preencher o campo "dd/mm/aaaa" ou não preenche-lo no padrão correto não será possível enviar o fomulário.</td>
   <td>
    <ol>
     <li>Acessar o navegador.</li>
@@ -861,10 +873,12 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
     <li>Clicar em enviar</li>
    </ol>
    </td>
-  <td>Não preenchendo o campo "dd/mm/aaaa" o usuário verá na tela uma mensagem "Preencha este campo!".</td>
+  <td>Não preenchendo o campo "dd/mm/aaaa" o usuário verá na tela uma mensagem "Preencha este campo!". Não preenchendo o campo "dd/mm/aaaa" no padrão correto de dia/mês/ano o usuário verá na tela uma mensagem "insira um valor válido. o campo esta incompleto ou tem uma data inválida."</td>
   <td>Vitor hugo</td>
  </tr>
 </table>
+
+
 
 <table>
  <tr>
@@ -879,12 +893,13 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
   <td>CT-28: Verificar a validação de dados do campo "E-mail".</td>
   <td>
    <ul>
-    <li>RF-.</li>
+        <li>RF-18	O sistema deve permitir que o usuário tenha acesso às demais telas do sistema através do menu lateral..  </li>
+    <li>RF-13	O sistema deve permitir o cadastro de dados individuais e familiares.<li>
+     <li>RF-20	O sistema deve permitir que o usuário consiga sair de sua conta.<li>
+     <li>RF-21	O sistema deve verificar se há obrigatoriedade de preenchimento do campo.<li>
    </ul>
   </td>
-  <td>Verificar a validação dos dados, se não preencher o campo "E-mail" não será possível enviar o fomulário.</td>
-   <td>Verificar a validação dos dados, caso o usuario não preencha o campo "E-mail" no padrão de um e-mail (validado@gmail.com), não sera possivel enviar o formulario.</td>
-  <td>
+  <td>Verificar a validação dos dados, se não preencher o campo "E-mail" ou não preeche-lo não será possível enviar o fomulário.</td>
   <td>
    <ol>
     <li>Acessar o navegador.</li>
@@ -894,11 +909,11 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
     <li>Clicar em enviar</li>
    </ol>
    </td>
-  <td>Não preenchendo o campo "E-mail" o usuário verá na tela uma mensagem "Preencha este campo!".</td>
-   <td>Não preenchendo o campo "E-mail" com um email no padrão válido o usuário verá na tela uma mensagem "Por favor, preencha com um email válido".</td>
+  <td>Não preenchendo o campo "E-mail" o usuário verá na tela uma mensagem "Preencha este campo!". Não preenchendo o campo "E-mail" no padrão correto de (teste@gmail.com) o usuário verá na tela uma mensagem "insira um E-mail válido".</td>
   <td>Vitor hugo</td>
  </tr>
 </table>
+
 
 <table>
  <tr>
@@ -913,26 +928,28 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
   <td>CT-29: Verificar a validação de dados do campo "Senha".</td>
   <td>
    <ul>
-    <li>RF-.</li>
+     <li>RF-18	O sistema deve permitir que o usuário tenha acesso às demais telas do sistema através do menu lateral..  </li>
+    <li>RF-13	O sistema deve permitir o cadastro de dados individuais e familiares.<li>
+     <li>RF-20	O sistema deve permitir que o usuário consiga sair de sua conta.<li>
+     <li>RF-21	O sistema deve verificar se há obrigatoriedade de preenchimento do campo.<li>
    </ul>
   </td>
-  <td>Verificar a validação dos dados, se não preencher o campo "senha" não será possível enviar o fomulário.</td>
-   <td>Verificar a validação dos dados, caso o usuario não preencha o campo "senha" com no minimo 6 digitos, não sera possivel enviar o formulario </td>
-  <td>
+  <td>Verificar a validação dos dados, se não preencher o campo "Senha"  ou não preench-lo no padrão correto não será possível enviar o fomulário.</td>
   <td>
    <ol>
     <li>Acessar o navegador.</li>
     <li>Informar o endereço do site.</li>
     <li>Visualizar a página perfil familiar.</li>
-    <li>Não preencher campo "senha".</li>
+    <li>Não preencher campo "Senha".</li>
     <li>Clicar em enviar</li>
    </ol>
    </td>
-  <td>Não preenchendo o campo "senha" o usuário verá na tela uma mensagem "Preencha este campo!".</td>
-   <td>Não preenchendo o campo "senha" com uma senha valida o usuário vera na tela uma mensagem "A senha precisa ter no    mínimo 6 caracteres.".</td>
+  <td>Não preenchendo o campo "Senha" o usuário verá na tela uma mensagem "Preencha este campo!". Não preenchendo o campo "Senha" no padrão correto de uma 6 caracteres o usuário verá na tela uma mensagem "a senha precisa conter no minimo 6 caracteres".</td>
   <td>Vitor hugo</td>
  </tr>
 </table>
+
+
 
 <table>
  <tr>
@@ -944,21 +961,21 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
   <th>Responsável</th>
  </tr>
  <tr>
-  
-  <td>CT-30: Verificar a validação de dados do campo "membro 1".</td>
+  <td>CT-30: Verificar a validação de dados do campo "Membro 1".</td>
   <td>
    <ul>
-    <li>RF-.</li>
+       <li>RF-13	O sistema deve permitir o cadastro de dados individuais e familiares.<li>
+     <li>RF-20	O sistema deve permitir que o usuário consiga sair de sua conta.<li>
+     <li>RF-21	O sistema deve verificar se há obrigatoriedade de preenchimento do campo.<li>
    </ul>
   </td>
-  <td>Verificar a validação dos dados, se não preencher o campo "membro 1" não será possível enviar o fomulário.</td>
-  <td>
+  <td>Verificar a validação dos dados, se não preencher o campo "membro 1"  ou não preench-lo no padrão correto não será possível enviar o fomulário.</td>
   <td>
    <ol>
     <li>Acessar o navegador.</li>
     <li>Informar o endereço do site.</li>
     <li>Visualizar a página perfil familiar.</li>
-    <li>Não preencher campo "membro1".</li>
+    <li>Não preencher campo "membro 1".</li>
     <li>Clicar em enviar</li>
    </ol>
    </td>
@@ -967,41 +984,6 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
  </tr>
 </table>
 
-<table>
- <tr>
-  <th>Caso de teste</th>
-  <th>Requisitos associados</th>
-  <th>Objetivo do teste</th>
-  <th>Passos</th>
-  <th>Critérios de êxito</th>
-  <th>Responsável</th>
- </tr>
- <tr>
-  
-  <td>CT-31: Verificar a validação de dados do campo "Telefone membro 1".</td>
-  <td>
-   <ul>
-    <li>RF-.</li>
-   </ul>
-  </td>
-  <td>Verificar a validação dos dados, se não preencher o campo "Telefone membro 1" não será possível enviar o fomulário.</td>
-    <td>Verificar a validação dos dados, se o campo telefone estiver com menos de 11 digitos, não sera possivel enviar o formulário.</td>
-  <td>
-  <td>
-   <ol>
-    <li>Acessar o navegador.</li>
-    <li>Informar o endereço do site.</li>
-    <li>Visualizar a página perfil familiar.</li>
-    <li>Não preencher campo "Telefone membro 1".</li>
-    <li>Clicar em enviar</li>
-   </ol>
-   </td>
-  <td>Não preenchendo o campo "Telefone membro 1" o usuário verá na tela uma mensagem "Preencha este campo!".</td>
-    <td>prenchendo o telefone com menos ou mais de 11 digitos, o usuario verá na tela uma mensagem "Por favor, preencha todos os números de telefone corretamente.".</td>
-    
-  <td>Vitor hugo</td>
- </tr>
-</table>
 
 <table>
  <tr>
@@ -1013,15 +995,49 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
   <th>Responsável</th>
  </tr>
  <tr>
-  
-  <td>CT-32: Verificar a validação de dados do campo "membro 2".</td>
+  <td>CT-31: Verificar a validação de dados do campo "telefone membro 1".</td>
   <td>
    <ul>
-    <li>RF-.</li>
+       <li>RF-13	O sistema deve permitir o cadastro de dados individuais e familiares.<li>
+     <li>RF-20	O sistema deve permitir que o usuário consiga sair de sua conta.<li>
+     <li>RF-21	O sistema deve verificar se há obrigatoriedade de preenchimento do campo.<li>
    </ul>
   </td>
-  <td>Verificar a validação dos dados, se não preencher o campo "membro 2" será possível enviar o formulario.</td>
+  <td>Verificar a validação dos dados, se não preencher o campo " telefone membro 1"  ou não preench-lo no padrão correto não será possível enviar o fomulário.</td>
   <td>
+   <ol>
+    <li>Acessar o navegador.</li>
+    <li>Informar o endereço do site.</li>
+    <li>Visualizar a página perfil familiar.</li>
+    <li>Não preencher campo " telefone membro 1".</li>
+    <li>Clicar em enviar</li>
+   </ol>
+   </td>
+  <td>Não preenchendo o campo " telefone membro 1" o usuário verá na tela uma mensagem "Preencha este campo!" caso o telefone do membro 1 esteja fora do padrão aceito o usuário vera outra mensagem " Por favor, preencha todos os números de telefone corretamente. ".</td>
+  <td>Vitor hugo</td>
+ </tr>
+</table>
+
+
+<table>
+ <tr>
+  <th>Caso de teste</th>
+  <th>Requisitos associados</th>
+  <th>Objetivo do teste</th>
+  <th>Passos</th>
+  <th>Critérios de êxito</th>
+  <th>Responsável</th>
+ </tr>
+ <tr>
+  <td>CT-32: Verificar a validação de dados do campo "Membro 2".</td>
+  <td>
+   <ul>
+       <li>RF-13	O sistema deve permitir o cadastro de dados individuais e familiares.<li>
+     <li>RF-20	O sistema deve permitir que o usuário consiga sair de sua conta.<li>
+     <li>RF-21	O sistema deve verificar se há obrigatoriedade de preenchimento do campo.<li>
+   </ul>
+  </td>
+  <td>Verificar a validação dos dados, mesmo que o usuario preencha o campo "membro 2" o formulario podera ser enviado.</td>
   <td>
    <ol>
     <li>Acessar o navegador.</li>
@@ -1031,11 +1047,10 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
     <li>Clicar em enviar</li>
    </ol>
    </td>
-  <td> Mesmo não preenchendo o campo "membro 2" o usuário verá na tela uma mensagem "cadastro realizado com sucesso"</td>
+  <td> Mesmo Não preenchendo o campo "membro 2" o usuário vera na tela a seguinte mensagem "cadastro realizado com sucesso !!".</td>
   <td>Vitor hugo</td>
  </tr>
 </table>
-
 
 
 <table>
@@ -1048,36 +1063,28 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
   <th>Responsável</th>
  </tr>
  <tr>
-  
-  <td>CT-33: Verificar a validação de dados do campo "membro 2".</td>
+  <td>CT-33: Verificar a validação de dados do campo "telefone membro 2".</td>
   <td>
    <ul>
-    <li>RF-.</li>
+       <li>RF-13	O sistema deve permitir o cadastro de dados individuais e familiares.<li>
+     <li>RF-20	O sistema deve permitir que o usuário consiga sair de sua conta.<li>
+     <li>RF-21	O sistema deve verificar se há obrigatoriedade de preenchimento do campo.<li>
    </ul>
   </td>
-  <td>Verificar a validação dos dados, se não preencher o campo "Telefone membro 2" será possível enviar o formulario.</td>
-  <td>
+  <td>Verificar a validação dos dados, se não preencher o campo " telefone membro 2"  ou não preench-lo no padrão correto não será possível enviar o fomulário.</td>
   <td>
    <ol>
     <li>Acessar o navegador.</li>
     <li>Informar o endereço do site.</li>
     <li>Visualizar a página perfil familiar.</li>
-    <li>Não preencher campo "Telefone membro 2".</li>
+    <li>Não preencher campo " telefone membro 1".</li>
     <li>Clicar em enviar</li>
    </ol>
    </td>
-  <td> Mesmo não preenchendo o campo "Telefone membro 2" o usuário verá na tela uma mensagem "cadastro realizado com sucesso"</td>
+  <td>Não preenchendo o campo " telefone membro 2" o usuário verá na tela uma mensagem "Preencha este campo!" caso o telefone do membro 2 esteja fora do padrão aceito o usuário vera outra mensagem " Por favor, preencha todos os números de telefone corretamente. ".</td>
   <td>Vitor hugo</td>
  </tr>
 </table>
-
-
-
-
-
-
-
-
 
 
 
@@ -1113,6 +1120,8 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
   <td>Hugo</td>
  </tr>
 </table>
+
+
 
 <table>
  <tr>
