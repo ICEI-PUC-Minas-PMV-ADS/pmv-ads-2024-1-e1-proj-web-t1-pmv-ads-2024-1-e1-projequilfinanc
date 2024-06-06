@@ -70,7 +70,7 @@ function ValidateSenha(senha, minimoDigitos) {
 }
 
 document.addEventListener('DOMContentLoaded', function () {
-    // checkUserState()
+    checkUserState()
     
     const nome = localStorage.getItem('name');
     if (nome) {
@@ -79,5 +79,15 @@ document.addEventListener('DOMContentLoaded', function () {
     }
 
 });
+function checkUserState(){
+    const userName = localStorage.getItem('name');
+    const userEmail = localStorage.getItem('email')
+    const userPass = localStorage.getItem('senha')
 
+    if(!userName || !userEmail || !userPass){
+        alert('Usuário inválido, se cadastre primeiro para continuar')
+        document.location.href = 'Login.html'
+
+    }
+}
 

@@ -90,7 +90,7 @@ function addMembers(){
 }
 
 document.addEventListener('DOMContentLoaded', function () {
-        // checkUserState()
+        checkUserState()
         showElements();
         
         const nome = localStorage.getItem('name');
