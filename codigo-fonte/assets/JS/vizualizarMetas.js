@@ -104,3 +104,21 @@ console.log(id)
     // Exibe as metas atualizadas na página
     exibirMetas(metas);
 }
+
+function mudarCor(){
+    // Recupera as metas do localStorage
+    let metas = JSON.parse(localStorage.getItem('metas')) ?? [];
+    console.log(metas)
+    // Filtra as metas para remover a que possui o ID fornecido
+    metas = metas.filter(meta => meta.id == id);
+    console.log(metas)
+    // Salva a lista atualizada de metas no localStorage
+    localStorage.setItem('metas', JSON.stringify(metas));
+console.log(id)
+    // Exibe as metas atualizadas na página
+    exibirMetas(metas);
+
+
+
+
+}

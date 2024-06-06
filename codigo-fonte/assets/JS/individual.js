@@ -69,5 +69,15 @@ function ValidateSenha(senha, minimoDigitos) {
     return senha.length >= minimoDigitos;
 }
 
+document.addEventListener('DOMContentLoaded', function () {
+    // checkUserState()
+    
+    const nome = localStorage.getItem('name');
+    if (nome) {
+        const usuarioElement = document.getElementById('mensagem');
+        usuarioElement.textContent = `Olá, ${nome}!`;
+    }
+
+});
 
 
