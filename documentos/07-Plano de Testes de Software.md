@@ -30,17 +30,7 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
   <td>Todos os links da página Home devem encaminhar os usuários para as páginas descritas.</td>
   <td>Maria</td>
  </tr>
-</table>
 
-<table>
- <tr>
-  <th>Caso de teste</th>
-  <th>Requisitos associados</th>
-  <th>Objetivo do teste</th>
-  <th>Passos</th>
-  <th>Critérios de êxito</th>
-  <th>Responsável</th>
- </tr>
  <tr>
   <td>CT-02: Verificar o funcionamento dos links da página Cadastro</td>
   <td>
@@ -61,17 +51,7 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
   <td>Todos os links da página Cadastro devem encaminhar os usuários para as páginas descritas.</td>
   <td>Marcella</td>
  </tr>
-</table>
 
-<table>
- <tr>
-  <th>Caso de teste</th>
-  <th>Requisitos associados</th>
-  <th>Objetivo do teste</th>
-  <th>Passos</th>
-  <th>Critérios de êxito</th>
-  <th>Responsável</th>
- </tr>
  <tr>
   <td>CT-03: Verificar o funcionamento do Cadastro de conta.</td>
   <td>
@@ -93,17 +73,7 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
   <td>Ao cadastrar uma nova conta a página Cadastro deve mostrar uma mensagem "Cadastro realizado com sucesso!" e encaminhar o usuário para a próxima página.</td>
   <td>Marcella</td>
  </tr>
-</table>
 
-<table>
- <tr>
-  <th>Caso de teste</th>
-  <th>Requisitos associados</th>
-  <th>Objetivo do teste</th>
-  <th>Passos</th>
-  <th>Critérios de êxito</th>
-  <th>Responsável</th>
- </tr>
  <tr>
   <td>CT-04: Verificar a validação dos dados preenchidos.</td>
   <td>
@@ -126,17 +96,7 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
   <td>Caso não preencha todos os dados irá mostrar uma imagem com a seguinte informação "Por favor, preencha todos os campos.".</td>
   <td>Marcella</td>
  </tr>
-</table>
 
-<table>
- <tr>
-  <th>Caso de teste</th>
-  <th>Requisitos associados</th>
-  <th>Objetivo do teste</th>
-  <th>Passos</th>
-  <th>Critérios de êxito</th>
-  <th>Responsável</th>
- </tr>
  <tr>
   <td>CT-05: Verificar senha insuficiente.</td>
   <td>
@@ -159,17 +119,7 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
   <td>Caso não preencha a senha com o mínimo exigido irá mostrar uma imagem com a seguinte informação "A senha deve ter pelo menos 6 caracteres e incluir uma letra maiúscula.".</td>
   <td>Marcella</td>
  </tr>
-</table>
 
-<table>
- <tr>
-  <th>Caso de teste</th>
-  <th>Requisitos associados</th>
-  <th>Objetivo do teste</th>
-  <th>Passos</th>
-  <th>Critérios de êxito</th>
-  <th>Responsável</th>
- </tr>
  <tr>
   <td>CT-06: Verificar se os calculos estão sendo feitos corretamente</td>
   <td>
@@ -193,17 +143,7 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
   <td>Todos os calculos feitos devem corresponder corretamente aos dados associados.</td>
   <td>Maria</td>
  </tr>
-</table>
 
-<table>
- <tr>
-  <th>Caso de teste</th>
-  <th>Requisitos associados</th>
-  <th>Objetivo do teste</th>
-  <th>Passos</th>
-  <th>Critérios de êxito</th>
-  <th>Responsável</th>
- </tr>
  <tr>
   <td>CT-07: Verificar os dados preenchidos</td>
   <td>
@@ -226,17 +166,7 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
   <td>Deve ocorrer uma validação de informações e ao clicar em calcular, deve aparecer a mensagem "Verifique se os dados estão preenchidos corretamente!".</td>
   <td>Maria</td>
  </tr>
-</table>
 
-<table>
- <tr>
-  <th>Caso de teste</th>
-  <th>Requisitos associados</th>
-  <th>Objetivo do teste</th>
-  <th>Passos</th>
-  <th>Critérios de êxito</th>
-  <th>Responsável</th>
- </tr>
  <tr>
   <td>CT-08: Verificar os dados preenchidos</td>
   <td>
@@ -260,17 +190,7 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
   <td>Deve ocorrer uma validação de informações e ao clicar em calcular, deve aparecer a mensagem "Por favor, informe apenas números positivos!".</td>
   <td>Maria</td>
  </tr>
-</table>
 
-<table>
- <tr>
-  <th>Caso de teste</th>
-  <th>Requisitos associados</th>
-  <th>Objetivo do teste</th>
-  <th>Passos</th>
-  <th>Critérios de êxito</th>
-  <th>Responsável</th>
- </tr>
  <tr>
   <td>CT-09: Verificar o funcionamento dos links da página de Despesas.</td>
   <td>
@@ -291,17 +211,7 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
   <td>Todos os links da página de Despesas devem encaminhar os usuários para as páginas descritas.</td>
   <td>Marcella</td>
  </tr>
-</table>
 
-<table>
- <tr>
-  <th>Caso de teste</th>
-  <th>Requisitos associados</th>
-  <th>Objetivo do teste</th>
-  <th>Passos</th>
-  <th>Critérios de êxito</th>
-  <th>Responsável</th>
- </tr>
  <tr>
   <td>CT-10: Verificar o funcionamento do cadastro de Despesas.</td>
   <td>
@@ -322,17 +232,7 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
   <td>Preenchendo todos os dados o usuário verá na tela uma mensagem "Cadastro de despesas enviado com sucesso!" indicando que está tudo correto e que foi enviado o formulário.</td>
   <td>Marcella</td>
  </tr>
-</table>
 
-<table>
- <tr>
-  <th>Caso de teste</th>
-  <th>Requisitos associados</th>
-  <th>Objetivo do teste</th>
-  <th>Passos</th>
-  <th>Critérios de êxito</th>
-  <th>Responsável</th>
- </tr>
  <tr>
   <td>CT-11: Verificar a validação de dados do campo "valor".</td>
   <td>
@@ -354,17 +254,7 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
   <td>Não preenchendo o campo "valor" o usuário verá na tela uma mensagem "Preencha este campo!".</td>
   <td>Marcella</td>
  </tr>
-</table>
 
-<table>
- <tr>
-  <th>Caso de teste</th>
-  <th>Requisitos associados</th>
-  <th>Objetivo do teste</th>
-  <th>Passos</th>
-  <th>Critérios de êxito</th>
-  <th>Responsável</th>
- </tr>
  <tr>
   <td>CT-12: Verificar a validação de dados do campo "categoria".</td>
   <td>
@@ -386,17 +276,7 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
   <td>Não preenchendo o campo "categoria" o usuário verá na tela uma mensagem "Selecione um campo da lista.".</td>
   <td>Marcella</td>
  </tr>
-</table>
 
-<table>
- <tr>
-  <th>Caso de teste</th>
-  <th>Requisitos associados</th>
-  <th>Objetivo do teste</th>
-  <th>Passos</th>
-  <th>Critérios de êxito</th>
-  <th>Responsável</th>
- </tr>
  <tr>
   <td>CT-13: Verificar a validação de dados do campo "membro".</td>
   <td>
@@ -418,17 +298,7 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
   <td>Não preenchendo o campo "membro" o usuário verá na tela uma mensagem "Selecione um campo da lista.".</td>
   <td>Marcella</td>
  </tr>
-</table>
 
-<table>
- <tr>
-  <th>Caso de teste</th>
-  <th>Requisitos associados</th>
-  <th>Objetivo do teste</th>
-  <th>Passos</th>
-  <th>Critérios de êxito</th>
-  <th>Responsável</th>
- </tr>
  <tr>
   <td>CT-14: Verificar a validação de dados do campo "vencimento".</td>
   <td>
@@ -450,17 +320,7 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
   <td>Não preenchendo o campo "vencimento" o usuário verá na tela uma mensagem "Preencha este campo!".</td>
   <td>Marcella</td>
  </tr>
-</table>
 
-<table>
- <tr>
-  <th>Caso de teste</th>
-  <th>Requisitos associados</th>
-  <th>Objetivo do teste</th>
-  <th>Passos</th>
-  <th>Critérios de êxito</th>
-  <th>Responsável</th>
- </tr>
  <tr>
   <td>CT-15: Verificar a validação de dados do campo "descrição".</td>
   <td>
@@ -482,17 +342,7 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
   <td>Não preenchendo o campo "descrição" o usuário verá na tela uma mensagem "Preencha este campo!".</td>
   <td>Marcella</td>
  </tr>
-</table>
 
-<table>
- <tr>
-  <th>Caso de teste</th>
-  <th>Requisitos associados</th>
-  <th>Objetivo do teste</th>
-  <th>Passos</th>
-  <th>Critérios de êxito</th>
-  <th>Responsável</th>
- </tr>
  <tr>
   <td>CT-16: Verificar o funcionamento dos links da página de Metas.</td>
   <td>
@@ -512,17 +362,7 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
   <td>Todos os links da página de Metas devem encaminhar os usuários para as páginas descritas.</td>
   <td>Marcella</td>
  </tr>
-</table>
 
-<table>
- <tr>
-  <th>Caso de teste</th>
-  <th>Requisitos associados</th>
-  <th>Objetivo do teste</th>
-  <th>Passos</th>
-  <th>Critérios de êxito</th>
-  <th>Responsável</th>
- </tr>
  <tr>
   <td>CT-17: Verificar o funcionamento do cadastro de Metas.</td>
   <td>
@@ -544,17 +384,7 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
   <td>Preenchendo todos os dados o usuário verá na tela uma mensagem "Cadastro de metas enviado com sucesso!" indicando que está tudo correto e que foi enviado o formulário.</td>
   <td>Marcella</td>
  </tr>
-</table>
 
-<table>
- <tr>
-  <th>Caso de teste</th>
-  <th>Requisitos associados</th>
-  <th>Objetivo do teste</th>
-  <th>Passos</th>
-  <th>Critérios de êxito</th>
-  <th>Responsável</th>
- </tr>
  <tr>
   <td>CT-18: Verificar a validação de dados do campo "novo objetivo".</td>
   <td>
@@ -576,17 +406,7 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
   <td>Não preenchendo o campo "novo objetivo" o usuário verá na tela uma mensagem "Preencha este campo!".</td>
   <td>Marcella</td>
  </tr>
-</table>
 
-<table>
- <tr>
-  <th>Caso de teste</th>
-  <th>Requisitos associados</th>
-  <th>Objetivo do teste</th>
-  <th>Passos</th>
-  <th>Critérios de êxito</th>
-  <th>Responsável</th>
- </tr>
  <tr>
   <td>CT-19: Verificar a validação de dados do campo "data".</td>
   <td>
@@ -608,17 +428,7 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
   <td>Não preenchendo o campo "data" o usuário verá na tela uma mensagem "Preencha este campo!".</td>
   <td>Marcella</td>
  </tr>
-</table>
 
-<table>
- <tr>
-  <th>Caso de teste</th>
-  <th>Requisitos associados</th>
-  <th>Objetivo do teste</th>
-  <th>Passos</th>
-  <th>Critérios de êxito</th>
-  <th>Responsável</th>
- </tr>
  <tr>
   <td>CT-20: Verificar a validação de dados do campo "membro".</td>
   <td>
@@ -640,17 +450,7 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
   <td>Não preenchendo o campo "membro" o usuário verá na tela uma mensagem "Selecione um item da lista.".</td>
   <td>Marcella</td>
  </tr>
-</table>
 
-<table>
- <tr>
-  <th>Caso de teste</th>
-  <th>Requisitos associados</th>
-  <th>Objetivo do teste</th>
-  <th>Passos</th>
-  <th>Critérios de êxito</th>
-  <th>Responsável</th>
- </tr>
  <tr>
   <td>CT-21: Verificar a validação de dados do campo "valor".</td>
   <td>
@@ -672,17 +472,7 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
   <td>Não preenchendo o campo "valor" o usuário verá na tela uma mensagem "Preencha este campo!".</td>
   <td>Marcella</td>
  </tr>
-</table>
 
-<table>
- <tr>
-  <th>Caso de teste</th>
-  <th>Requisitos associados</th>
-  <th>Objetivo do teste</th>
-  <th>Passos</th>
-  <th>Critérios de êxito</th>
-  <th>Responsável</th>
- </tr>
  <tr>
   <td>CT-22: Verificar a validação de dados do campo "descrição".</td>
   <td>
@@ -704,19 +494,7 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
   <td>Não preenchendo o campo "descrição" o usuário verá na tela uma mensagem "Preencha este campo!".</td>
   <td>Marcella</td>
  </tr>
-</table>
 
-
-
-<table>
- <tr>
-  <th>Caso de teste</th>
-  <th>Requisitos associados</th>
-  <th>Objetivo do teste</th>
-  <th>Passos</th>
-  <th>Critérios de êxito</th>
-  <th>Responsável</th>
- </tr>
  <tr>
   <td>CT-23: Verificar o funcionamento dos links da página perfil familiar</td>
   <td>
@@ -737,17 +515,7 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
   <td>Todos os links da página perfil familiar devem encaminhar os usuários para as páginas descritas.</td>
   <td>Vitor hugo</td>
  </tr>
-</table>
 
-<table>
- <tr>
-  <th>Caso de teste</th>
-  <th>Requisitos associados</th>
-  <th>Objetivo do teste</th>
-  <th>Passos</th>
-  <th>Critérios de êxito</th>
-  <th>Responsável</th>
- </tr>
  <tr>
   <td>CT-24: Verificar a validação de dados do campo "Nome".</td>
   <td>
@@ -771,17 +539,7 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
   <td>Não preenchendo o campo "Nome" o usuário verá na tela uma mensagem "Preencha este campo!".</td>
   <td>Vitor hugo</td>
  </tr>
-</table>
 
-<table>
- <tr>
-  <th>Caso de teste</th>
-  <th>Requisitos associados</th>
-  <th>Objetivo do teste</th>
-  <th>Passos</th>
-  <th>Critérios de êxito</th>
-  <th>Responsável</th>
- </tr>
  <tr>
   <td>CT-25: Verificar a validação de dados do campo "sobrenome".</td>
   <td>
@@ -805,18 +563,7 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
   <td>Não preenchendo o campo "Sobrenome" o usuário verá na tela uma mensagem "Preencha este campo!".</td>
   <td>Vitor hugo</td>
  </tr>
-</table>
 
-
-<table>
- <tr>
-  <th>Caso de teste</th>
-  <th>Requisitos associados</th>
-  <th>Objetivo do teste</th>
-  <th>Passos</th>
-  <th>Critérios de êxito</th>
-  <th>Responsável</th>
- </tr>
  <tr>
   <td>CT-26: Verificar a validação de dados do campo "telefone".</td>
   <td>
@@ -840,19 +587,7 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
   <td>Não preenchendo o campo "telefone" o usuário verá na tela uma mensagem "Preencha este campo!". Não preenchendo o campo "telefone" no padrão correto de 11 numeros o usuário verá na tela uma mensagem "Por favor, preencha todos os números de telefone corretamente."</td>
   <td>Vitor hugo</td>
  </tr>
-</table>
 
-
-
-<table>
- <tr>
-  <th>Caso de teste</th>
-  <th>Requisitos associados</th>
-  <th>Objetivo do teste</th>
-  <th>Passos</th>
-  <th>Critérios de êxito</th>
-  <th>Responsável</th>
- </tr>
  <tr>
   <td>CT-27: Verificar a validação de dados do campo "dd/mm/aaaa".</td>
   <td>
@@ -876,19 +611,7 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
   <td>Não preenchendo o campo "dd/mm/aaaa" o usuário verá na tela uma mensagem "Preencha este campo!". Não preenchendo o campo "dd/mm/aaaa" no padrão correto de dia/mês/ano o usuário verá na tela uma mensagem "insira um valor válido. o campo esta incompleto ou tem uma data inválida."</td>
   <td>Vitor hugo</td>
  </tr>
-</table>
 
-
-
-<table>
- <tr>
-  <th>Caso de teste</th>
-  <th>Requisitos associados</th>
-  <th>Objetivo do teste</th>
-  <th>Passos</th>
-  <th>Critérios de êxito</th>
-  <th>Responsável</th>
- </tr>
  <tr>
   <td>CT-28: Verificar a validação de dados do campo "E-mail".</td>
   <td>
@@ -911,18 +634,6 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
    </td>
   <td>Não preenchendo o campo "E-mail" o usuário verá na tela uma mensagem "Preencha este campo!". Não preenchendo o campo "E-mail" no padrão correto de (teste@gmail.com) o usuário verá na tela uma mensagem "insira um E-mail válido".</td>
   <td>Vitor hugo</td>
- </tr>
-</table>
-
-
-<table>
- <tr>
-  <th>Caso de teste</th>
-  <th>Requisitos associados</th>
-  <th>Objetivo do teste</th>
-  <th>Passos</th>
-  <th>Critérios de êxito</th>
-  <th>Responsável</th>
  </tr>
  <tr>
   <td>CT-29: Verificar a validação de dados do campo "Senha".</td>
@@ -947,19 +658,6 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
   <td>Não preenchendo o campo "Senha" o usuário verá na tela uma mensagem "Preencha este campo!". Não preenchendo o campo "Senha" no padrão correto de uma 6 caracteres o usuário verá na tela uma mensagem "a senha precisa conter no minimo 6 caracteres".</td>
   <td>Vitor hugo</td>
  </tr>
-</table>
-
-
-
-<table>
- <tr>
-  <th>Caso de teste</th>
-  <th>Requisitos associados</th>
-  <th>Objetivo do teste</th>
-  <th>Passos</th>
-  <th>Critérios de êxito</th>
-  <th>Responsável</th>
- </tr>
  <tr>
   <td>CT-30: Verificar a validação de dados do campo "Membro 1".</td>
   <td>
@@ -981,18 +679,6 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
    </td>
   <td>Não preenchendo o campo "membro 1" o usuário verá na tela uma mensagem "Preencha este campo!".</td>
   <td>Vitor hugo</td>
- </tr>
-</table>
-
-
-<table>
- <tr>
-  <th>Caso de teste</th>
-  <th>Requisitos associados</th>
-  <th>Objetivo do teste</th>
-  <th>Passos</th>
-  <th>Critérios de êxito</th>
-  <th>Responsável</th>
  </tr>
  <tr>
   <td>CT-31: Verificar a validação de dados do campo "telefone membro 1".</td>
@@ -1016,18 +702,6 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
   <td>Não preenchendo o campo " telefone membro 1" o usuário verá na tela uma mensagem "Preencha este campo!" caso o telefone do membro 1 esteja fora do padrão aceito o usuário vera outra mensagem " Por favor, preencha todos os números de telefone corretamente. ".</td>
   <td>Vitor hugo</td>
  </tr>
-</table>
-
-
-<table>
- <tr>
-  <th>Caso de teste</th>
-  <th>Requisitos associados</th>
-  <th>Objetivo do teste</th>
-  <th>Passos</th>
-  <th>Critérios de êxito</th>
-  <th>Responsável</th>
- </tr>
  <tr>
   <td>CT-32: Verificar a validação de dados do campo "Membro 2".</td>
   <td>
@@ -1049,18 +723,6 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
    </td>
   <td> Mesmo Não preenchendo o campo "membro 2" o usuário vera na tela a seguinte mensagem "cadastro realizado com sucesso !!".</td>
   <td>Vitor hugo</td>
- </tr>
-</table>
-
-
-<table>
- <tr>
-  <th>Caso de teste</th>
-  <th>Requisitos associados</th>
-  <th>Objetivo do teste</th>
-  <th>Passos</th>
-  <th>Critérios de êxito</th>
-  <th>Responsável</th>
  </tr>
  <tr>
   <td>CT-33: Verificar a validação de dados do campo "telefone membro 2".</td>
@@ -1084,18 +746,6 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
   <td>Não preenchendo o campo " telefone membro 2" o usuário verá na tela uma mensagem "Preencha este campo!" caso o telefone do membro 2 esteja fora do padrão aceito o usuário vera outra mensagem " Por favor, preencha todos os números de telefone corretamente. ".</td>
   <td>Vitor hugo</td>
  </tr>
-</table>
-
-
-<table>
- <tr>
-  <th>Caso de teste</th>
-  <th>Requisitos associados</th>
-  <th>Objetivo do teste</th>
-  <th>Passos</th>
-  <th>Critérios de êxito</th>
-  <th>Responsável</th>
- </tr>
  <tr>
   <td>CT-34: Verificar a validação de dados do campo "Nome".</td>
   <td>
@@ -1117,18 +767,6 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
    </td>
   <td>Não preenchendo o campo "Nome" o usuário verá na tela uma mensagem "Preencha este campo!".</td>
   <td>Vitor hugo</td>
- </tr>
-</table>
-
-
-<table>
- <tr>
-  <th>Caso de teste</th>
-  <th>Requisitos associados</th>
-  <th>Objetivo do teste</th>
-  <th>Passos</th>
-  <th>Critérios de êxito</th>
-  <th>Responsável</th>
  </tr>
  <tr>
   <td>CT-35: Verificar a validação de dados do campo "sobrenome".</td>
@@ -1152,18 +790,6 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
   <td>Não preenchendo o campo "sobrenome" o usuário verá na tela uma mensagem "Preencha este campo!".</td>
   <td>Vitor hugo</td>
  </tr>
-</table>
-
-
-<table>
- <tr>
-  <th>Caso de teste</th>
-  <th>Requisitos associados</th>
-  <th>Objetivo do teste</th>
-  <th>Passos</th>
-  <th>Critérios de êxito</th>
-  <th>Responsável</th>
- </tr>
  <tr>
   <td>CT-36: Verificar a validação de dados do campo "telefone".</td>
   <td>
@@ -1185,18 +811,6 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
    </td>
   <td>Não preenchendo o campo "telefone" o usuário verá na tela uma mensagem "Preencha este campo!"caso o telefone esteja fora do padrão aceito o usuário vera outra mensagem " Por favor, preencha todos os números de telefone corretamente..</td>
   <td>Vitor hugo</td>
- </tr>
-</table>
-
-
-<table>
- <tr>
-  <th>Caso de teste</th>
-  <th>Requisitos associados</th>
-  <th>Objetivo do teste</th>
-  <th>Passos</th>
-  <th>Critérios de êxito</th>
-  <th>Responsável</th>
  </tr>
  <tr>
   <td>CT-37: Verificar a validação de dados do campo "dd/mm/aaaa".</td>
@@ -1221,17 +835,7 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
   <td>Não preenchendo o campo "dd/mm/aaaa" o usuário verá na tela uma mensagem "Preencha este campo!". Não preenchendo o campo "dd/mm/aaaa" no padrão correto de dia/mês/ano o usuário verá na tela uma mensagem "insira um valor válido. o campo esta incompleto ou tem uma data inválida."</td>
   <td>Vitor hugo</td>
  </tr>
-</table>
 
-<table>
- <tr>
-  <th>Caso de teste</th>
-  <th>Requisitos associados</th>
-  <th>Objetivo do teste</th>
-  <th>Passos</th>
-  <th>Critérios de êxito</th>
-  <th>Responsável</th>
- </tr>
  <tr>
   <td>CT-38: Verificar a validação de dados do campo "E-mail".</td>
   <td>
@@ -1255,17 +859,7 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
   <td>Não preenchendo o campo "E-mail" o usuário verá na tela uma mensagem "Preencha este campo!". Não preenchendo o campo "E-mail" no padrão correto de (teste@gmail.com) o usuário verá na tela uma mensagem "insira um E-mail válido".</td>
   <td>Vitor hugo</td>
  </tr>
-</table>
 
-<table>
- <tr>
-  <th>Caso de teste</th>
-  <th>Requisitos associados</th>
-  <th>Objetivo do teste</th>
-  <th>Passos</th>
-  <th>Critérios de êxito</th>
-  <th>Responsável</th>
- </tr>
  <tr>
   <td>CT-39: Verificar a validação de dados do campo "Senha".</td>
   <td>
@@ -1289,20 +883,6 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
   <td>Não preenchendo o campo "Senha" o usuário verá na tela uma mensagem "Preencha este campo!". Não preenchendo o campo "Senha" no padrão correto de uma 6 caracteres o usuário verá na tela uma mensagem "a senha precisa conter no minimo 6 caracteres".</td>
   <td>Vitor hugo</td>
  </tr>
-</table>
-
-
-
-
-<table>
- <tr>
-  <th>Caso de teste</th>
-  <th>Requisitos associados</th>
-  <th>Objetivo do teste</th>
-  <th>Passos</th>
-  <th>Critérios de êxito</th>
-  <th>Responsável</th>
- </tr>
  <tr>
   <td>CT-XX: Verificar descrição de valores do gráfico.</td>
   <td>
@@ -1323,19 +903,6 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
    </td>
   <td>Valores apresentados corretamente ao usuário.</td>
   <td>Hugo</td>
- </tr>
-</table>
-
-
-
-<table>
- <tr>
-  <th>Caso de teste</th>
-  <th>Requisitos associados</th>
-  <th>Objetivo do teste</th>
-  <th>Passos</th>
-  <th>Critérios de êxito</th>
-  <th>Responsável</th>
  </tr>
  <tr>
   <td>CT-XX: Apresentar valores de renda, salvo e reserva emergencial.</td>
@@ -1358,17 +925,7 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
   <td>Valores apresentados corretamente ao usuário.</td>
   <td>Hugo</td>
  </tr>
-</table>
 
-<table>
- <tr>
-  <th>Caso de teste</th>
-  <th>Requisitos associados</th>
-  <th>Objetivo do teste</th>
-  <th>Passos</th>
-  <th>Critérios de êxito</th>
-  <th>Responsável</th>
- </tr>
  <tr>
   <td>CT-XX: Verificar últimas movimentações.</td>
   <td>
@@ -1388,17 +945,7 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
   <td>Valores apresentados corretamente ao usuário.</td>
   <td>Hugo</td>
  </tr>
-</table>
 
-<table>
- <tr>
-  <th>Caso de teste</th>
-  <th>Requisitos associados</th>
-  <th>Objetivo do teste</th>
-  <th>Passos</th>
-  <th>Critérios de êxito</th>
-  <th>Responsável</th>
- </tr>
  <tr>
   <td>CT-XX: Verificar receitas.</td>
   <td>
@@ -1419,17 +966,7 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
   <td>Valores apresentados corretamente ao usuário.</td>
   <td>Hugo</td>
  </tr>
-</table>
 
-<table>
- <tr>
-  <th>Caso de teste</th>
-  <th>Requisitos associados</th>
-  <th>Objetivo do teste</th>
-  <th>Passos</th>
-  <th>Critérios de êxito</th>
-  <th>Responsável</th>
- </tr>
  <tr>
   <td>CT-XX: Verificar despesas.</td>
   <td>
@@ -1450,17 +987,7 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
   <td>Valores apresentados corretamente ao usuário.</td>
   <td>Hugo</td>
  </tr>
-</table>
 
-<table>
- <tr>
-  <th>Caso de teste</th>
-  <th>Requisitos associados</th>
-  <th>Objetivo do teste</th>
-  <th>Passos</th>
-  <th>Critérios de êxito</th>
-  <th>Responsável</th>
- </tr>
  <tr>
   <td>CT-XX: Verificar se os links de redirecionamento estão encaminhando para as respectivas páginas corretamente</td>
   <td>
@@ -1481,17 +1008,7 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
   <td>Verificar se os links da página estão realizando o redirecionamento corretamente.</td>
   <td>Hugo</td>
  </tr>
-</table>
 
-<table>
- <tr>
-  <th>Caso de teste</th>
-  <th>Requisitos associados</th>
-  <th>Objetivo do teste</th>
-  <th>Passos</th>
-  <th>Critérios de êxito</th>
-  <th>Responsável</th>
- </tr>
 
  <tr>
   <td>CT-46: Verificar se durante o cadastro, todos os campos foram preenchidos de forma correta.</td>
@@ -1530,7 +1047,7 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
     <li>Informar os dados requisitados e clicar em adicionar.</li>
    </ol>
    </td>
-  <td>Dados da informados foram salvos corretamente no localStorage</td>
+  <td>Dados informados foram salvos corretamente no localStorage</td>
   <td>Woton Sampaio</td>
  </tr>
 
