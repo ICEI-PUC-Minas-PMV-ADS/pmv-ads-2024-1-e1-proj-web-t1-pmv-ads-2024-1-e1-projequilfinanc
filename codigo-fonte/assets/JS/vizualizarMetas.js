@@ -44,7 +44,7 @@ function criarElementoMeta(meta) {
             <p id="valor_objetivo">Valor: <span>${meta.valor}</span></p>
             <div class="actios_goals">
                 <button id="apagar_objetivos" onclick="apagarMeta('${meta.id}')"><i class="bi bi-trash"></i></button>
-                <button id="marcar_objetivo" onclick="mudarCor('${meta.id}')"><i class="bi bi-check-all"></i></button>
+                <button id="marcar_objetivo" onclick="mudarCor('${meta.id}')"><i class="bi bi-check-all" style="color: ${meta.finish ? '#7A67EE' : 'grey'} "></i></button>
             </div>
         </div>
     `;
@@ -105,20 +105,20 @@ console.log(id)
     exibirMetas(metas);
 }
 
-function mudarCor(){
-    // Recupera as metas do localStorage
+function mudarCor(id){
+    console.log(`muda cor: ${id}`)
     let metas = JSON.parse(localStorage.getItem('metas')) ?? [];
-    console.log(metas)
-    // Filtra as metas para remover a que possui o ID fornecido
-    metas = metas.filter(meta => meta.id == id);
-    console.log(metas)
-    // Salva a lista atualizada de metas no localStorage
+    metas = metas.map(meta => {
+        if(meta.id == id){
+            return {
+                ...meta,
+                finish: !(meta.finish ?? false)
+            }
+        }
+
+        return meta
+    });
+
     localStorage.setItem('metas', JSON.stringify(metas));
-console.log(id)
-    // Exibe as metas atualizadas na página
     exibirMetas(metas);
-
-
-
-
 }
