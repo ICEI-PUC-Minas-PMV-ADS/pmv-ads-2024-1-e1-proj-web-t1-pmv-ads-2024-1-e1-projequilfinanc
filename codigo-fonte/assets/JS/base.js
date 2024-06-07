@@ -1,8 +1,13 @@
+document.addEventListener('DOMContentLoaded', (event) => {
+    loadMembers()
+})
+
 function toProfile(){
     console.log('called')
     const profile = JSON.parse(localStorage.getItem('user_profile'))
     document.location.href = profile.profile == 1 ? 'Individual.html' : 'Familiar.html'
 }
+
 function loadMembers(){
     const usuarios = document.getElementById('usuario');
     const profile = JSON.parse(localStorage.getItem('user_profile'))
