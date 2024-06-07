@@ -45,3 +45,7 @@ Em desenvolvimento.
 * Tela de Cadastro: arquivos HTML, CSS, JS, imagens;
 * Tela de Despesas: arquivos HTML, CSS, JS, imagens;
 * Tela de Metas: arquivos HTML, CSS, JS, imagens;
+
+### [0.3.2] - 06/06/2024
+#### Modificado
+* Página Principal: arquivos HTML, CSS, JS, imagens;
