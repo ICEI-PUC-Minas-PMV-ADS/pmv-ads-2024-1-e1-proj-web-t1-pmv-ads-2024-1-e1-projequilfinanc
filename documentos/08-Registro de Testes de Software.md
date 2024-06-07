@@ -8,7 +8,7 @@ Os testes funcionais realizados na aplicação web são descritos a seguir.
 
 | Responsável: Marcella |
 
-<video width="320" height="240" controls>
-  <source src="video de testes/teste de links Gerais.mp4" type="video/mp4">
-  Seu navegador não suporta a tag de vídeo.
-</video>
+https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t1-pmv-ads-2024-1-e1-projequilfinanc/assets/164430057/679c3532-7b3b-4916-9686-cf1ef9f5d310
+
+
+
