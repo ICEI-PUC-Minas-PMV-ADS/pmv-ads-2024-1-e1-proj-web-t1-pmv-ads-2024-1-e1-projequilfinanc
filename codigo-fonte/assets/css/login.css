@@ -1,4 +1,4 @@
-@import url(/PUC_FINAL_ENVIO/PUC_FINAL_ENVIO/pmv-ads-2024-1-e1-proj-web-t1-pmv-ads-2024-1-e1-projequilfinanc-main/codigo-fonte/assets/fonts/big_noodle_titling.ttf);
+@import url(/codigo-fonte/assets/fonts/big_noodle_titling.ttf);
 
 :root{
   --cor01: #cbd3d1;
@@ -22,7 +22,7 @@
 }
 
 body {
-  background-image: url("/PUC_FINAL_ENVIO/pmv-ads-2024-1-e1-proj-web-t1-pmv-ads-2024-1-e1-projequilfinanc-main/codigo-fonte/assets/images/Background.png");
+  background-image: url(/codigo-fonte/assets/images/Background.png);
   background-color: #cbd3d1;
   font-family: var(--font-padrao);  
   height: 100px;
