@@ -64,6 +64,42 @@ https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t1-pmv-ads-
 
 ![teste descrição - despesas](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t1-pmv-ads-2024-1-e1-projequilfinanc/assets/161634139/e53a63d3-3d9c-4958-afc2-0576442f5de8)
 
+| Caso de Teste | CT-17 - Verificar o funcionamento do cadastro de Metas |
+
+| Responsável: Maria |
+
+https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t1-pmv-ads-2024-1-e1-projequilfinanc/assets/161634139/7711ace8-add0-40c5-bfac-742eeed4b931
+
+| Caso de Teste | CT-18 - Verificar a validação de dados do campo "novo objetivo" |
+
+| Responsável: Maria |
+
+![teste novo objetivo - metas](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t1-pmv-ads-2024-1-e1-projequilfinanc/assets/161634139/c1df17a0-35b4-41e3-9ae2-04801f1673fe)
+
+| Caso de Teste | CT-19 - Verificar a validação de dados do campo "data" |
+
+| Responsável: Maria |
+
+![teste data - metas](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t1-pmv-ads-2024-1-e1-projequilfinanc/assets/161634139/258c9120-4a4c-40ee-a9b0-060ed1d1fc15)
+
+| Caso de Teste | CT-20 - Verificar a validação de dados do campo "membro" |
+
+| Responsável: Maria |
+
+![teste membro - metas](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t1-pmv-ads-2024-1-e1-projequilfinanc/assets/161634139/c1ac8574-11da-4145-bc7c-81caaf1727a5)
+
+| Caso de Teste | CT-21 - Verificar a validação de dados do campo "valor" |
+
+| Responsável: Maria |
+
+![teste valor do objetivo - metas](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t1-pmv-ads-2024-1-e1-projequilfinanc/assets/161634139/eaee914e-84d4-4b09-9bdc-10b68fa75408)
+
+| Caso de Teste | CT-22 - Verificar a validação de dados do campo "descrição" |
+
+| Responsável: Maria |
+
+![teste descrição - metas](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t1-pmv-ads-2024-1-e1-projequilfinanc/assets/161634139/98b8c36e-43af-43a7-8f80-7d6a4fc19131)
+
 | Caso de Teste | CT-43 - Verificar a visualização da descrição de valores do gráfico |
 
 | Responsável: Marcella |
