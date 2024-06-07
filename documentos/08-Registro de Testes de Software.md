@@ -28,7 +28,41 @@ https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t1-pmv-ads-
 
 ![Saving Cash - Google Chrome 07_06_2024 17_43_18](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t1-pmv-ads-2024-1-e1-projequilfinanc/assets/161634139/bda8074b-ad2a-4b17-a62e-e2d44cb45122)
 
+| Caso de Teste | CT-10 - Verificar o funcionamento do cadastro de despesas |
 
+| Responsável: Maria |
+
+https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t1-pmv-ads-2024-1-e1-projequilfinanc/assets/161634139/d720cead-65fa-4cbe-a86c-9432ac320945
+
+| Caso de Teste | CT-11 - Verificar a validação de dados do campo "valor" |
+
+| Responsável: Maria |
+
+![teste valor - despesas](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t1-pmv-ads-2024-1-e1-projequilfinanc/assets/161634139/7c656c59-922e-4dc0-8d69-53417da64038)
+
+| Caso de Teste | CT-12 - Verificar a validação de dados do campo "categoria" |
+
+| Responsável: Maria |
+
+![teste categoria - despesas](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t1-pmv-ads-2024-1-e1-projequilfinanc/assets/161634139/d1472cf5-51ff-4dee-ad0a-e53cb8f27389)
+
+| Caso de Teste | CT-13 - Verificar a validação de dados do campo "membro" |
+
+| Responsável: Maria |
+
+![teste membro - despesas](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t1-pmv-ads-2024-1-e1-projequilfinanc/assets/161634139/5fed668c-70aa-4b88-827a-6349e5733ae9)
+
+| Caso de Teste | CT-14 - Verificar a validação de dados do campo "vencimento" |
+
+| Responsável: Maria |
+
+![teste data - despesas](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t1-pmv-ads-2024-1-e1-projequilfinanc/assets/161634139/69a706ee-ebc7-4cd8-810c-95ed85fabb44)
+
+| Caso de Teste | CT-15 - Verificar a validação de dados do campo "descrição" |
+
+| Responsável: Maria |
+
+![teste descrição - despesas](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t1-pmv-ads-2024-1-e1-projequilfinanc/assets/161634139/e53a63d3-3d9c-4958-afc2-0576442f5de8)
 
 | Caso de Teste | CT-43 - Verificar a visualização da descrição de valores do gráfico |
 
