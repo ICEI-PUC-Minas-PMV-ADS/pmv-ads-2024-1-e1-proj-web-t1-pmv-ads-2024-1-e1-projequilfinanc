@@ -5,10 +5,10 @@ Pré-requisitos: [Projeto de Interface](https://github.com/ICEI-PUC-Minas-PMV-AD
 Os testes funcionais realizados na aplicação web são descritos a seguir.
 
 |Caso de Teste    | CT-00 - Teste Geral de Transição entre telas |
-| Resultados obtidos | Descrever resultados do teste  |
+
 | Responsável: Marcella |
 
 <video width="320" height="240" controls>
-  <source src="videos de testes/teste de links Gerais.mp4" type="video/mp4">
+  <source src="video de testes/teste de links Gerais.mp4" type="video/mp4">
   Seu navegador não suporta a tag de vídeo.
 </video>
