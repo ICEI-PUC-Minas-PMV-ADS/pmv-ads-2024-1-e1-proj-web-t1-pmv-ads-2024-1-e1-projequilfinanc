@@ -249,8 +249,7 @@ O acesso a tela permite que o usuário cadastre as rendas
 
 Exemplo da tela receitas:
 
-![receitas](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t1-pmv-ads-2024-1-e1-projequilfinanc/assets/164430057/2918e655-5afe-4615-a099-5f32d5ad1ec3)
-
+![receitas](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t1-pmv-ads-2024-1-e1-projequilfinanc/assets/164430057/3360ec87-39a1-43c4-939a-f59f4812187b)
 
 #### Requisito atendido
 
