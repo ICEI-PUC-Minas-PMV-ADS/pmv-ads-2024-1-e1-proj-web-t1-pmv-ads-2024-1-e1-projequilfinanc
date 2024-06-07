@@ -1,0 +1,91 @@
+{
+    "userId": {
+        "data_user": {
+            "user": "login",
+            "email": "teste@123.com",
+            "password": "12345"
+        },
+        "finance": {
+            "rent": 5000,
+            "balance": 40000,
+            "reservation": 10000,
+            "lastMoviments": {
+                "1": {
+                    "title": "Deposito",
+                    "description": "Loren ipson one two three",
+                    "amount": 2000,
+                    "type": "credit",
+                    "date": "2023-02-01"
+                },
+                "2": {
+                    "title": "Despesa",
+                    "description": "Loren ipson one two three",
+                    "amount": 2000,
+                    "type": "debit",
+                    "date": "2023-02-01"
+                },
+                "3": {
+                    "title": "Deposito",
+                    "description": "Loren ipson one two three",
+                    "amount": 2000,
+                    "type": "credit",
+                    "date": "2023-02-01"
+                },
+                "4": {
+                    "title": "Despesa",
+                    "description": "Loren ipson one two three",
+                    "amount": 2000,
+                    "type": "debit",
+                    "date": "2023-02-01"
+                },
+                "5": {
+                    "title": "Despesa",
+                    "description": "Loren ipson one two three",
+                    "amount": 2000,
+                    "type": "debit",
+                    "date": "2023-02-01"
+                },
+                "6": {
+                    "title": "Deposito",
+                    "description": "Loren ipson one two three",
+                    "amount": 2000,
+                    "type": "credit",
+                    "date": "2023-02-01"
+                },
+                "7": {
+                    "title": "Despesa",
+                    "description": "Loren ipson one two three",
+                    "amount": 2000,
+                    "type": "debit",
+                    "date": "2023-02-01"
+                }
+            }
+        }
+    },
+    "userId2": {
+        "data_user": {
+            "user": "login",
+            "email": "teste@123.com",
+            "password": "12345"
+        },
+        "finance": {
+            "rent": 5000,
+            "balance": 40000,
+            "reservation": 10000,
+            "lastMoviments": {
+                "1": {
+                    "title": "Deposito",
+                    "description": "Loren ipson one two three",
+                    "amount": 2000,
+                    "type": "credit"
+                },
+                "2": {
+                    "title": "Despesa",
+                    "description": "Loren ipson one two three",
+                    "amount": 2000,
+                    "type": "debit"
+                }
+            }
+        }
+    }
+}

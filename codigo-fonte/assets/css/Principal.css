@@ -190,25 +190,62 @@ main nav a:hover{
 }
 .col {
     width: 50vh;
-    height: 6rem;
+    height: 7rem;
     background-color: #F5F5F5;
     border-radius: 8px;
 }
 /* Line two */
 .c-one {
-    height: 200px;
     width: 150vh;
+    height: 16rem;
 }
 .c-two {
     width: 100vh;
-    height: 200px;
+    height: 16rem;
 }
 /* Line three */
 .c-three {
     width: 80vh;
+    height: 10rem;
 }
 .c-four {
     width: 80vh;
+    height: 10rem;
+}
+/* Tabeles */
+table {
+    height: 80px;
+    width: 100%;
+    border-collapse: collapse;
+}
+tbody {
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+    width: 100%;
+    height: 100px;
+    font-size: 15px;
+    color: #989b9a;
+}
+#lastMoviments > tbody {
+    height: 12rem;
+}
+td {
+    padding: 0.5rem 0;
+    border-bottom: 1px solid #e8e9e9;
+    padding: 1rem; 
+    width: 20%;
+}
+tr:hover {
+    cursor: pointer;
+    background-color: rgb(217, 219, 218);
+}
+#graphic {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80%;
+    padding: 0 1rem;
 }
 
 /* Style Footer */
@@ -219,7 +256,7 @@ footer{
     font-family: var(--font-padrao);
     font-size: .9em;
     padding: 5px 20px 5px 20px;
- }
+}
 
 footer a{
     padding: 5px;
