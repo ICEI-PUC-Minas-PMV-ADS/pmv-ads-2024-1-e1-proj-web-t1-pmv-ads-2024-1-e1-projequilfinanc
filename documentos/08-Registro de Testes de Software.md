@@ -9,6 +9,6 @@ Os testes funcionais realizados na aplicação web são descritos a seguir.
 | Responsável: Marcella |
 
 <video width="320" height="240" controls>
-  <source src="caminho/para/o/video.mp4" type="video/mp4">
+  <source src="videos de testes/teste de links Gerais.mp4" type="video/mp4">
   Seu navegador não suporta a tag de vídeo.
 </video>
