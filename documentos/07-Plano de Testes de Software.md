@@ -882,9 +882,71 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
    </td>
   <td>Não preenchendo o campo "Senha" o usuário verá na tela uma mensagem "Preencha este campo!". Não preenchendo o campo "Senha" no padrão correto de uma 6 caracteres o usuário verá na tela uma mensagem "a senha precisa conter no minimo 6 caracteres".</td>
   <td>Vitor hugo</td>
+
+ <tr>
+  <td>CT-40: Verificar o funcionamento dos links da página  Vizualizar Metas</td>
+  <td>
+   <ul>
+    <li> RF-01: O sistema deve permitir que o usuário cadastre uma conta.</li>
+    <li>RF-02:	O site deve permitir ao usuário fazer o login da sua conta.</li>
+   </ul>
+  </td>
+  <td>Verificar se os links da página Vizualizar metas estão encaminhando para as respectivas páginas corretamente</td>
+  <td>
+   <ol>
+    <li>Acessar o navegador.</li>
+    <li>Informar o endereço do site.</li>
+    <li>Visualizar a pagina Vizualizar metas .</li>
+    <li>Clicar nos links da Vizualizar metas </li>
+   </ol>
+   </td>
+  <td>Todos os links da página Vizualizar metas  devem encaminhar os usuários para as páginas descritas.</td>
+  <td>Vitor Hugo</td>
+ </tr>
+
+ <tr>
+  <td>CT-41: Verificar a funcionalidade de excluir a meta </td>
+  <td>
+   <ul>
+    <li> RF-22: O sistema deve permitir que o usuário consiga excluir as metas erradas ou indesejadas</li>
+   </ul>
+  </td>
+  <td>Verificar se botão da página Vizualizar metas está excluindo as metas indesejadas</td>
+  <td>
+   <ol>
+    <li>Acessar o navegador.</li>
+    <li>Informar o endereço do site.</li>
+    <li>Visualizar a pagina Vizualizar metas .</li>
+    <li>Clicar no botão com îcone de lixeira </li>
+   </ol>
+   </td>
+  <td>O botão com îcone de lixeira deverá excluir a meta que o usuário escolheu.</td>
+  <td>Vitor Hugo</td>
+ </tr>
+
+ <tr>
+  <td>CT-42: Verificar a funcionalidade do botão de meta concluida </td>
+  <td>
+   <ul>
+    <li> RF-23: O sistema deve permitir que o usuário consiga finazlizar suas metas alcançadas</li>
+   </ul>
+  </td>
+  <td>Verificar se botão de finalizar metas está concluindo as metas alcançadas </td>
+  <td>
+   <ol>
+    <li>Acessar o navegador.</li>
+    <li>Informar o endereço do site.</li>
+    <li>Visualizar a pagina Vizualizar metas.</li>
+    <li>Clicar no botão com o îcone finalizar.</li>
+   </ol>
+   </td>
+  <td>O botão com icône de finalizar deverá finalizar a meta que o usuário escolheu.</td>
+  <td>Vitor Hugo</td>
+ </tr>
+
  </tr>
  <tr>
-  <td>CT-XX: Verificar descrição de valores do gráfico.</td>
+  <td>CT-43: Verificar descrição de valores do gráfico.</td>
   <td>
    <ul>
    <li>RF-10	O sistema deve mostrar as movimentações financeiras.</li>
@@ -905,7 +967,7 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
   <td>Hugo</td>
  </tr>
  <tr>
-  <td>CT-XX: Apresentar valores de renda, salvo e reserva emergencial.</td>
+  <td>CT-44: Apresentar valores de renda, salvo e reserva emergencial.</td>
   <td>
    <ul>
    <li>RF-10	O sistema deve mostrar as movimentações financeiras.</li>
@@ -927,7 +989,7 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
  </tr>
 
  <tr>
-  <td>CT-XX: Verificar últimas movimentações.</td>
+  <td>CT-45: Verificar últimas movimentações.</td>
   <td>
    <ul>
    <li>RF-10	O sistema deve mostrar as movimentações financeiras.</li>
@@ -947,7 +1009,7 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
  </tr>
 
  <tr>
-  <td>CT-XX: Verificar receitas.</td>
+  <td>CT-46: Verificar receitas.</td>
   <td>
    <ul>
    <li>RF-10	O sistema deve mostrar as movimentações financeiras.</li>
@@ -968,7 +1030,7 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
  </tr>
 
  <tr>
-  <td>CT-XX: Verificar despesas.</td>
+  <td>CT-47: Verificar despesas.</td>
   <td>
    <ul>
    <li>RF-10	O sistema deve mostrar as movimentações financeiras.</li>
@@ -989,7 +1051,7 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
  </tr>
 
  <tr>
-  <td>CT-XX: Verificar se os links de redirecionamento estão encaminhando para as respectivas páginas corretamente</td>
+  <td>CT-48: Verificar se os links de redirecionamento estão encaminhando para as respectivas páginas corretamente</td>
   <td>
    <ul>
     <li>RF-01: O site deve permitir ao usuário cadastrar uma conta.</li>
@@ -1011,7 +1073,7 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
 
 
  <tr>
-  <td>CT-46: Verificar se durante o cadastro, todos os campos foram preenchidos de forma correta.</td>
+  <td>CT-49: Verificar se durante o cadastro, todos os campos foram preenchidos de forma correta.</td>
   <td>
    <ul>
     <li>RF-01: O site deve permitir ao usuário cadastrar uma conta.</li>
@@ -1033,7 +1095,7 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
  </tr>
 
  <tr>
-  <td>CT-47: Verificar a adição de receitas</td>
+  <td>CT-50: Verificar a adição de receitas</td>
   <td>
    <ul>
     <li>RF-14:	O sistema deve permitir o cadastro de receitas fixas e variavéis.</li>

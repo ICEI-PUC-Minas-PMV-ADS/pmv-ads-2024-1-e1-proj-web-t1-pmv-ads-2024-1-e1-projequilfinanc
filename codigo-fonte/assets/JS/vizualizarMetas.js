@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', (event) => {
     // Recupera o campo de metas
-
+    checkUserState()
     // Recupera as metas do localStorage
     const metas = JSON.parse(localStorage.getItem('metas')) || [];
 
@@ -44,7 +44,7 @@ function criarElementoMeta(meta) {
             <p id="valor_objetivo">Valor: <span>${meta.valor}</span></p>
             <div class="actios_goals">
                 <button id="apagar_objetivos" onclick="apagarMeta('${meta.id}')"><i class="bi bi-trash"></i></button>
-                <button id="marcar_objetivo" onclick="mudarCor('${meta.id}')"><i class="bi bi-check-all"></i></button>
+                <button id="marcar_objetivo" onclick="mudarCor('${meta.id}')"><i class="bi bi-check-all" style="color: ${meta.finish ? '#7A67EE' : 'grey'} "></i></button>
             </div>
         </div>
     `;
@@ -103,4 +103,35 @@ function apagarMeta(id) {
 console.log(id)
     // Exibe as metas atualizadas na página
     exibirMetas(metas);
+}
+
+function mudarCor(id){
+    console.log(`muda cor: ${id}`)
+    let metas = JSON.parse(localStorage.getItem('metas')) ?? [];
+    metas = metas.map(meta => {
+        if(meta.id == id){
+            return {
+                ...meta,
+                finish: !(meta.finish ?? false)
+            }
+        }
+
+        return meta
+    });
+
+    localStorage.setItem('metas', JSON.stringify(metas));
+    exibirMetas(metas);
+}
+
+
+function checkUserState(){
+    const userName = localStorage.getItem('name');
+    const userEmail = localStorage.getItem('email')
+    const userPass = localStorage.getItem('senha')
+
+    if(!userName || !userEmail || !userPass){
+        alert('Usuário inválido, se cadastre primeiro para continuar')
+        document.location.href = 'Login.html'
+
+    }
 }

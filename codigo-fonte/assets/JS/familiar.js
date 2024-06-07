@@ -57,7 +57,7 @@ document.addEventListener("DOMContentLoaded", function() {
         
     // Enviar o formulário
         // DadosFamiliares.submit();
-        alert("cadastro realizado com sucesso")
+        alert("cadastro realizado com sucesso !!")
     });
     // Função para validar números de telefone
     function TelefonesValidados(telefones) {
@@ -82,4 +82,13 @@ document.addEventListener("DOMContentLoaded", function() {
     }
 });
 
+document.addEventListener('DOMContentLoaded', function () {
+    // checkUserState()
+    
+    const nome = localStorage.getItem('name');
+    if (nome) {
+        const usuarioElement = document.getElementById('mensagem');
+        usuarioElement.textContent = `Olá, ${nome}!`;
+    }
 
+});
