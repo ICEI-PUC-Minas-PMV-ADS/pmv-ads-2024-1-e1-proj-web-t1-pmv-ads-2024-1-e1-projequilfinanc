@@ -10,7 +10,7 @@ Os testes funcionais realizados na aplicação web são descritos a seguir.
 
 https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t1-pmv-ads-2024-1-e1-projequilfinanc/assets/164430057/679c3532-7b3b-4916-9686-cf1ef9f5d310
 
-| Caso de Teste | CT-43 - Verificar descrição de valores do gráfico |
+| Caso de Teste | CT-43 - Verificar a visualização da descrição de valores do gráfico |
 
 | Responsável: Marcella |
 
@@ -23,19 +23,19 @@ https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t1-pmv-ads-
 
 ![valores de renda](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t1-pmv-ads-2024-1-e1-projequilfinanc/assets/164430057/1666f0a5-62da-4ac7-8efd-25c2b939945f)
 
-| Caso de Teste | CT-45 - Verificar últimas movimentações |
+| Caso de Teste | CT-45 - Verificar as últimas movimentações |
 
 | Responsável: Marcella |
 
 ![ultimas modificações](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t1-pmv-ads-2024-1-e1-projequilfinanc/assets/164430057/ab308214-c1fa-4169-ac50-4494f99cdb9e)
 
-| Caso de Teste | CT-46 - Verificar receitas |
+| Caso de Teste | CT-46 - Verificar a visualização das receitas |
 
 | Responsável: Marcella |
 
 ![verificar receitas](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t1-pmv-ads-2024-1-e1-projequilfinanc/assets/164430057/3a0f26a9-6167-43bd-ac02-dcdc98085e6e)
 
-| Caso de Teste | CT-47 - Verificar despesas |
+| Caso de Teste | CT-47 - Verificar a visualização das despesas |
 
 | Responsável: Marcella |
 
