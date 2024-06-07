@@ -29,7 +29,7 @@ O acesso a tela de login permite que o usuário realize o login de sua conta.
 
 Exemplo da tela de login
 
-![login](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t1-pmv-ads-2024-1-e1-projequilfinanc/assets/164430057/cdd1624b-d81b-44d0-b23f-0c268a00c9ea)
+![login](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t1-pmv-ads-2024-1-e1-projequilfinanc/assets/164430057/78efc87c-62da-46e5-b406-e578e124bc09)
 
 #### Requisito atendido
 
