@@ -10,6 +10,12 @@ Os testes funcionais realizados na aplicação web são descritos a seguir.
 
 https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t1-pmv-ads-2024-1-e1-projequilfinanc/assets/164430057/679c3532-7b3b-4916-9686-cf1ef9f5d310
 
+|Caso de Teste  | CT-01 - Verificar o funcionamento dos Links da pagina Home page |
+
+| Responsável: Vitor hugo|
+
+https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t1-pmv-ads-2024-1-e1-projequilfinanc/assets/102324807/fa096c77-2ff2-4b8a-a8ec-32ebdf880dfa
+
 | Caso de Teste | CT-03 - Verificar o funcionamento do cadastro de conta |
 
 | Responsável: Maria |
@@ -27,6 +33,28 @@ https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t1-pmv-ads-
 | Responsável: Maria |
 
 ![Saving Cash - Google Chrome 07_06_2024 17_43_18](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t1-pmv-ads-2024-1-e1-projequilfinanc/assets/161634139/bda8074b-ad2a-4b17-a62e-e2d44cb45122)
+
+| Caso de Teste | CT-06 - Verificar se os cálculos estão sendo feitos corretamente |
+
+| Responsável: Vitor Hugo |
+
+![WhatsApp Image 2024-06-07 at 14 18 01](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t1-pmv-ads-2024-1-e1-projequilfinanc/assets/102324807/d7d37a73-0e03-4ff9-bc06-446a188243b2)
+
+| Caso de Teste | CT-07 - Verificar se os dados foram inseridos corretamente corretamente |
+
+| Responsável: Vitor Hugo |
+
+![WhatsApp Image 2024-06-07 at 14 18 47](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t1-pmv-ads-2024-1-e1-projequilfinanc/assets/102324807/f81b0ffd-3695-4c44-b47c-4c66331e9706)
+
+![WhatsApp Image 2024-06-07 at 14 12 03](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t1-pmv-ads-2024-1-e1-projequilfinanc/assets/102324807/da5ef5db-820a-408c-a1db-0f965bf400a6)
+
+![WhatsApp Image 2024-06-07 at 14 12 23 (1)](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t1-pmv-ads-2024-1-e1-projequilfinanc/assets/102324807/c18d7454-c277-4c75-b06a-affc791250f1)
+
+| Caso de Teste | CT-08 - Verificar se os dados preechidos são positivos|
+
+| Responsável: Vitor Hugo |
+
+![WhatsApp Image 2024-06-07 at 14 20 08](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t1-pmv-ads-2024-1-e1-projequilfinanc/assets/102324807/de9688f2-3894-41e7-9707-9c5b809edfcd)
 
 | Caso de Teste | CT-10 - Verificar o funcionamento do cadastro de despesas |
 
