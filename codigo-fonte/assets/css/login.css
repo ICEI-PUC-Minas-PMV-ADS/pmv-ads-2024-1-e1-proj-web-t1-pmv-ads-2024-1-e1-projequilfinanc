@@ -22,7 +22,7 @@
 }
 
 body {
-  background-image: url(/codigo-fonte/assets/images/Background.png);
+  background-image: url("/GUIGAS/pmv-ads-2024-1-e1-proj-web-t1-pmv-ads-2024-1-e1-projequilfinanc-main/codigo-fonte/assets/images/Background.png");
   background-color: #cbd3d1;
   font-family: var(--font-padrao);  
   height: 100px;
@@ -228,6 +228,10 @@ footer a {
   text-decoration: none;
 }
 
+footer a:hover {
+  text-decoration: underline;
+  color: var(--cor3);
+}
 footer a:hover {
   text-decoration: underline;
   color: var(--cor3);
