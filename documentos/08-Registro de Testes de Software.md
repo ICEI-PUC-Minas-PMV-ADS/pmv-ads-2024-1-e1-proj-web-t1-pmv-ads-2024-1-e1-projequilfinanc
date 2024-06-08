@@ -224,17 +224,17 @@ https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t1-pmv-ads-
 
 ![Captura de Tela (70)](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t1-pmv-ads-2024-1-e1-projequilfinanc/assets/22732544/3093113b-7f1b-4372-bdc1-0faafd129125)
 
-| Caso de Teste | CT-40: Verificar o funcionamento dos links da página  Vizualizar Metas |
-
-| Responsável: Woton |
-
-????
-
 | Caso de Teste | CT-41: Verificar a funcionalidade de excluir a meta |
 
 | Responsável: Woton |
 
+https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t1-pmv-ads-2024-1-e1-projequilfinanc/assets/22732544/fe461e05-c956-4ca3-baaa-8718f1f4ec91
 
+| Caso de Teste | CT-42: Verificar a funcionalidade do botão de meta concluida |
+
+| Responsável: Woton |
+
+https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t1-pmv-ads-2024-1-e1-projequilfinanc/assets/22732544/c6751e98-c455-46d4-be20-2248a9f04603
 
 | Caso de Teste | CT-43 - Verificar a visualização da descrição de valores do gráfico |
 
