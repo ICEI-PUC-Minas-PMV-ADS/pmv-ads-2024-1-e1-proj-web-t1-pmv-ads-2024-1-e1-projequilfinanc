@@ -1073,44 +1073,94 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
 
 
  <tr>
-  <td>CT-49: Verificar se durante o cadastro, todos os campos foram preenchidos de forma correta.</td>
+  <td>CT-49: Verificar o funcionamento do Cadastro de Perfil após o cadastro de conta.</td>
   <td>
    <ul>
-    <li>RF-01: O site deve permitir ao usuário cadastrar uma conta.</li>
-    <li>RF-21: O sistema deve verificar se há obrigatoriedade de preenchimento do campo.</li>
-<li>RF-13: O sistema deve permitir o cadastro de dados individuais e familiar.</li>
+    <li>RF-01: O sistema deve permitir que o usuário cadastre uma conta.</li>
+    <li>RF-13: O sistema deve permitir o cadastro de dados individuais e familiar.</li>
    </ul>
   </td>
-  <td>Verificar se durante o cadastro, todos os campos foram preenchidos de forma correta.</td>
+  <td>Verificar se preenchendo os dados corretamente será possível criar um perfil.</td>
   <td>
    <ol>
     <li>Acessar o navegador.</li>
-    <li>Iniciar um cadastro de um usuário.</li>
-    <li>Preencher nome, email, senha e seguir para próxima página.</li>
-    <li>Informar renda e membros da família caso haja.</li>
+    <li>Informar o endereço do site.</li>
+    <li>Visualizar a página Cadastro.</li>
+    <li>Preencher os dados corretamente para criar uma conta.</li>
+    <li>Clicar em cadastrar.</li>
+    <li>Preencher os dados corretamente para criar um perfil.</li>
+    <li>Clicar em próximo.</li>
    </ol>
    </td>
-  <td>Todos os campos obrigatórios foram preenchidos</td>
+  <td>Ao cadastrar um perfil e clicar em próximo, o sistema deve mostrar uma mensagem "Perfil cadastro com sucesso!" e encaminhar o usuário para a próxima página.</td>
   <td>Woton Sampaio</td>
  </tr>
 
  <tr>
-  <td>CT-50: Verificar a adição de receitas</td>
+  <td>CT-50: Verificar a validação dos dados preenchidos da tela de cadastro de perfil.</td>
   <td>
    <ul>
-    <li>RF-14:	O sistema deve permitir o cadastro de receitas fixas e variavéis.</li>
+    <li>RF-01: O sistema deve permitir que o usuário cadastre uma conta.</li>
+    <li>RF-13: O sistema deve permitir o cadastro de dados individuais e familiar.</li>
+    <li>RF-21: O sistema deve verificar se há obrigatoriedade de preenchimento do campo.</li>
    </ul>
   </td>
-  <td>Verificar a adição de receitas</td>
+  <td>Verificar a validação dos dados, se não preencher todos o usuário não conseguirá passar para a próxima página.</td>
   <td>
    <ol>
-    <li>Logar numa conta existente.</li>
-    <li>Entrar na aba de adição de receitas.</li>
-    <li>Informar os dados requisitados e clicar em adicionar.</li>
+    <li>Acessar o navegador.</li>
+    <li>Informar o endereço do site.</li>
+    <li>Visualizar a página Cadastro.</li>
+    <li>Preencher os dados corretamente para criar uma conta.</li>
+    <li>Clicar em cadastrar.</li>
+    <li>Não preencher os dados necessários.</li>
+    <li>Clicar em próximo.</li>
    </ol>
    </td>
-  <td>Dados informados foram salvos corretamente no localStorage</td>
+  <td>Caso não preencha todos os dados irá mostrar uma mensagem com a seguinte informação "Por favor, preencha todos os campos.".</td>
   <td>Woton Sampaio</td>
  </tr>
-
+ <tr>
+  <td>CT-51: Verificar o funcionamento do cadastro de receitas</td>
+  <td>
+   <ul>
+    <li>RF-14: O sistema deve permitir o cadastro de receitas fixas e variavéis.</li>
+   </ul>
+  </td>
+  <td>Verificar se ao colocar todos os dados o usuário consegue cadastrar corretamente suas receitas.</td>
+  <td>
+   <ol>
+    <li>Acessar o navegador.</li>
+    <li>Informar o endereço do site.</li>
+    <li>Visualizar a página de Receitas.</li>
+    <li>Preencher todos os dados necessários.</li>
+    <li>Clicar em enviar</li>
+   </ol>
+   </td>
+  <td>Preenchendo todos os dados o usuário verá na tela uma mensagem "Cadastro de receitas enviado com sucesso!" indicando que está tudo correto e que foi enviado o formulário.</td>
+  <td>Woton Sampaio</td>
+ </tr>
+ <tr>
+  <td>CT-52: Verificar a validação de dados dos campos "valor", "categoria" e "descrição".</td>
+  <td>
+   <ul>
+    <li>RF-14: O sistema deve permitir o cadastro de receitas fixas e variavéis.</li>
+    <li>RF-21: O sistema deve verificar se há obrigatoriedade de preenchimento do campo.</li>
+   </ul>
+  </td>
+  <td>Verificar a validação dos dados, se não preencher os campos "valor", "categoria" ou "descrição" não será possível enviar o fomulário.</td>
+  <td>
+   <ol>
+    <li>Acessar o navegador.</li>
+    <li>Informar o endereço do site.</li>
+    <li>Visualizar a página de Receitas.</li>
+    <li>Não preencher campo "Valor".</li>
+    <li>Não selecionar uma "Categoria".</li>
+    <li>Não preencher campo "Descrição".</li>
+    <li>Clicar em enviar</li>
+   </ol>
+   </td>
+  <td>Não preenchendo os campos "valor", "categoria" ou "descrição" o usuário verá na tela uma mensagem "Preencha este campo!".</td>
+  <td>Woton Sampaio</td>
+ </tr>
 </table>
