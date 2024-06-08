@@ -1117,7 +1117,7 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
     <li>Clicar em próximo.</li>
    </ol>
    </td>
-  <td>Caso não preencha todos os dados irá mostrar uma mensagem com a seguinte informação "Por favor, preencha todos os campos.".</td>
+  <td>Caso não preencha todos os dados irá mostrar uma mensagem com a seguinte informação "Preencha este campo!".</td>
   <td>Woton Sampaio</td>
  </tr>
  <tr>

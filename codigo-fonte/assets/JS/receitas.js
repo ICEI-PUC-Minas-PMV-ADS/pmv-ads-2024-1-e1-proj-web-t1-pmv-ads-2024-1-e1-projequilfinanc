@@ -13,7 +13,7 @@ document.addEventListener('DOMContentLoaded', function() {
         const desc = document.getElementById('desc').value;
 
         if (valor && categoria && usuario && tipo && desc) {
-            alert('Cadastro de despesas enviado com sucesso!');
+            alert('Cadastro de receitas enviado com sucesso!');
             const receitas = JSON.parse(localStorage.getItem('receitas') ?? '[]')
             receitas.push({
                 "value": valor,

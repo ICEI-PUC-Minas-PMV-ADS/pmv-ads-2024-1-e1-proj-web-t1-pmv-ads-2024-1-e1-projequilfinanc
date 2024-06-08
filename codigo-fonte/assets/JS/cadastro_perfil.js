@@ -81,6 +81,7 @@ function finish(){
         "value": value.value,
     }))
 
+    alert('Perfil cadastro com sucesso!')
     document.location.href = 'Principal.html'
 }
 
