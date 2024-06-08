@@ -11,7 +11,7 @@ btn.addEventListener('click', ()=>{
 })
 
 function entrar(){
-  let usuario = document.querySelector('#usuario')
+  let email = document.querySelector('#email')
   let userLabel = document.querySelector('#userLabel')
   
   let senha = document.querySelector('#senha')
@@ -22,26 +22,26 @@ function entrar(){
   
   let userValid = {
     nome: '',
-    user: '',
+    email: '',
     senha: ''
   }
   
-  listaUser = JSON.parse(localStorage.getItem('listaUser'))
+  listaUser = JSON.parse(localStorage.getItem('esg_pincho1'))
   
-  listaUser.forEach((item) => {
-    if(usuario.value == item.userCad && senha.value == item.senhaCad){
+/*   listaUser.forEach((item) => {
+    if(email.value == item.userCad && senha.value == item.senhaCad){
        
       userValid = {
-         nome: item.nomeCad,
+         email: item.nomeCad,
          user: item.userCad,
          senha: item.senhaCad
        }
       
     }
-  })
+  }) */
    
-  if(usuario.value == userValid.user && senha.value == userValid.senha){
-    window.location.href = '../../index.html'
+  if(email.value === listaUser.data_user.email && senha.value === listaUser.data_user.senha){
+    window.location.href = 'Principal.html'
     
     let mathRandom = Math.random().toString(16).substr(2)
     let token = mathRandom + mathRandom
@@ -50,12 +50,12 @@ function entrar(){
     localStorage.setItem('userLogado', JSON.stringify(userValid))
   } else {
     userLabel.setAttribute('style', 'color: red')
-    usuario.setAttribute('style', 'border-color: red')
+    email.setAttribute('style', 'border-color: red')
     senhaLabel.setAttribute('style', 'color: red')
     senha.setAttribute('style', 'border-color: red')
     msgError.setAttribute('style', 'display: block')
     msgError.innerHTML = 'Usuário ou senha incorretos'
-    usuario.focus()
+    email.focus()
   }
   
 }

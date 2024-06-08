@@ -71,26 +71,32 @@ function createMemberInput(idx = 0, labelText, value, type = 'text', onChange){
     return form
 }
 
-document.addEventListener('DOMContentLoaded', function() {
-    const form = document.getElementById('formulario');
-
-    form.addEventListener('submit', function(event) {
-        event.preventDefault();
-        finish()
-    });
-})
-
 function finish(){
     const profileType = document.getElementById('perfil')
     const value = document.getElementById('valor')
 
-    localStorage.setItem('user_profile', JSON.stringify({
+    const data = getUserData()
+    const userId = 'esg_pincho1'
+
+    if (parseInt(profileType.value )=== 2) {
+        data.profile.type = 'Familiar'
+        data.profile.parent = members
+        data.finance.rent = value.value
+        data.finance.balance = value.value
+    } else {
+        data.profile.type = 'Individual'
+        data.finance.rent = value.value
+        data.finance.balance = value.value
+    }
+
+    localStorage.setItem(userId, JSON.stringify(data))
+
+    /* localStorage.setItem('user_profile', JSON.stringify({
         "members": parseInt(profileType.value) === 2 ? members : [],
         "profile": profileType.value,
         "value": value.value,
-    }))
+    })) */
 
-    alert('Perfil cadastro com sucesso!')
     document.location.href = 'Principal.html'
 }
 
@@ -100,14 +106,13 @@ function addMembers(){
 }
 
 document.addEventListener('DOMContentLoaded', function () {
-        checkUserState()
+        // checkUserState()
         showElements();
+        let usuarioElement = document.getElementById('usuario')
         
-        const nome = localStorage.getItem('name');
-        if (nome) {
-            const usuarioElement = document.getElementById('usuario');
-            usuarioElement.textContent = `Olá, ${nome}!`;
-        }
+        const data = getUserData();
+        console.log(data)
+        usuarioElement.textContent = `Olá, ${data.data_user.nome}!`;
 
 });
 
@@ -121,4 +126,22 @@ function checkUserState(){
         document.location.href = 'Login.html'
 
     }
+}
+
+// Gerando ID apartir do total de itens no localStorage
+function countIdsInLocalStorage() {
+    let lastKey = 0
+    let keys = Object.keys(localStorage);
+    if (keys.length === 0) {
+        return lastKey += 1;
+    }
+    keys.sort();
+    lastKey = keys[keys.length - 1];
+    return lastKey
+}
+
+// Pegar o ultimo ID cadastrado
+function getUserData() {
+    const data = localStorage.getItem('esg_pincho1');
+    return data ? JSON.parse(data) : null;
 }
