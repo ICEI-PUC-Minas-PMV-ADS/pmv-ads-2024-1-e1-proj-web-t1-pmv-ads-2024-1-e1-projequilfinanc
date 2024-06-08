@@ -128,6 +128,114 @@ https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t1-pmv-ads-
 
 ![teste descrição - metas](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t1-pmv-ads-2024-1-e1-projequilfinanc/assets/161634139/98b8c36e-43af-43a7-8f80-7d6a4fc19131)
 
+| Caso de Teste | CT-24 - Verificar a validação de dados do campo "Nome" |
+
+| Responsável: Woton |
+
+![Captura de Tela (47)](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t1-pmv-ads-2024-1-e1-projequilfinanc/assets/22732544/3ae49a17-52c8-41d0-8fdd-9db014979961)
+
+| Caso de Teste | CT-25: Verificar a validação de dados do campo "sobrenome" |
+
+| Responsável: Woton |
+
+![Captura de Tela (48)](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t1-pmv-ads-2024-1-e1-projequilfinanc/assets/22732544/714e112d-b513-4fa9-a724-e651ce3bff2e)
+
+| Caso de Teste | CT-26: Verificar a validação de dados do campo "telefone" |
+
+| Responsável: Woton |
+
+![Captura de Tela (49)](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t1-pmv-ads-2024-1-e1-projequilfinanc/assets/22732544/599edfd7-cec1-4751-ba94-74e36933d95d)
+
+| Caso de Teste | CT-27: Verificar a validação de dados do campo "dd/mm/aaaa" |
+
+| Responsável: Woton |
+
+![Captura de Tela (53)](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t1-pmv-ads-2024-1-e1-projequilfinanc/assets/22732544/afcb5f78-7ad9-42d7-8e77-dba23c5a600d)
+
+| Caso de Teste | CT-28: Verificar a validação de dados do campo "E-mail" |
+
+| Responsável: Woton |
+
+![Captura de Tela (55)](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t1-pmv-ads-2024-1-e1-projequilfinanc/assets/22732544/9c47f296-2c7a-44b3-93f3-f0665deca05e)
+
+| Caso de Teste | CT-29: Verificar a validação de dados do campo "Senha" |
+
+| Responsável: Woton |
+
+![Captura de Tela (57)](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t1-pmv-ads-2024-1-e1-projequilfinanc/assets/22732544/7abcff8f-41e2-4861-ae60-bd6ed5761ef1)
+
+| Caso de Teste | CT-30: Verificar a validação de dados do campo "Membro 1" |
+
+| Responsável: Woton |
+
+![Captura de Tela (59)](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t1-pmv-ads-2024-1-e1-projequilfinanc/assets/22732544/00beb9d2-6726-4598-8348-1ab90dec4370)
+
+| Caso de Teste | CT-31: Verificar a validação de dados do campo "telefone membro 1" |
+
+| Responsável: Woton |
+
+![Captura de Tela (60)](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t1-pmv-ads-2024-1-e1-projequilfinanc/assets/22732544/79be62bc-4511-4584-9b0e-eded6c37ba89)
+
+| Caso de Teste | CT-32: Verificar a validação de dados do campo "Membro 2". |
+
+| Responsável: Woton |
+
+![Screenshot_59](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t1-pmv-ads-2024-1-e1-projequilfinanc/assets/22732544/bbbbfc15-e6bc-403c-81bc-204af3a5c352)
+
+| Caso de Teste | CT-33: Verificar a validação de dados do campo "telefone membro 2" |
+
+| Responsável: Woton |
+
+![Captura de Tela (51)](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t1-pmv-ads-2024-1-e1-projequilfinanc/assets/22732544/9af7ba20-443f-489c-8cf7-31e02c32566a)
+
+| Caso de Teste | CT-34: Verificar a validação de dados do campo "Nome" |
+
+| Responsável: Woton |
+
+![Captura de Tela (62)](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t1-pmv-ads-2024-1-e1-projequilfinanc/assets/22732544/c66398ba-6131-4f08-828b-63bd47d5053f)
+
+| Caso de Teste | CT-35: Verificar a validação de dados do campo "sobrenome" |
+
+| Responsável: Woton |
+
+![Captura de Tela (63)](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t1-pmv-ads-2024-1-e1-projequilfinanc/assets/22732544/d0485a57-03bb-4b39-bce9-2a93da6bf9b8)
+
+| Caso de Teste | CT-36: Verificar a validação de dados do campo "telefone" |
+
+| Responsável: Woton |
+
+![Captura de Tela (64)](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t1-pmv-ads-2024-1-e1-projequilfinanc/assets/22732544/4d5e1ec6-655b-4c7d-a2de-772643353032)
+
+| Caso de Teste | CT-37: Verificar a validação de dados do campo "dd/mm/aaaa" |
+
+| Responsável: Woton |
+
+![Captura de Tela (65)](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t1-pmv-ads-2024-1-e1-projequilfinanc/assets/22732544/dd3003ab-19cc-44e7-b497-7c0faff76d3d)
+
+| Caso de Teste | CT-38: Verificar a validação de dados do campo "E-mail" |
+
+| Responsável: Woton |
+
+![Captura de Tela (68)](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t1-pmv-ads-2024-1-e1-projequilfinanc/assets/22732544/a8b7cbb7-c146-4047-b2a9-91fcb1cb4d60)
+
+| Caso de Teste | CT-39: Verificar a validação de dados do campo "Senha" |
+
+| Responsável: Woton |
+
+![Captura de Tela (70)](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t1-pmv-ads-2024-1-e1-projequilfinanc/assets/22732544/3093113b-7f1b-4372-bdc1-0faafd129125)
+
+| Caso de Teste | CT-40: Verificar o funcionamento dos links da página  Vizualizar Metas |
+
+| Responsável: Woton |
+
+????
+
+| Caso de Teste | CT-41: Verificar a funcionalidade de excluir a meta |
+
+| Responsável: Woton |
+
+
+
 | Caso de Teste | CT-43 - Verificar a visualização da descrição de valores do gráfico |
 
 | Responsável: Marcella |
