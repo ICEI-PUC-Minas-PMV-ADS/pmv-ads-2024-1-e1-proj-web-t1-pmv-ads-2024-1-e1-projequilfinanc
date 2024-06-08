@@ -35,37 +35,39 @@
     </article>
     <article id="quadro">
       <div id="calculo_renda">
-        <div id="renda">
-          <div class="quadrado">
-            <h3 id="usuario">Olá, NOME DE USUÁRIO!</h3>
-            <div>
-              <label for="perfil"><p>Perfil:</p></label>
-              <select id="perfil" class="select" onchange="showElements()">
-                <option value="1">Individual</option>
-                <option value="2">Familiar</option>
-              </select>
-            </div>
-
-            <div id="main">
-              <form>
-                <div class="form-group">
-                  <label for="valor">Informe sua renda</label>
-                  <input id="valor" class="input" type="number" required>
-                </div>
-              </form>
-              <div id="div_familiar">
-                <p>Membros:</p>
-                <div id="member_list">
-
-                </div>
+        <form id="formulario">
+          <div id="renda">
+            <div class="quadrado">
+              <h3 id="usuario">Olá, NOME DE USUÁRIO!</h3>
+              <div>
+                <label for="perfil"><p>Perfil:</p></label>
+                <select id="perfil" class="select" onchange="showElements()">
+                  <option value="1">Individual</option>
+                  <option value="2">Familiar</option>
+                </select>
               </div>
-              <div class="align-right">
-                <button class="btn" id="btn_member" onclick="addMembers()">Adicionar Membro</button>
-                <button class="btn" onclick="finish()">Próximo</button>
+
+              <div id="main">
+                <form>
+                  <div class="form-group">
+                    <label for="valor">Informe sua renda</label>
+                    <input id="valor" class="input" type="number" required>
+                  </div>
+                </form>
+                <div id="div_familiar">
+                  <p>Membros:</p>
+                  <div id="member_list">
+
+                  </div>
+                </div>
+                <div class="align-right">
+                  <button class="btn" id="btn_member" onclick="addMembers()">Adicionar Membro</button>
+                  <button class="btn" id="btn_finish" type="submit">Próximo</button>
+                </div>
               </div>
             </div>
           </div>
-        </div>
+        </form>
       </div>
     </article>
   </div>

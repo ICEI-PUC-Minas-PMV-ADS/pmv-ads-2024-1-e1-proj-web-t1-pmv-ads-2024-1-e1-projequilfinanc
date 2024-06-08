@@ -71,6 +71,15 @@ function createMemberInput(idx = 0, labelText, value, type = 'text', onChange){
     return form
 }
 
+document.addEventListener('DOMContentLoaded', function() {
+    const form = document.getElementById('formulario');
+
+    form.addEventListener('submit', function(event) {
+        event.preventDefault();
+        finish()
+    });
+})
+
 function finish(){
     const profileType = document.getElementById('perfil')
     const value = document.getElementById('valor')
