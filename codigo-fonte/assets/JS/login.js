@@ -40,6 +40,17 @@ function entrar(){
     }
   }) */
    
+  if(!listaUser) {
+    userLabel.setAttribute('style', 'color: red')
+    email.setAttribute('style', 'border-color: red')
+    senhaLabel.setAttribute('style', 'color: red')
+    senha.setAttribute('style', 'border-color: red')
+    msgError.setAttribute('style', 'display: block')
+    msgError.innerHTML = 'Usuário ou senha incorretos'
+    email.focus()
+    return null
+  }
+
   if(email.value === listaUser.data_user.email && senha.value === listaUser.data_user.senha){
     window.location.href = 'Principal.html'
     

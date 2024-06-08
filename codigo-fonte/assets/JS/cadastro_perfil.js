@@ -71,35 +71,33 @@ function createMemberInput(idx = 0, labelText, value, type = 'text', onChange){
     return form
 }
 
-function finish(){
+function terminar(){
     const profileType = document.getElementById('perfil')
     const value = document.getElementById('valor')
 
     const data = getUserData()
-    const userId = 'esg_pincho1'
-
+    
+    console.log(parseInt(profileType.value )=== 2)
     if (parseInt(profileType.value )=== 2) {
         data.profile.type = 'Familiar'
         data.profile.parent = members
         data.finance.rent = value.value
         data.finance.balance = value.value
+
+        localStorage.setItem('esg_pincho1', JSON.stringify(data))
+
+        document.location.href = 'Principal.html'
+
     } else {
         data.profile.type = 'Individual'
         data.finance.rent = value.value
         data.finance.balance = value.value
+
+        localStorage.setItem('esg_pincho1', JSON.stringify(data))
+
+        document.location.href = 'Principal.html'
     }
-
-    localStorage.setItem(userId, JSON.stringify(data))
-
-    /* localStorage.setItem('user_profile', JSON.stringify({
-        "members": parseInt(profileType.value) === 2 ? members : [],
-        "profile": profileType.value,
-        "value": value.value,
-    })) */
-
-    document.location.href = 'Principal.html'
 }
-
 function addMembers(){
     members.push({name: '', value: 0})
     loadMembers()
@@ -111,17 +109,17 @@ document.addEventListener('DOMContentLoaded', function () {
         let usuarioElement = document.getElementById('usuario')
         
         const data = getUserData();
-        console.log(data)
         usuarioElement.textContent = `Olá, ${data.data_user.nome}!`;
 
 });
 
 function checkUserState(){
-    const userName = localStorage.getItem('name');
+/*     const userName = localStorage.getItem('name');
     const userEmail = localStorage.getItem('email')
-    const userPass = localStorage.getItem('senha')
+    const userPass = localStorage.getItem('senha') */
+    const user = getUserData()
 
-    if(!userName || !userEmail || !userPass){
+    if(!user){
         alert('Usuário inválido, se cadastre primeiro para continuar')
         document.location.href = 'Login.html'
 

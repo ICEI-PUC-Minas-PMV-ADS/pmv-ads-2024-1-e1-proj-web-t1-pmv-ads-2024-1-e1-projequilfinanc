@@ -1,4 +1,4 @@
-document.addEventListener('DOMContentLoaded', (event) => {
+/* document.addEventListener('DOMContentLoaded', (event) => {
     loadMembers()
 })
 
@@ -23,4 +23,4 @@ function loadMembers(){
 
         usuarios.appendChild(opt)
     }
-}
+} */
