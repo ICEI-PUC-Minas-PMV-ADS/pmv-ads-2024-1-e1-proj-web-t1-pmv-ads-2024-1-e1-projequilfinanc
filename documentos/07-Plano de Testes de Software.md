@@ -1163,4 +1163,61 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
   <td>Não preenchendo os campos "valor", "categoria" ou "descrição" o usuário verá na tela uma mensagem "Preencha este campo!".</td>
   <td>Woton Sampaio</td>
  </tr>
+  <tr>
+  <td>CT-53: Verificar integração entre criação de perfil e login</td>
+  <td>
+   <ul>
+    <li>RF-01: O sistema deve permitir que o usuário cadastre uma conta.</li>
+    <li>RF-02: O sistema deve permitir que o usuário realize o login de sua conta.</li>
+   </ul>
+  </td>
+  <td>Verificar o armazenamento de informações do cadastro de conta do usuário.</td>
+  <td>
+   <ol>
+    <li>Acessar o navegador.</li>
+    <li>Realizar cadastro.</li>
+   </ol>
+   </td>
+  <td>Informações armazenadas através de local storage.</td>
+  <td>Hugo</td>
+ </tr>
+   <tr>
+  <td>CT-54: Teste de login com usuário ou senha incorretos</td>
+  <td>
+   <ul>
+    <li>RF-01: O sistema deve permitir que o usuário cadastre uma conta.</li>
+    <li>RF-02: O sistema deve permitir que o usuário realize o login de sua conta.</li>
+   </ul>
+  </td>
+  <td>Através da conferência de dados, caso usuário ou senha sejam inseridos de forma incorreta, mensagem aparece para o usuário informando erro.</td>
+  <td>
+   <ol>
+    <li>Acessar o navegador.</li>
+    <li>Realizar cadastro.</li>
+    <li>Tentativa de acesso ao sistema com informações inválidas.</li>
+   </ol>
+   </td>
+  <td>Informações armazenadas através de local storage.</td>
+  <td>Hugo</td>
+ </tr>
+    <tr>
+  <td>CT-55: Teste de login valido</td>
+  <td>
+   <ul>
+    <li>RF-01: O sistema deve permitir que o usuário cadastre uma conta.</li>
+    <li>RF-02: O sistema deve permitir que o usuário realize o login de sua conta.</li>
+   </ul>
+  </td>
+  <td>Através da conferência de dados o sistema valida acesso</td>
+  <td>
+   <ol>
+    <li>Acessar o navegador.</li>
+    <li>Realizar cadastro.</li>
+    <li>Tentativa de acesso ao sistema com informações válidas.</li>
+    <li>Sistema redireciona o usuário para a Dashboard.</li>
+   </ol>
+   </td>
+  <td>Informações armazenadas através de local storage.</td>
+  <td>Hugo</td>
+ </tr>
 </table>
