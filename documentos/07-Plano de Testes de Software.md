@@ -1051,29 +1051,7 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
  </tr>
 
  <tr>
-  <td>CT-48: Verificar se os links de redirecionamento estão encaminhando para as respectivas páginas corretamente</td>
-  <td>
-   <ul>
-    <li>RF-01: O site deve permitir ao usuário cadastrar uma conta.</li>
-    <li>RF-02: O sistema deve permitir que o usuário realize o login de sua conta.</li>
-    <li>RF-18	O sistema deve permitir que o usuário tenha acesso as demais telas do sistema através do menu lateral.</li>
-   </ul>
-  </td>
-  <td>Verificar se os links da página estão realizando o redirecionamento corretamente.</td>
-  <td>
-   <ol>
-    <li>Acessar o navegador.</li>
-    <li>Informar o endereço do site.</li>
-    <li>Clicar nos hiperlinks presentes na página.</li>
-   </ol>
-   </td>
-  <td>Verificar se os links da página estão realizando o redirecionamento corretamente.</td>
-  <td>Hugo</td>
- </tr>
-
-
- <tr>
-  <td>CT-49: Verificar o funcionamento do Cadastro de Perfil após o cadastro de conta.</td>
+  <td>CT-48: Verificar o funcionamento do Cadastro de Perfil após o cadastro de conta.</td>
   <td>
    <ul>
     <li>RF-01: O sistema deve permitir que o usuário cadastre uma conta.</li>
@@ -1097,7 +1075,7 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
  </tr>
 
  <tr>
-  <td>CT-50: Verificar a validação dos dados preenchidos da tela de cadastro de perfil.</td>
+  <td>CT-49: Verificar a validação dos dados preenchidos da tela de cadastro de perfil.</td>
   <td>
    <ul>
     <li>RF-01: O sistema deve permitir que o usuário cadastre uma conta.</li>
@@ -1121,7 +1099,7 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
   <td>Woton Sampaio</td>
  </tr>
  <tr>
-  <td>CT-51: Verificar o funcionamento do cadastro de receitas</td>
+  <td>CT-50: Verificar o funcionamento do cadastro de receitas</td>
   <td>
    <ul>
     <li>RF-14: O sistema deve permitir o cadastro de receitas fixas e variavéis.</li>
@@ -1141,7 +1119,7 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
   <td>Woton Sampaio</td>
  </tr>
  <tr>
-  <td>CT-52: Verificar a validação de dados dos campos "valor", "categoria" e "descrição".</td>
+  <td>CT-51: Verificar a validação de dados dos campos "valor", "categoria" e "descrição".</td>
   <td>
    <ul>
     <li>RF-14: O sistema deve permitir o cadastro de receitas fixas e variavéis.</li>
@@ -1164,7 +1142,7 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
   <td>Woton Sampaio</td>
  </tr>
   <tr>
-  <td>CT-53: Verificar integração entre criação de perfil e login</td>
+  <td>CT-52: Verificar integração entre criação de perfil e login</td>
   <td>
    <ul>
     <li>RF-01: O sistema deve permitir que o usuário cadastre uma conta.</li>
@@ -1182,7 +1160,7 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
   <td>Hugo</td>
  </tr>
    <tr>
-  <td>CT-54: Teste de login com usuário ou senha incorretos</td>
+  <td>CT-53: Teste de login com usuário ou senha incorretos</td>
   <td>
    <ul>
     <li>RF-01: O sistema deve permitir que o usuário cadastre uma conta.</li>
@@ -1201,7 +1179,7 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
   <td>Hugo</td>
  </tr>
     <tr>
-  <td>CT-55: Teste de login valido</td>
+  <td>CT-54: Teste de login valido</td>
   <td>
    <ul>
     <li>RF-01: O sistema deve permitir que o usuário cadastre uma conta.</li>
