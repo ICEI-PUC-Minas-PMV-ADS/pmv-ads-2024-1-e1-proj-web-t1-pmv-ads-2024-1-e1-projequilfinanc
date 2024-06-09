@@ -267,4 +267,31 @@ https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t1-pmv-ads-
 
 ![despesas](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t1-pmv-ads-2024-1-e1-projequilfinanc/assets/164430057/9296bd87-5b4f-4606-b6f5-57b76442a64f)
 
+| Caso de Teste | CT-48 - Verificar o funcionamento do Cadastro de Perfil após o cadastro de conta |
+
+| Responsável: Hugo |
+
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t1-pmv-ads-2024-1-e1-projequilfinanc/assets/149520202/aa7961e5-3c7e-4fa6-805f-84d7c5d25653)
+
+| Caso de Teste | CT-49 - Verificar a validação dos dados preenchidos da tela de cadastro de perfil |
+
+| Responsável: Hugo |
+
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t1-pmv-ads-2024-1-e1-projequilfinanc/assets/149520202/167e87e1-9ecc-4c68-888d-49bf3091f260)
+
+| Caso de Teste | CT-50 - Verificar o funcionamento do cadastro de receitas |
+
+| Responsável: Hugo |
+
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t1-pmv-ads-2024-1-e1-projequilfinanc/assets/149520202/d8574a2e-6769-49f1-8b78-0265a10dc9ef)
+
+| Caso de Teste | CT-51 - Verificar a validação de dados dos campos "valor, "categoria" e "descrição". |
+
+| Responsável: Hugo |
+
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t1-pmv-ads-2024-1-e1-projequilfinanc/assets/149520202/c3f8fbc1-e0f4-4d2f-8de7-271ff0cb90cc)
+
+
+
+
 
