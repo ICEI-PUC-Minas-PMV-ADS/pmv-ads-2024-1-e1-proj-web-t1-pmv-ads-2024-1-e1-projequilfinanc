@@ -291,6 +291,23 @@ https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t1-pmv-ads-
 
 ![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t1-pmv-ads-2024-1-e1-projequilfinanc/assets/149520202/c3f8fbc1-e0f4-4d2f-8de7-271ff0cb90cc)
 
+| Caso de Teste | CT-52 - Verificar integração entre criação de perfil e login. |
+
+| Responsável: Marcella |
+
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t1-pmv-ads-2024-1-e1-projequilfinanc/assets/164430057/dcbf1ce5-9569-40dd-ad25-8d90b9b81319)
+
+| Caso de Teste | CT-53 - Teste de login com usuário ou senha inválido.  |
+
+| Responsável: Marcella |
+
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t1-pmv-ads-2024-1-e1-projequilfinanc/assets/164430057/641cc593-7e74-44da-8df2-5ba8df464553)
+
+| Caso de Teste | CT-54 - Teste de login válido.  |
+
+| Responsável: Marcella |
+
+[Plano de Testes de Software](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t1-pmv-ads-2024-1-e1-projequilfinanc/assets/164430057/8b4775d6-e599-488f-8fcf-d25a4914c3db)
 
 
 
