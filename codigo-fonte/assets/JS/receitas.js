@@ -16,7 +16,7 @@ document.addEventListener('DOMContentLoaded', function() {
         const desc = document.getElementById('desc').value;
 
         if (valor && categoria && usuario && tipo && desc) {
-            alert('Cadastro de despesas enviado com sucesso!');
+            alert('Cadastro de Receita enviado com sucesso!');
             const receitas = []
             receitas.push({
                 value: valor,
@@ -32,6 +32,11 @@ document.addEventListener('DOMContentLoaded', function() {
             if (data.finance.lastMoviments && data.finance.credit) {
                 data.finance.lastMoviments.push(...receitas)
                 data.finance.credit.push(...receitas)
+                data.finance.balance = bal
+                data.finance.rent = ren
+            } else if(data.finance.lastMoviments && !data.finance.credit){
+                data.finance.lastMoviments.push(...receitas)
+                data.finance.credit = [...receitas]
                 data.finance.balance = bal
                 data.finance.rent = ren
             } else {

@@ -10,20 +10,17 @@ function showElements(){
         document.getElementById('div_familiar').classList.remove('hidden');
         document.getElementById('btn_member').classList.remove('hidden');
         loadMembers()
-
     }
 }
 
 function loadMembers(){
     if(members.length === 0){
         members.push({name: "", value: 0})
-
     }
 
     const div = document.getElementById('member_list')
     while (div.firstChild){
         div.removeChild(div.firstChild);
-
     }
 
     const columnDiv = document.createElement('div')
@@ -71,52 +68,50 @@ function createMemberInput(idx = 0, labelText, value, type = 'text', onChange){
     return form
 }
 
-function terminar(){
+function terminar(event){
+    event.preventDefault();
     const profileType = document.getElementById('perfil')
     const value = document.getElementById('valor')
 
     const data = getUserData()
-    
-    console.log(parseInt(profileType.value )=== 2)
-    if (parseInt(profileType.value )=== 2) {
+
+    if (parseInt(profileType.value) === 2) {
         data.profile.type = 'Familiar'
         data.profile.parent = members
         data.finance.rent = value.value
         data.finance.balance = value.value
-
-        localStorage.setItem('esg_pincho1', JSON.stringify(data))
-
-        document.location.href = 'Principal.html'
-
     } else {
         data.profile.type = 'Individual'
         data.finance.rent = value.value
         data.finance.balance = value.value
-
-        localStorage.setItem('esg_pincho1', JSON.stringify(data))
-
-        document.location.href = 'Principal.html'
     }
+
+    localStorage.setItem('esg_pincho1', JSON.stringify(data))
+    document.location.href = 'Principal.html'
 }
-function addMembers(){
+
+function addMembers(event){
+    event.preventDefault();
     members.push({name: '', value: 0})
     loadMembers()
 }
 
 document.addEventListener('DOMContentLoaded', function () {
-        // checkUserState()
-        showElements();
-        let usuarioElement = document.getElementById('usuario')
+    checkUserState()
+    showElements()
+    let usuarioElement = document.getElementById('usuario')
         
-        const data = getUserData();
-        usuarioElement.textContent = `Olá, ${data.data_user.nome}!`;
-
+    const data = getUserData();
+    usuarioElement.textContent = `Olá, ${data.data_user.nome}!`;
 });
 
 function checkUserState(){
-/*     const userName = localStorage.getItem('name');
+    /*     
+    const userName = localStorage.getItem('name');
     const userEmail = localStorage.getItem('email')
-    const userPass = localStorage.getItem('senha') */
+    const userPass = localStorage.getItem('senha') 
+    */
+   
     const user = getUserData()
 
     if(!user){

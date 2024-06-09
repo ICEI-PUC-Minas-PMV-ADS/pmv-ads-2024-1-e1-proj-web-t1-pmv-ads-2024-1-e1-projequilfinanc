@@ -27,12 +27,15 @@ document.addEventListener('DOMContentLoaded', function() {
                 date: dataVencimento,
                 form: "debit"
             })
-
             
             let bal = Number(data.finance.balance) - Number(valor)
             if (data.finance.lastMoviments && data.finance.debit) {
                 data.finance.lastMoviments.push(...receitas)
                 data.finance.debit.push(...receitas)
+                data.finance.balance = bal
+            } else if(data.finance.lastMoviments && !data.finance.debit){
+                data.finance.lastMoviments.push(...receitas)
+                data.finance.debit = [...receitas]
                 data.finance.balance = bal
             } else {
                 data.finance.lastMoviments = [...receitas]
