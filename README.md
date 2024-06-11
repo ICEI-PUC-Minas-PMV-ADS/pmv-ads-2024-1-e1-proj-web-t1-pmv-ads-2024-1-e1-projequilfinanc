@@ -40,7 +40,7 @@ Este projeto visa desenvolver um software para auxiliar na gestão financeira, o
 
 # Código-Fonte
 
-* <a href=(https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t1-pmv-ads-2024-1-e1-projequilfinanc/tree/main/codigo-fonte)>Código Fonte</a>
+* <a href=https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t1-pmv-ads-2024-1-e1-projequilfinanc/tree/main/codigo-fonte>Código Fonte</a>
 
 # Apresentação
 
