@@ -3,16 +3,15 @@ document.addEventListener('DOMContentLoaded', (event) => {
 })
 
 function toProfile(){
-    const profile = JSON.parse(localStorage.getItem('user_profile'))
-    document.location.href = profile.profile == 1 ? 'familiar.html' : 'individual.html'
+    const profile = JSON.parse(localStorage.getItem('esg_pincho1'))
+    document.location.href = profile.profile.type == 1 ? 'familiar.html' : 'individual.html'
 }
 
 function loadMembers(){
     const usuarios = document.getElementById('usuario');
-    const profile = JSON.parse(localStorage.getItem('user_profile'))
-    const members = profile['members']
+    const profile = JSON.parse(localStorage.getItem('esg_pincho1'))
+    const members = profile.profile.parent
 
-    console.log(`${profile} / ${members}`)
     for(let idx in members){
         const opt = document.createElement("option")
         const member = members[idx]
