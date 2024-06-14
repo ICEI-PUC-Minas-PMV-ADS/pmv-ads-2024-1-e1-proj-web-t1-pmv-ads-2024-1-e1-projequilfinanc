@@ -64,7 +64,7 @@ header div > img{
 #imagem{
     margin: auto;
     height: 750px;
-    background-image: url('/src/assetsanner.png');
+    background-image: url('./../images/banner.png');
     background-repeat: no-repeat;
     background-size: contain;
 }
