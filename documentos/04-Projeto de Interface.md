@@ -139,15 +139,5 @@ Figura 13 - Tela de Planejamento
 <hr>
 
 
-### Tela - Dicas
-
-A tela Dicas apresenta um menu lateral e um campo onde será apresentado dicas pré-definidas de como economizar melhor.
-
-![Dicas](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t1-pmv-ads-2024-1-e1-projequilfinanc/assets/161634139/1955ea3d-af58-46b6-a505-d1ba74d16285)
-
-
-Figura 14 - Tela de Dicas
-<hr>
-
 
 
