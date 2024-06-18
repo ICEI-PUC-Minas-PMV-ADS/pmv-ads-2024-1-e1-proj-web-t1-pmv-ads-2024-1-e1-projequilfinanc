@@ -5,7 +5,8 @@
 
 O fluxograma apresentado na Figura 1 mostra os fluxos de interações entre as telas do sistema. Cada uma das telas deste fluxo será detalhada na seção de Protótipo de Baixa Fidelidade a seguir.
 
-![Interfaces – Figma - Google Chrome 11_04_2024 21_17_49](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t1-pmv-ads-2024-1-e1-projequilfinanc/assets/161634139/43a18f1e-0ef9-4b6e-9eef-11886b1d79ad)
+![fluxo](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t1-pmv-ads-2024-1-e1-projequilfinanc/assets/161634139/c6197a11-7dd3-427b-997f-a5649a608822)
+
 
 
 Figura 1 - Fluxo de telas
