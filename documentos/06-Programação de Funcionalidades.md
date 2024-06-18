@@ -18,7 +18,9 @@ Exemplo tela Home Page
 * login.js
 #### Instruções de acesso
 
-Em desenvolvimento...
+1. Abra um navegador de Internet e informe a seguinte URL: https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2024-1-e1-proj-web-t1-pmv-ads-2024-1-e1-projequilfinanc/
+
+2. Clique em "Login" se já tem uma conta ou em "Cadastro" para cadastrar uma nova conta.
 
 <hr>
 
@@ -52,7 +54,8 @@ RF-02    O sistema deve permitir que o usuário realize o login de sua conta.
 ```
 #### Instruções de acesso
 
-Em desenvolvimento...
+1. Abra um navegador de Internet e informe a seguinte URL: https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2024-1-e1-proj-web-t1-pmv-ads-2024-1-e1-projequilfinanc/src/screens/login.html
+2. Coloque as informações necessárias e clique em "Entrar" para ter acesso a sua conta.
 
 <hr>
 
@@ -88,7 +91,8 @@ RF-01    O sistema deve permitir que o usuário cadastre uma conta.
 
 #### Instruções de acesso
 
-Em desenvolvimento...
+1. Abra um navegador de Internet e informe a seguinte URL: https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2024-1-e1-proj-web-t1-pmv-ads-2024-1-e1-projequilfinanc/src/screens/cadastro.html
+2. Coloque os dados necessários para criar uma nova conta, finalizando clique em "Cadastrar", onde será levado para a tela de Cadastro de Perfil.
 
 <hr>
 
@@ -154,7 +158,8 @@ RF-11    O sistema deve ajudar os usuários a identificar e eliminar gastos desn
 ```
 #### Instruções de acesso
 
-Em desenvolvimento...
+1. Abra um navegador de Internet e informe a seguinte URL: https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2024-1-e1-proj-web-t1-pmv-ads-2024-1-e1-projequilfinanc/src/screens/principal.html
+2. Clicando ao menu lateral você poderá transitar entre as telas.
 
 <hr>
 
@@ -199,7 +204,8 @@ RF-13    O sistema deve permitir o cadastro de dados do perfil individual e do p
 ```
 #### Instruções de acesso
 
-Em desenvolvimento...
+1. Abra um navegador de Internet e informe a seguinte URL: (https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2024-1-e1-proj-web-t1-pmv-ads-2024-1-e1-projequilfinanc/src/screens/familiar.html)
+2. Cadastre o perfil familiar colocando suas informações.
 
 <hr>
 
@@ -237,7 +243,8 @@ RF-13    O sistema deve permitir o cadastro de dados do perfil individual e do p
 ```
 #### Instruções de acesso
 
-Em desenvolvimento...
+1. Abra um navegador de Internet e informe a seguinte URL: (https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2024-1-e1-proj-web-t1-pmv-ads-2024-1-e1-projequilfinanc/src/screens/individual.html)
+2. Cadastre o perfil individual colocando suas informações.
 
 <hr>
 
@@ -274,7 +281,9 @@ RF-14 O sistema deve permitir o cadastro de rendas fixas e variavéis.
 ```
 #### Instruções de acesso
 
-Em desenvolvimento...
+1. Abra um navegador de Internet e informe a seguinte URL: https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2024-1-e1-proj-web-t1-pmv-ads-2024-1-e1-projequilfinanc/src/screens/receitas.html
+2. Cadastre todas as suas receitas e as informações necessárias.
+3. Clique em "Enviar" para cadastrar corretamente.
 
 <hr>
 
@@ -313,7 +322,9 @@ RF-15    O sistema deve permitir o cadastro de desepesas fixas e variavéis.
 ```
 #### Instruções de acesso
 
-Em desenvolvimento...
+1. Abra um navegador de Internet e informe a seguinte URL: https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2024-1-e1-proj-web-t1-pmv-ads-2024-1-e1-projequilfinanc/src/screens/despesas.html
+2. Cadastre todas as suas receitas e as informações necessárias.
+3. Clique em "Enviar" para cadastrar corretamente.
 
 <hr>
 
@@ -350,7 +361,10 @@ RF-08    O sistema deve calcular o valor para uma reserva emergencial, “basead
 ```
 #### Instruções de acesso
 
-Em desenvolvimento...
+1. Abra um navegador de Internet e informe a seguinte URL: https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2024-1-e1-proj-web-t1-pmv-ads-2024-1-e1-projequilfinanc/src/screens/planejamento.html
+2. Cadastre sua renda.
+3. Insira qual porcentagem gostaria de economizar.
+4. Clique em "calcular" para obter o resultado.
 
 <hr>
 
@@ -387,7 +401,9 @@ RF-06    O sistema deve permitir estabelecer metas de curto e longo prazo.
 ```
 #### Instruções de acesso
 
-Em desenvolvimento...
+1. Abra um navegador de Internet e informe a seguinte URL: https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2024-1-e1-proj-web-t1-pmv-ads-2024-1-e1-projequilfinanc/src/screens/metas.html
+2. Cadastre um novo objetivo, colocando as informações necessárias.
+3. Clique em enviar para cadastrar corretamente.
 
 <hr>
 
@@ -414,8 +430,9 @@ RF-16  O sitema deve permitir que o usuário consiga analisar suas metas definid
 
 #### Instruções de acesso
 
-Em desenvolvimento...
-
+1. Abra um navegador de Internet e informe a seguinte URL: (https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2024-1-e1-proj-web-t1-pmv-ads-2024-1-e1-projequilfinanc/src/screens/vizualizar_metas.html)
+2. Clique em "Adcionar" para cadastrar uma nova meta.
+  
 <hr>
 
 Responsável: Woton
@@ -460,4 +477,7 @@ RF-17  O sistema deve permitir que depois do login o usuário consiga cadastrar 
 
 #### Instruções de acesso
 
-Em desenvolvimento...
+1. Abra um navegador de Internet e informe a seguinte URL: (https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2024-1-e1-proj-web-t1-pmv-ads-2024-1-e1-projequilfinanc/src/screens/cadastro_perfil.html)
+2. Cadastre corretamente o tipo do seu perfil, se ele será individual ou familiar.
+3. Coloque corretamente a renda do(s) membro(s).
+4. Clique em "Próximo".
