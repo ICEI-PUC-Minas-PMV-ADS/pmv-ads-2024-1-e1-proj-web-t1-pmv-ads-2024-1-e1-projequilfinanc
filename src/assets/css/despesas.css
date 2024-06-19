@@ -374,7 +374,7 @@ footer a:hover {
     }
 
     #menu_lateral {
-        height: 1300px;
+        height: auto;
     }
 
     #calculo_renda {
@@ -415,7 +415,7 @@ footer a:hover {
     }
 
     #menu_lateral {
-        height: 1200px;
+        height: auto;
     }
 
     #conteudo {

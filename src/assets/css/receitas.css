@@ -65,7 +65,7 @@ main h2 {
 }
 
 #menu_lateral {
-    width: 300px;
+    width: 60px;
     height: 850px;
     background-color: var(--cor1);
     box-shadow: 2px 2px 10px var(--cor4);
@@ -351,7 +351,7 @@ footer a:hover {
     }
 
     #menu_lateral {
-        height: 1300px;
+        height: auto;
     }
 
     #calculo_renda {
@@ -392,7 +392,7 @@ footer a:hover {
     }
 
     #menu_lateral {
-        height: 1200px;
+        height: auto;
     }
 
     #conteudo {
@@ -406,11 +406,6 @@ footer a:hover {
         padding-left: 90px;
     }
 
-    #quadro {
-        margin-left: 90px;
-        height: 1000px;
-        width: 320px;
-    }
 
     #calculo_renda {
         margin: auto;
@@ -432,7 +427,9 @@ footer a:hover {
     }
 
     #quadro {
-        display: block;
+        height: 900px;
+        margin-left: 90px;
+        width: 320px;
     }
 
     #regra532 {

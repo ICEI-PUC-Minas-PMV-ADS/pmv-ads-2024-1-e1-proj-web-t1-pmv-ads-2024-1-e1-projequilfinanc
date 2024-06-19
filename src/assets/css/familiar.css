@@ -261,7 +261,7 @@ footer a:hover{
 
     
     #menu_lateral{
-        height: 1300px;
+        height: auto;
     }
     #name {
         height:100px;
@@ -314,10 +314,9 @@ footer a:hover{
     main{
         height: 1200px;
     }
-   #menu_lateral{
-        height: 1200px;
-   }
-
+    #menu_lateral{
+        height: auto;
+    }
     #conteudo{
         margin: 0px
     }
@@ -374,7 +373,7 @@ footer a:hover{
         height: 900px;
     }
    #menu_lateral{
-        height: 900px;
+        height: auto;
    }
 
     #conteudo{
@@ -433,7 +432,7 @@ footer a:hover{
         height: 900px;
     }
    #menu_lateral{
-        height: 900px;
+        height: auto;
    }
 
     #conteudo{
@@ -493,7 +492,7 @@ footer a:hover{
         height: 900px;
     }
    #menu_lateral{
-        height: 900px;
+        height: auto;
    }
 
     #conteudo{
