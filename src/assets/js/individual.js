@@ -70,11 +70,13 @@ function ValidateSenha(senha, minimoDigitos) {
 }
 
 document.addEventListener('DOMContentLoaded', function () {
-    const nome = localStorage.getItem('name');
+    const profile = localStorage.getItem('esg_pincho1');
 
-    if (nome) {
+    if (profile) {
+        const data = JSON.parse(profile)
+
         const usuarioElement = document.getElementById('mensagem');
-        usuarioElement.textContent = `Olá, ${nome}!`;
+        usuarioElement.textContent = `Olá, ${data['data_user']['nome']}!`;
 
     }
 });
