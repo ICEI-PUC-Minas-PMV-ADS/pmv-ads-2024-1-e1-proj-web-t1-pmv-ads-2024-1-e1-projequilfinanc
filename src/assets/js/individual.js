@@ -70,24 +70,11 @@ function ValidateSenha(senha, minimoDigitos) {
 }
 
 document.addEventListener('DOMContentLoaded', function () {
-    checkUserState()
-    
     const nome = localStorage.getItem('name');
+
     if (nome) {
         const usuarioElement = document.getElementById('mensagem');
         usuarioElement.textContent = `Olá, ${nome}!`;
-    }
 
+    }
 });
-function checkUserState(){
-    const userName = localStorage.getItem('name');
-    const userEmail = localStorage.getItem('email')
-    const userPass = localStorage.getItem('senha')
-
-    if(!userName || !userEmail || !userPass){
-        alert('Usuário inválido, se cadastre primeiro para continuar')
-        document.location.href = 'login.html'
-
-    }
-}
-

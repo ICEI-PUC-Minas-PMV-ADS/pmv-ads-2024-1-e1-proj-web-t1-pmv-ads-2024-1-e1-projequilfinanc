@@ -73,41 +73,6 @@ function loadMembers(){
     }
 }
 
-function checkUserState(){
-    let userId = 'esg_pincho1'
-    if(!userId) {
-        alert('Usuário inválido, se cadastre primeiro para continuar')
-        document.location.href = 'login.html'
-    }
-
-    /* 
-    const userName = localStorage.getItem('name');
-    const userEmail = localStorage.getItem('email')
-    const userPass = localStorage.getItem('senha')
-    const profile = localStorage.getItem('user_profile')
-
-    if(!userName || !userEmail || !userPass || !profile){
-        alert('Usuário inválido, se cadastre primeiro para continuar')
-        document.location.href = 'login.html'
-
-    } 
-    */
-}
-
-
-// Gerando ID apartir do total de itens no localStorage
-function getLastID() {
-    let lastKey = 0
-    let keys = Object.keys(localStorage);
-    if (keys.length === 0) {
-        return lastKey += 1;
-    }
-    keys.sort();
-    lastKey = keys[keys.length - 1];
-    return lastKey
-}
-
-// Pegar o ultimo ID cadastrado
 function getUserData() {
     const data = localStorage.getItem('esg_pincho1');
     return data ? JSON.parse(data) : null;

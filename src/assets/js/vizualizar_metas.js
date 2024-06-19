@@ -122,16 +122,3 @@ function mudarCor(id){
     localStorage.setItem('metas', JSON.stringify(metas));
     exibirMetas(metas);
 }
-
-
-// function checkUserState(){
-//     const userName = localStorage.getItem('name');
-//     const userEmail = localStorage.getItem('email')
-//     const userPass = localStorage.getItem('senha')
-//
-//     if(!userName || !userEmail || !userPass){
-//         alert('Usuário inválido, se cadastre primeiro para continuar')
-//         document.location.href = 'login.html'
-//
-//     }
-// }

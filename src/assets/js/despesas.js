@@ -1,4 +1,3 @@
-checkUserState()
 loadMembers()
 
 document.addEventListener('DOMContentLoaded', function() {
@@ -68,26 +67,6 @@ function loadMembers(){
 
         usuarios.appendChild(opt)
     }
-}
-
-function checkUserState(){
-    let userId = getLastID()
-    if(!userId) {
-        alert('Usuário inválido, se cadastre primeiro para continuar')
-        document.location.href = 'login.html'
-    }
-}
-
-// Gerando ID apartir do total de itens no localStorage
-function getLastID() {
-    let lastKey = 0
-    let keys = Object.keys(localStorage);
-    if (keys.length === 0) {
-        return lastKey += 1;
-    }
-    keys.sort();
-    lastKey = keys[keys.length - 1];
-    return lastKey
 }
 
 // Pegar o ultimo ID cadastrado
