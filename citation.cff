@@ -1,0 +1,23 @@
+message: Please cite this software using these metadata.
+title: Saving Cash
+authors:
+  - family-names: Victor Magalhães Estevam
+    given-names: Hugo
+  - family-names: Pontes dos Anjos
+    given-names: Marcella
+  - family-names: Luiza Estevam Soares
+    given-names: Maria
+  - family-names: Hugo de Lima Cruz
+    given-names: Vitor
+  - family-names: Henrique Silva Sampaio
+    given-names: Woton
+  - name-suffix: Professor
+    affiliation: PUC Minas
+    family-names: Christina de Paiva Carvalho
+    given-names: Joyce
+keywords:
+  - Equilíbrio
+  - Financeiro
+repository-code: https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t1-pmv-ads-2024-1-e1-projequilfinanc
+version: 1.0.0
+date-released: 2024-06-19
