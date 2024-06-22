@@ -1,20 +1,14 @@
 # Apresentação do Projeto
 
-## Apresentação de Slides
+## 1. Apresentação de Slides
 [Saving Cash - Projeto Web.pdf](https://github.com/user-attachments/files/15934462/Saving.Cash.-.Projeto.Web.pdf)
 
 
-## Vídeo de apresentação
+## 2. Vídeo de apresentação do projeto
 
-A equipe também deverá gravar um vídeo de, no máximo, três minutos, com a apresentação da solução. Vocês deverão abrir a aplicação hospedada e apresentar o seu funcionamento.  Poderão ser utilizados quaisquer recursos na montagem do vídeo, mas não se esqueçam de mostrar as funcionalidades da aplicação. Seguem as especificações técnicas que devem ser obedecidas na geração do vídeo:
-
-> - tamanho do arquivo limitado a 90Mb
-> - taxa de FPS limitada a 30 quadros por segundo
-> - resolução HD (720p) ou Full HD (1080p)
-> - formato mp4.
-
-[Adicione vídeo de apresentação.]
-
+[SavingCash.MP4]<video controls src="savingCash.mp4" title="Title"></video>
+## 3. Vídeo de aprsentação das funcionalidades
+[apresentação.3.minutos.SavingCash.mp4]<video controls src="SavingCashFuncionalidades.mp4" title="Title"></video>
 ## Hospedagem
 
 [Adicione o endereço eletrônico público onde o site encontra-se hospedado.]
