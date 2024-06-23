@@ -39,26 +39,27 @@ document.addEventListener("DOMContentLoaded", function() {
         alert("Por favor, preencha com um email válido.");
         return;
     }
-// armazenando dados em uma constante
-    const familiardados={
-        familiarNome:FamiliarNome.value,
-        sobrenomefamiliar:sobrenomeFamiliar.value,
-        numCel: NumCel.value,
-        dataNascimentoFamiliar:DataNascimentoFamiliar.value,
-        emailFamiliar:EmailFamiliar.value,
-        senhafamiliar:SenhaFamiliar.value,
-        membro1:Membro1.value,
-        numCelMembro1: NumCelMembro1.value,
-        membro2:Membro2.value,
-        numCelMembro2:NumCelMembro2.value
-    }
-    // aqui eu as armazeno na local storage
-    localStorage.setItem('familiardados', JSON.stringify(familiardados));
-        
+        const profile = JSON.parse(localStorage.getItem('esg_pincho1'));
+
+        // Armazenar os dados validados na localStorage
+        profile['data_user'] = {
+            ...profile['data_user'],
+
+            nome: nome.value,
+            sobrenome: sobrenome.value,
+            telefone: tel.value,
+            dataNascimento: dataNascimento.value,
+            email: email.value,
+            senha: senha.value
+        };
+
+        localStorage.setItem('esg_pincho1', JSON.stringify(profile));
+
     // Enviar o formulário
         // DadosFamiliares.submit();
         alert("cadastro realizado com sucesso !!")
-    });
+
+});
     // Função para validar números de telefone
     function TelefonesValidados(telefones) {
         const telRegex = /^\(?\+?(\d{1,3})?\)?[-.\s]?(\d{2,4})[-.\s]?(\d{4,5})[-.\s]?(\d{4})$/;

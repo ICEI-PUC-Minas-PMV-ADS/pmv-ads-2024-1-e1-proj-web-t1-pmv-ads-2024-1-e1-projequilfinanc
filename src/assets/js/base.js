@@ -4,7 +4,8 @@ document.addEventListener('DOMContentLoaded', (event) => {
 
 function toProfile(){
     const profile = JSON.parse(localStorage.getItem('esg_pincho1'))
-    document.location.href = profile.profile.type == 1 ? 'familiar.html' : 'individual.html'
+    document.location.href = `${profile.profile.type}` !== 'Individual'
+        ? 'familiar.html' : 'individual.html'
 }
 
 function loadMembers(){

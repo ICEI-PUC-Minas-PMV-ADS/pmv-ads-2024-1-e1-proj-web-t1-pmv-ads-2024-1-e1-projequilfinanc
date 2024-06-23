@@ -9,7 +9,7 @@ const senha = document.querySelector('#senha');
 
 dadosIndividual.addEventListener("submit", (event) => {
     event.preventDefault();
-// validar as  informaçoes
+
     if (nome.value === "") {
         alert("Por favor, preencha seu nome.");
         return;
@@ -35,22 +35,25 @@ dadosIndividual.addEventListener("submit", (event) => {
         return;
     }
 
-        // Armazenar os dados validados na localStorage
-        const Dados_Tela_Individual = {
-            nome: nome.value,
-            sobrenome: sobrenome.value,
-            telefone: tel.value,
-            dataNascimento: dataNascimento.value,
-            email: email.value,
-            senha:senha.value
-        // Adicione mais campos, se necessário
-        };
-        
-        localStorage.setItem('dadosIndividuais', JSON.stringify(Dados_Tela_Individual));
-    
-        // Enviar o formulário
-        dadosIndividual.submit();
-        alert("dados enviados com sucesso")
+    const profile = JSON.parse(localStorage.getItem('esg_pincho1'));
+
+    // Armazenar os dados validados na localStorage
+    profile['data_user'] = {
+        ...profile['data_user'],
+
+        nome: nome.value,
+        sobrenome: sobrenome.value,
+        telefone: tel.value,
+        dataNascimento: dataNascimento.value,
+        email: email.value,
+        senha: senha.value
+    };
+
+    localStorage.setItem('esg_pincho1', JSON.stringify(profile));
+
+    // Enviar o formulário
+    dadosIndividual.submit();
+    alert("dados enviados com sucesso")
 ;})
 
 
