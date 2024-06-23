@@ -13,7 +13,7 @@
 
 ## Instalação do Site
 
-Em desenvolvimento.
+O site foi desenvolvido utilizando, HTML, CSS e JS. Para acessá-lo, clique [aqui](https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2024-1-e1-proj-web-t1-pmv-ads-2024-1-e1-projequilfinanc/).
 
 ## Histórico de versões
 
