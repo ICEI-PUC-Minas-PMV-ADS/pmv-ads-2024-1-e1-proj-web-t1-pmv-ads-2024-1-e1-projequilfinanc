@@ -92,7 +92,7 @@
 | RF-06 | O sistema deve permitir estabelecer metas de curto e longo prazo.                                                    | MÉDIA  |
 | RF-07 | O sistema deve permitir que os usuários organizem as suas contas de acordo com a data de vencimento.                 | ALTA   |
 | RF-08 | O sistema deve calcular o valor para uma reserva emergencial, “baseado no método 50-30-20” referente à renda mensal. | ALTA   |
-| RF-09 | O sistema deve calcular os valores do cadastro para despesas fixas e variáveis de acordo com o capital.              | ALTA   |
+| RF-09 | O site deve em sua versão mobile ao toque, os valores presentes no gráfico.                                          | ALTA   |
 | RF-10 | O sistema deve mostrar as movimentações financeiras.                                                                 | MÉDIA  |
 | RF-11 | O sistema deve ajudar os usuários a identificar e eliminar gastos desnecessários em sua renda familiar, fornecendo análises detalhadas e sugestões para redução de despesas. | MÉDIA   |
 | RF-12 | O sistema deve permitir que o usuário adicione uma renda extra.                                                      | BAIXA  |
@@ -106,7 +106,8 @@
 | RF-20 | O sistema deve permitir que o usuário consiga sair de sua conta.                                                     | ALTA   |
 | RF-21 | O sistema deve verificar se há obrigatoriedade de preenchimento do campo.                                            | ALTA   |
 | RF-22 | O sistema deve permitir que o usuário consiga excluir as metas erradas ou indesejadas.                               | ALTA   |
-| RF-23 | O sistema deve permitir que o usuário consiga finalizar suas metas alcançadas.                                        | ALTA   |
+| RF-23 | O sistema deve permitir que o usuário consiga finalizar suas metas alcançadas.                                       | ALTA   |
+| RF-24 | O site deve mostrar ao passar o cursor por cima os valores presentes no gráfico.                                     | ALTA   |
 **Prioridade: Alta / Média / Baixa.
 
 ### Requisitos não Funcionais
