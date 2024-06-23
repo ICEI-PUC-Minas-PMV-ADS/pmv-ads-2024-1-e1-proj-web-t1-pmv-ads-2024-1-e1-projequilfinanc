@@ -6,7 +6,8 @@
 
 ## 2. Vídeo de apresentação do projeto
 
-[SavingCash.MP4]<video controls src="savingCash.mp4" title="Title"></video>
+[SavingCash.MP4]()
+
 ## 3. Vídeo de aprsentação das funcionalidades
 [apresentação.3.minutos.SavingCash.mp4](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t1-pmv-ads-2024-1-e1-projequilfinanc/assets/102324807/02c04828-45a6-4129-8879-1086abc47aec)
 ## Hospedagem
