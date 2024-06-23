@@ -49,3 +49,8 @@ O site foi desenvolvido utilizando, HTML, CSS e JS. Para acessá-lo, clique [aqu
 ### [0.3.2] - 06/06/2024
 #### Modificado
 * Página Principal: arquivos HTML, CSS, JS, imagens;
+
+### [1.0.0] - 23/06/2024
+### Hospedagem
+* Realizada hospedagem do Site;
+* Funcionalidades validades e em pleno funcionamento.
