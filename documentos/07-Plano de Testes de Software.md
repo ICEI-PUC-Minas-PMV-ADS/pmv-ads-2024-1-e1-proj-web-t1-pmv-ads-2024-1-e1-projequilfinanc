@@ -195,6 +195,8 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
   <td>CT-09: Verificar o funcionamento dos links da página de Despesas.</td>
   <td>
    <ul>
+    <li>RF-05: O sistema deve permitir o registro das despesas mensais individuais ou em conjunto.</li>
+    <li>RF-07: O sistema deve permitir que os usuários organizem as suas contas de acordo com a data de vencimento.</li>    
     <li>RF-18	O sistema deve permitir que o usuário tenha acesso as demais telas do sistema através do menu lateral.</li>
     <li>RF-20: O sistema deve permitir que o usuário consiga sair de sua conta.</li>
    </ul>
@@ -216,6 +218,8 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
   <td>CT-10: Verificar o funcionamento do cadastro de Despesas.</td>
   <td>
    <ul>
+    <li>RF-05: O sistema deve permitir o registro das despesas mensais individuais ou em conjunto.</li>
+    <li>RF-07: O sistema deve permitir que os usuários organizem as suas contas de acordo com a data de vencimento.</li>    
     <li>RF-15	O sistema deve permitir o cadastro de despesas fixas e variavéis.</li>
    </ul>
   </td>
@@ -237,6 +241,8 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
   <td>CT-11: Verificar a validação de dados do campo "valor".</td>
   <td>
    <ul>
+    <li>RF-05: O sistema deve permitir o registro das despesas mensais individuais ou em conjunto.</li>
+    <li>RF-07: O sistema deve permitir que os usuários organizem as suas contas de acordo com a data de vencimento.</li>    
     <li>RF-15	O sistema deve permitir o cadastro de despesas fixas e variavéis.</li>
     <li>RF-21: O sistema deve verificar se há obrigatoriedade de preenchimento do campo.</li>
    </ul>
@@ -259,6 +265,8 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
   <td>CT-12: Verificar a validação de dados do campo "categoria".</td>
   <td>
    <ul>
+    <li>RF-05: O sistema deve permitir o registro das despesas mensais individuais ou em conjunto.</li>
+    <li>RF-07: O sistema deve permitir que os usuários organizem as suas contas de acordo com a data de vencimento.</li>
     <li>RF-15:	O sistema deve permitir o cadastro de despesas fixas e variavéis.</li>
     <li>RF-21: O sistema deve verificar se há obrigatoriedade de preenchimento do campo.</li>
    </ul>
@@ -281,6 +289,8 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
   <td>CT-13: Verificar a validação de dados do campo "membro".</td>
   <td>
    <ul>
+    <li>RF-05: O sistema deve permitir o registro das despesas mensais individuais ou em conjunto.</li>
+    <li>RF-07: O sistema deve permitir que os usuários organizem as suas contas de acordo com a data de vencimento.</li>
     <li>RF-15	O sistema deve permitir o cadastro de despesas fixas e variavéis.</li>
     <li>RF-21: O sistema deve verificar se há obrigatoriedade de preenchimento do campo.</li>
    </ul>
@@ -303,6 +313,8 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
   <td>CT-14: Verificar a validação de dados do campo "vencimento".</td>
   <td>
    <ul>
+    <li>RF-05: O sistema deve permitir o registro das despesas mensais individuais ou em conjunto.</li>
+    <li>RF-07: O sistema deve permitir que os usuários organizem as suas contas de acordo com a data de vencimento.</li>    
     <li>RF-15	O sistema deve permitir o cadastro de despesas fixas e variavéis.</li>
     <li>RF-21: O sistema deve verificar se há obrigatoriedade de preenchimento do campo.</li>
    </ul>
@@ -325,6 +337,8 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
   <td>CT-15: Verificar a validação de dados do campo "descrição".</td>
   <td>
    <ul>
+    <li>RF-05: O sistema deve permitir o registro das despesas mensais individuais ou em conjunto.</li>
+    <li>RF-07: O sistema deve permitir que os usuários organizem as suas contas de acordo com a data de vencimento.</li>    
     <li>RF-15	O sistema deve permitir o cadastro de despesas fixas e variavéis.</li>
     <li>RF-21: O sistema deve verificar se há obrigatoriedade de preenchimento do campo.</li>
    </ul>
@@ -949,10 +963,11 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
   <td>CT-43: Verificar descrição de valores do gráfico.</td>
   <td>
    <ul>
+   <li>RF-09:	O site deve em sua versão mobile ao toque, os valores presentes no gráfico.</li>
    <li>RF-10	O sistema deve mostrar as movimentações financeiras.</li>
+   <li>RF-11: O sistema deve ajudar os usuários a identificar e eliminar gastos desnecessários em sua renda familiar, fornecendo análises detalhadas e sugestões para redução de despesas.</li>
    <li>RF-16	O sitema deve permitir que o usuário consiga analisar suas metas definidas</li>
-   <li>RF-XX:	O site deve mostrar ao passar o cursor por cima os valores presentes no gráfico. </li>
-   <li>RF-XX:	O site deve em sua versão mobile ao toque, os valores presentes no gráfico.</li>
+   <li>RF-24:	O site deve mostrar ao passar o cursor por cima os valores presentes no gráfico. </li>
    </ul>
   </td>
   <td>Verificar descrição de valores do gráfico.</td>
@@ -1102,8 +1117,12 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
   <td>CT-50: Verificar o funcionamento do cadastro de receitas</td>
   <td>
    <ul>
+    <li>RF-03: O sistema deve permitir o cadastro da renda mensal do indivíduo.</li> 
+    <li>RF-04: O sistema deve permitir o cadastro da renda mensal de todos os componentes de uma família.</li> 
+    <li>RF-12: O sistema deve permitir que o usuário adicione uma renda extra.</li>
     <li>RF-14: O sistema deve permitir o cadastro de receitas fixas e variavéis.</li>
-   </ul>
+    <li>RF-17: O sistema deve permitir que depois do login o usuário consiga cadastrar sua renda mensal e se o perfil e individual ou familiar.</li>
+      </ul>
   </td>
   <td>Verificar se ao colocar todos os dados o usuário consegue cadastrar corretamente suas receitas.</td>
   <td>
